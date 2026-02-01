@@ -1,5 +1,5 @@
 import plotly.express as px
-import plotly.graph_objects as go
+
 
 def plot_distribution_of_orders(df):
 
@@ -60,9 +60,9 @@ def plot_orders_by_dow(df):
     
     return fig
 
-def plot_aisles_per_department(aisles_per_department):
+def plot_aisles_per_department(df):
     
-    fig = px.bar(aisles_per_department, 
+    fig = px.bar(df, 
                  x='department',
                  y='nb_aisles',
                  title='Number of aisles per department',
@@ -167,3 +167,56 @@ def scatterplot_top_100_products(df):
 
     return fig
 
+def plot_basket_size_distribution(df):
+
+    mean = df['basket_size'].mean()
+    median = df['basket_size'].median()
+
+    fig = px.histogram(
+        df, x='basket_size', nbins=50,
+        title='Distribution of basket size',
+        labels={'basket_size': 'Number of products'}
+    )
+
+    fig.add_vline(x=mean, line_color='red', line_dash='dash', line_width=2,
+                  annotation_text=f'Mean: {mean:.1f}', annotation_position='top right')
+    fig.add_vline(x=median, line_color='green', line_dash='dash', line_width=2,
+                  annotation_text=f'Median: {median:.0f}', annotation_position='top left')
+
+    fig.update_layout(yaxis_title='Number of orders')
+
+    return fig
+
+def plot_departments_per_basket(df):
+
+    fig = px.histogram(
+        df, x='nb_departments',
+        title='Number of departments per basket',
+        labels={'nb_departments': 'Number of departments'}
+    )
+    fig.update_layout(yaxis_title='Number of orders')
+    return fig
+
+def plot_basket_size_by_segment(df):
+
+    fig = px.box(
+        df, x='segment', y='basket_size',
+        title='Basket size by customer segment',
+        labels={'segment': 'Customer segment', 'basket_size': 'Basket size'},
+        category_orders={'segment': ['Casual', 'Regular', 'Heavy']},
+        color='segment'
+    )
+
+    fig.update_traces(showlegend=False)
+    
+    return fig
+
+def plot_basket_size_vs_nb_orders(df):
+
+    fig = px.scatter(
+        df, x='nb_orders', y='avg_basket_size',
+        title='Average basket size vs number of orders per user',
+        labels={'nb_orders': 'Number of orders', 'avg_basket_size': 'Average basket size'},
+        opacity=0.4
+    )
+    return fig
