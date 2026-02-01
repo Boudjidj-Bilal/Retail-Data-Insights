@@ -77,7 +77,7 @@ def plot_aisles_per_department(aisles_per_department):
     
     return fig
 
-def plot_departments_by_sales(df):
+def plot_sales_by_department_barplot(df):
     
     fig = px.bar(df, 
                  x='department',
@@ -94,7 +94,7 @@ def plot_departments_by_sales(df):
     
     return fig
 
-def plot_products_by_department_boxplot(df):
+def plot_sales_by_department_boxplot(df):
 
     fig = px.box(df,
                  x='department',
@@ -103,7 +103,7 @@ def plot_products_by_department_boxplot(df):
     
     return fig
 
-def plot_products_by_aisle_barplot(df):
+def plot_sales_by_aisle_barplot(df):
 
     fig = px.bar(df,
                  x='aisle',
@@ -120,7 +120,7 @@ def plot_products_by_aisle_barplot(df):
     
     return fig 
 
-def plot_products_by_aisle_boxplot(df):
+def plot_sales_by_aisle_boxplot(df):
 
     fig = px.box(df,
                  x='aisle',
@@ -166,3 +166,4 @@ def scatterplot_top_100_products(df):
     )
 
     return fig
+
