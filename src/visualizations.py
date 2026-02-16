@@ -220,3 +220,20 @@ def plot_basket_size_vs_nb_orders(df):
         opacity=0.4
     )
     return fig
+
+def plot_days_since_prior_order_distribution(df):
+
+    fig = px.histogram(
+        df, x='days_since_prior_order', nbins=30,
+        title='Distribution of days since prior order',
+        labels={'days_since_prior_order': 'Days since prior order'}
+    )
+    fig.update_layout(yaxis_title='Number of orders')
+
+    return fig
+
+def quick_info(df, name="Dataset"):
+    print(f"\n{name}: {df.shape[0]:,} rows × {df.shape[1]} columns")
+    print(f"Missing: {df.isnull().sum().sum()}")
+    print(f"Duplicates: {df.duplicated().sum()}")
+    print(df.dtypes)
