@@ -1,26 +1,34 @@
 import pandas as pd
-from typing import List
+import os
+from pathlib import Path
 
 class ProductRecommender:
-
     
-    def __init__(self, rules_path: str):
-        self.rules = pd.read_csv(rules_path)
-        print(f"✅ {len(self.rules)} règles chargées")
+    def __init__(self, rules_path):
+        if not os.path.isabs(rules_path):
+            # Find the absolute path
+            current_file = Path(__file__).resolve()
+            project_root = current_file.parent.parent  # src/ -> Retail-Data-Insights/
+            rules_path = project_root / rules_path
+        
+        # Check file existing
+        if not os.path.exists(rules_path):
+            raise FileNotFoundError(f"File not found: {rules_path}")
+        
+        self.rules = pd.read_csv(rules_path) 
+        print(f"{len(self.rules)} rules loaded")
         
         self.available_products = self._extract_all_products()
-        print(f"✅ {len(self.available_products)} produits disponibles")
+        print(f"{len(self.available_products)} products available for recommendation")
     
-    def _extract_all_products(self) -> set:
-        """Extrait tous les produits uniques des règles"""
+    def _extract_all_products(self): # products are string separated by ", "
         products = set()
         for _, row in self.rules.iterrows():
             products.update(row['antecedent'].split(', '))
             products.update(row['consequent'].split(', '))
         return products
     
-    def recommend(self, products: List[str], top_n: int = 10) -> pd.DataFrame:
-
+    def recommend(self, products, top_n=10):
         if not products:
             return pd.DataFrame(columns=['product_name', 'score'])
         
@@ -39,11 +47,9 @@ class ProductRecommender:
                         else:
                             scores[product] = rule['lift']
         
-        # If no recommendations, return empty DataFrame
         if not scores:
             return pd.DataFrame(columns=['product_name', 'score'])
         
-        # Transform in DataFrame and sort
         recommendations = pd.DataFrame(
             list(scores.items()), 
             columns=['product_name', 'score']
@@ -51,26 +57,5 @@ class ProductRecommender:
         
         return recommendations
     
-    def get_available_products(self) -> List[str]:
+    def get_available_products(self):
         return sorted(list(self.available_products))
-
-
-# ============= EXEMPLE D'USAGE =============
-if __name__ == "__main__":
-    import os
-    
-    # Remonte à la racine du projet
-    current_dir = os.path.dirname(os.path.abspath(__file__))  # src/
-    project_root = os.path.dirname(current_dir)                # Retail-Data-Insights/
-    rules_path = os.path.join(project_root, 'data', 'processed', 'rules_clean.csv')
-    
-    # Initialise le recommender
-    recommender = ProductRecommender(rules_path)
-    
-    # Test
-    basket = ['Banana', 'Organic Hass Avocado', 'Organic Strawberries']
-    print(f"\n🛒 Panier : {basket}")
-    
-    recs = recommender.recommend(basket, top_n=10)
-    print("\n🎯 Recommandations :")
-    print(recs.to_string(index=False))
