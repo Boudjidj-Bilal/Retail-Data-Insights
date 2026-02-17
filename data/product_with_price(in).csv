@@ -1,0 +1,1001 @@
+﻿rank,product_id,product_name,product_name_fr,nb_purchases,currency,price,score,source
+1,24852,Banana,Banane,472565,USD,2.18,100,en
+2,13176,Bag of Organic Bananas,Sac de bananes biologiques,379450,USD,3.51,81.08108108,en
+3,21137,Organic Strawberries,Fraises biologiques,264683,USD,9.99,100,en
+4,21903,Organic Baby Spinach,BÃ©bÃ©s Ã©pinards biologiques,241921,EUR,5.55,81.81818182,fr
+5,47209,Organic Hass Avocado,Avocat Hass Bio,213584,USD,2.29,92.68292683,en
+6,47766,Organic Avocado,Avocat Bio,176815,USD,1.99,100,en
+7,47626,Large Lemon,Gros Citron,152657,EUR,6.95,78.26086957,fr
+8,16797,Strawberries,Fraises,142951,GBP,24,100,en
+9,26209,Limes,citrons verts,140627,EUR,4.9,100,en
+10,27845,Organic Whole Milk,Lait entier biologique,137905,USD,4.59,100,en
+11,27966,Organic Raspberries,Framboises biologiques,137057,USD,4.49,90.47619048,en
+12,22935,Organic Yellow Onion,Oignon jaune biologique,113426,EUR,2.25,100,fr
+13,24964,Organic Garlic,Ail biologique,109778,EUR,9.75,100,fr
+14,45007,Organic Zucchini,Courgettes Bio,104823,EUR,0.59,83.33333333,fr
+15,39275,Organic Blueberries,Bleuets biologiques,100060,USD,5.99,100,en
+16,49683,Cucumber Kirby,Kirby au concombre,97315,EUR,2.06,73.17073171,fr
+17,28204,Organic Fuji Apple,Pomme Fuji Bio,89632,USD,4.49,86.48648649,en
+18,5876,Organic Lemon,Citron Bio,87746,EUR,1.59,100,fr
+19,8277,Apple Honeycrisp Organic,Pomme Honeycrisp Bio,85020,USD,4.99,85.10638298,en
+20,40706,Organic Grape Tomatoes,Tomates raisins biologiques,84255,USD,5.69,82.60869565,en
+21,4920,Seedless Red Grapes,Raisins rouges sans pÃ©pins,82689,USD,6.99,100,en
+22,30391,Organic Cucumber,Concombre biologique,80392,EUR,1.75,100,fr
+23,45066,Honeycrisp Apple,Pomme Honeycrisp,79769,USD,4.99,82.05128205,en
+24,42265,Organic Baby Carrots,Petites carottes biologiques,76896,EUR,1.98,78.26086957,fr
+25,49235,Organic Half & Half,Bio moitiÃ©-moitiÃ©,76360,USD,3.99,73.17073171,en
+26,44632,Sparkling Water Grapefruit,Pamplemousse Ã  l'eau gazeuse,75886,NOK,32.5,75.47169811,en
+27,19057,Organic Large Extra Fancy Fuji Apple,Grosse pomme Fuji extra fantaisie biologique,75165,USD,6.99,69.56521739,en
+28,4605,Yellow Onions,Oignons jaunes,73167,EUR,2.69,100,en
+29,37646,Organic Gala Apples,Pommes Gala Bio,72846,CHF,1.4,100,fr
+30,21616,Organic Baby Arugula,BÃ©bÃ© roquette biologique,72829,EUR,3.25,77.27272727,fr
+31,17794,Carrots,Carottes,72736,EUR,2.5,100,en
+32,27104,Fresh Cauliflower,Chou-fleur frais,71584,USD,2.99,84.84848485,en
+33,30489,Original Hummus,Houmous Original,71314,SEK,25.9,100,en
+34,31717,Organic Cilantro,Coriandre biologique,69524,USD,1.67,100,en
+35,27086,Half & Half,MoitiÃ©-moitiÃ©,69217,EUR,6.97,62.06896552,fr
+36,44359,Organic Small Bunch Celery,CÃ©leri en petites bottes bio,68091,USD,19.99,68.08510638,en
+37,28985,Michigan Organic Kale,Chou frisÃ© biologique du Michigan,67449,EUR,1.85,74.57627119,fr
+38,46979,Asparagus,Asperge,67283,EUR,17.28,100,en
+39,8518,Organic Red Onion,Oignon rouge biologique,66986,EUR,5.65,89.36170213,fr
+40,41950,Organic Tomato Cluster,Grappe de tomates biologiques,64289,EUR,3.25,90.56603774,fr
+41,26604,Organic Blackberries,MÃ»res biologiques,61746,USD,4.99,90.90909091,en
+42,5077,100% Whole Wheat Bread,Pain 100 % blÃ© entier,60816,USD,4.99,76.92307692,en
+43,34126,Organic Italian Parsley Bunch,Bouquet de persil italien biologique,60621,USD,4.29,73.46938776,en
+44,22035,Organic Whole String Cheese,Fromage entier biologique,59676,EUR,2.85,76.59574468,fr
+45,39877,Organic Granny Smith Apple,Pomme Granny Smith biologique,58779,USD,4.39,81.81818182,en
+46,35951,Organic Unsweetened Almond Milk,Lait d'amande bio non sucrÃ©,57895,USD,2.99,100,en
+47,43352,Raspberries,Framboises,57640,USD,4.69,100,en
+48,10749,Organic Red Bell Pepper,Poivron rouge biologique,57485,EUR,5.65,100,fr
+49,19660,Spring Water,Eau de source,56087,EUR,0.35,81.48148148,fr
+50,9076,Blueberries,Bleuets,55946,USD,3.99,100,en
+51,21938,Green Bell Pepper,Poivron vert,55484,EUR,4.31,100,fr
+52,43961,Organic Peeled Whole Baby Carrots,Petites carottes entiÃ¨res pelÃ©es biologiques,55371,USD,3.09,68.35443038,en
+53,24184,Red Peppers,Poivrons rouges,55280,EUR,2.1,100,fr
+54,34969,Red Vine Tomato,Tomate Vigne Rouge,54409,GBP,2.19,78.57142857,en
+55,46667,Organic Ginger Root,Racine de gingembre biologique,52087,EUR,5.98,80,fr
+56,48679,Organic Garnet Sweet Potato (Yam),Patate douce grenat biologique (igname),51939,EUR,3.45,76.66666667,fr
+57,25890,Boneless Skinless Chicken Breasts,Poitrines de poulet dÃ©sossÃ©es et sans peau,50281,NOK,49.9,69.09090909,en
+58,31506,Extra Virgin Olive Oil,Huile d'olive vierge extra,50255,EUR,10.59,100,fr
+59,12341,Hass Avocados,Avocats Hass,50221,EUR,1.29,100,en
+60,39928,Organic Kiwi,Kiwi Bio,50141,USD,1,100,en
+61,24838,Unsweetened Almondmilk,Lait d'amande non sucrÃ©,49569,USD,8.79,97.77777778,en
+62,5450,Small Hass Avocado,Petit Hass Avocat,49021,USD,1.74,80,en
+63,22825,Organic D'Anjou Pears,Poires d'Anjou Bio,48915,USD,2.49,75.67567568,en
+64,5785,Organic Reduced Fat 2% Milk,Lait Biologique AllÃ©gÃ© 2%,47839,EUR,9.75,68.42105263,fr
+65,35221,Lime Sparkling Water,Eau gazeuse Ã  la chaux,46546,USD,1.98,75,en
+66,28842,Bunched Cilantro,Coriandre en bottes,45530,USD,1.59,93.33333333,en
+67,33731,Grated Parmesan,Parmesan rÃ¢pÃ©,45238,EUR,2.93,86.66666667,fr
+68,27521,Organic Lacinato (Dinosaur) Kale,Chou frisÃ© biologique Lacinato (dinosaure),43067,EUR,1.85,69.6969697,fr
+69,44142,Red Onion,Oignon rouge,43009,USD,3.95,100,en
+70,33198,Sparkling Natural Mineral Water,Eau MinÃ©rale Naturelle PÃ©tillante,42934,EUR,1.32,77.19298246,fr
+71,8174,Organic Navel Orange,Orange Navel Bio,42721,EUR,1.7,85.71428571,fr
+72,20114,Jalapeno Peppers,Piments Jalapeno,42561,EUR,1.8,96.77419355,fr
+73,8424,Broccoli Crown,Couronne de brocoli,42044,USD,5.05,96.55172414,en
+74,27344,Uncured Genoa Salami,Salami de GÃªnes cru,41473,EUR,1.89,70.27027027,fr
+75,11520,Large Alfresco Eggs,Gros Å“ufs en plein air,40376,EUR,1.49,88.88888889,fr
+76,29487,Roma Tomato,Tomate Roma,40212,EUR,1.75,100,fr
+77,18465,Organic Grade A Free Range Large Brown Eggs,Gros Å“ufs bruns biologiques de qualitÃ© A en libertÃ©,40045,USD,9.99,85.33333333,en
+78,28199,"Clementines, Bag","ClÃ©mentines, Sac",39825,EUR,3.59,86.66666667,en
+79,15290,Orange Bell Pepper,Poivron Orange,39188,EUR,3.49,100,fr
+80,46906,Grape White/Green Seedless,Raisin blanc/vert sans pÃ©pins,38971,EUR,7,85.10638298,en
+81,9839,Organic Broccoli,Brocoli biologique,38720,EUR,3.85,100,fr
+82,27156,Organic Black Beans,Haricots noirs biologiques,38001,EUR,2.09,81.81818182,fr
+83,3957,100% Raw Coconut Water,100 % eau de coco brute,37973,EUR,1.05,73.91304348,fr
+84,43122,Organic Bartlett Pear,Poire Bartlett biologique,37706,EUR,2.98,74.41860465,fr
+85,23909,2% Reduced Fat Milk,Lait allÃ©gÃ© 2 %,37091,USD,5.99,72.34042553,en
+86,34358,Garlic,Ail,36617,EUR,14.95,100,en
+87,4799,Shredded Parmesan,Parmesan rÃ¢pÃ©,36365,EUR,2.93,86.66666667,fr
+88,9387,Granny Smith Apples,Pommes Granny Smith,36187,USD,0.69,100,en
+89,16759,Organic Carrot Bunch,Botte de Carottes Bio,35820,EUR,2.49,84.21052632,fr
+90,196,Soda,Soude,35791,NOK,49.9,75,en
+91,42736,Unsalted Butter,Beurre non salÃ©,35667,EUR,2.29,84.61538462,fr
+92,38689,Organic Reduced Fat Milk,Lait allÃ©gÃ© biologique,35663,EUR,9.75,72.22222222,fr
+93,4210,Whole Milk,Lait entier,35633,USD,6.99,100,en
+94,41787,Bartlett Pears,Poires Bartlett,35413,USD,6.59,100,en
+95,41220,Organic Romaine Lettuce,Laitue romaine biologique,34874,EUR,1.49,78.94736842,en
+96,47144,Unsweetened Original Almond Breeze Almond Milk,Lait d'amande original non sucrÃ© Almond Breeze,34583,USD,3.49,80.51948052,en
+97,7781,Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,Fromage mozzarella partiellement Ã©crÃ©mÃ© en bÃ¢tonnets biologiques Ã  faible humiditÃ©,34209,USD,8.49,61.53846154,en
+98,33000,Pure Irish Butter,Beurre irlandais pur,33908,NOK,289.99,78.78787879,en
+99,20995,Organic Broccoli Florets,Fleurons de brocoli biologique,32887,USD,2.89,100,en
+100,21709,Sparkling Lemon Water,Eau CitronnÃ©e PÃ©tillante,32788,EUR,4.7,73.91304348,fr
+101,19678,Organic Russet Potato,Pomme de terre Russet biologique,32534,USD,0.99,82.05128205,en
+102,40604,Feta Cheese Crumbles,Crumbles au fromage feta,32351,NOK,51.9,73.68421053,en
+103,30233,Organic Large Brown Grade AA Cage Free Eggs,Gros Å“ufs bruns biologiques de qualitÃ© AA sans cage,32105,USD,10.49,86.84210526,en
+104,34243,Organic Baby Broccoli,BÃ©bÃ© brocoli biologique,31792,EUR,3.85,87.80487805,fr
+105,37687,Organic Spring Mix,MÃ©lange printanier biologique,31768,EUR,5.55,72.34042553,fr
+106,24489,Organic Whole Strawberries,Fraises entiÃ¨res biologiques,31445,USD,9.99,100,en
+107,42828,Whipped Cream Cheese,Fromage Ã  la crÃ¨me fouettÃ©,31192,EUR,1.41,77.19298246,fr
+108,5479,Italian Sparkling Mineral Water,Eau minÃ©rale pÃ©tillante italienne,30937,EUR,1,68.75,en
+109,432,Vanilla Almond Breeze Almond Milk,Lait d'amande vanille et brise d'amande,30935,EUR,2.59,72.46376812,fr
+110,6184,Clementines,ClÃ©mentines,30843,EUR,3.99,100,en
+111,16185,Sharp Cheddar Cheese,Fromage Cheddar Fort,30170,NOK,37.9,84.21052632,en
+112,42768,Organic Garbanzo Beans,Haricots pois chiches biologiques,30055,EUR,3.31,72.72727273,fr
+113,17948,Frozen Organic Wild Blueberries,Bleuets sauvages biologiques surgelÃ©s,29905,USD,4.99,87.27272727,en
+114,33754,Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2Â % avec du yaourt grec filtrÃ© Ã  faible teneur en matiÃ¨res grasses aux fraises,29893,USD,1.79,58.33333333,en
+115,19348,Fat Free Milk,Lait sans gras,29345,EUR,2.76,74.07407407,fr
+116,8193,Russet Potato,Pomme de terre rousse,29313,USD,2.84,100,en
+117,26369,Organic Roma Tomato,Tomate Roma biologique,29296,USD,6.59,95,en
+118,42585,Organic Extra Firm Tofu,Tofu Extra Ferme Bio,29124,USD,5.79,85,en
+119,14992,Green Beans,Haricots verts,29069,EUR,2.9,100,en
+120,14947,Pure Sparkling Water,Eau gazeuse pure,28884,EUR,1.75,78.94736842,fr
+121,22963,Organic Roasted Turkey Breast,Poitrine de dinde rÃ´tie biologique,28384,USD,8.99,73.46938776,en
+122,1463,Organic Milk,Lait Bio,27992,USD,6.36,100,en
+123,28849,No Salt Added Black Beans,Haricots noirs sans sel ajoutÃ©,27924,EUR,3.45,88.52459016,fr
+124,8021,100% Recycled Paper Towels,Serviettes en papier 100Â % recyclÃ©es,27864,EUR,3.55,63.15789474,fr
+125,25659,Organic Coconut Milk,Lait de Coco Bio,27255,EUR,1.28,100,fr
+126,21405,"Organic Red Radish, Bunch","Radis Rouge Bio, Botte",27226,EUR,1.69,81.08108108,fr
+127,46676,Total 0% Nonfat Greek Yogurt,Total 0% de yaourt grec sans gras,26878,USD,0.99,66.66666667,en
+128,31343,Shredded Mild Cheddar Cheese,Fromage Cheddar doux rÃ¢pÃ©,26777,EUR,2.99,70.37037037,fr
+129,41844,Honey Nut Cheerios,Cheerios au miel et aux noix,26741,NOK,43.9,68.75,en
+130,38293,Ground Turkey Breast,Poitrine de dinde hachÃ©e,26721,USD,8.99,100,en
+131,42701,Organic Sour Cream,CrÃ¨me sure biologique,26691,NOK,35.9,82.35294118,en
+132,43789,Organic Basil,Basilic Bio,26668,EUR,3.79,100,fr
+133,36011,Organic Fat Free Milk,Lait biologique sans gras,26591,USD,6.36,72.72727273,en
+134,5025,Green Onions,Oignons verts,26536,EUR,1.29,100,en
+135,39475,Total Greek Strained Yogurt,Yaourt grec total filtrÃ©,26443,GBP,1.65,69.56521739,en
+136,43295,Unsweetened Vanilla Almond Milk,Lait d'amande vanille non sucrÃ©,26307,USD,3.49,98.36065574,en
+137,11777,Red Raspberries,Framboises rouges,26220,USD,4.69,84.61538462,en
+138,20842,Total 0% Greek Yogurt,Total Yaourt Grec 0%,26154,GBP,1.65,76.92307692,en
+139,32689,Romaine Hearts,Coeurs Romains,25974,USD,2.99,87.5,en
+140,32655,Organic Large Grade AA Brown Eggs,Gros Å“ufs bruns biologiques de qualitÃ© AA,25523,USD,10.49,100,en
+141,2295,Yellow Bell Pepper,Poivron jaune,25459,EUR,3.8,100,fr
+142,46802,Pineapple Chunks,Morceaux d'Ananas,24950,EUR,2.5,93.75,fr
+143,13870,Lightly Salted Baked Snap Pea Crisps,Chips de pois mange-tout au four lÃ©gÃ¨rement salÃ©es,24950,USD,4.99,66.66666667,en
+144,25146,Original Orange Juice,Jus d'orange original,24918,EUR,1.9,78.26086957,fr
+145,18531,Organic Heavy Whipping Cream,CrÃ¨me fouettÃ©e Ã©paisse biologique,24664,EUR,3.25,67.9245283,fr
+146,5212,Watermelon Chunks,Morceaux de pastÃ¨que,24534,EUR,1.72,78.94736842,fr
+147,31553,Fresh Ginger Root,Racine de Gingembre FraÃ®che,24130,USD,8.09,78.57142857,en
+148,39408,Gala Apples,Pommes de gala,24086,NOK,64.4,100,en
+149,260,Cantaloupe,Cantaloup,23900,USD,1.26,95.23809524,en
+150,36695,Organic Hothouse Cucumbers,Concombres de serre biologiques,23892,EUR,1.75,78.43137255,fr
+151,10246,Organic Celery Hearts,CÅ“urs de CÃ©leri Bio,23826,USD,2.99,100,en
+152,24830,Organic Romaine,Romaine biologique,23642,EUR,2.65,85.71428571,fr
+153,38383,Organic White Onions,Oignons blancs biologiques,23641,EUR,2.25,81.63265306,fr
+154,43768,Organic Bell Pepper,Poivron Bio,23388,EUR,3.29,95.65217391,fr
+155,1940,Organic 2% Reduced Fat Milk,Lait biologique allÃ©gÃ© 2%,23244,EUR,9.75,68.42105263,fr
+156,11182,Baby Spinach,BÃ©bÃ©s Ã©pinards,23129,EUR,3.3,73.33333333,fr
+157,18523,Total 2% All Natural Greek Strained Yogurt with Honey,Total 2Â % de yaourt grec filtrÃ© entiÃ¨rement naturel avec du miel,23034,EUR,1.81,61.68224299,fr
+158,18362,Organic Bread with 21 Whole Grains,Pain Bio aux 21 grains entiers,23006,USD,5.99,75.67567568,en
+159,21288,Blackberries,MÃ»res,22864,EUR,28.8,88.88888889,fr
+160,6046,Boneless Skinless Chicken Breast,Poitrine de poulet dÃ©sossÃ©e et sans peau,22590,NOK,49.9,70.37037037,en
+161,44683,Brussels Sprouts,Choux de Bruxelles,22275,EUR,1.69,100,en
+162,29987,Shredded Mozzarella,Mozzarella rÃ¢pÃ©e,21999,EUR,1.39,83.87096774,fr
+163,890,Organic Diced Tomatoes,Tomates en dÃ©s biologiques,21997,USD,5.69,100,en
+164,38777,Organic Green Seedless Grapes,Raisins verts sans pÃ©pins biologiques,21745,USD,5.99,90.56603774,en
+165,43772,Cherubs Heavenly Salad Tomatoes,ChÃ©rubins Salade CÃ©leste Tomates,21552,USD,3.99,65.57377049,en
+166,23734,Sour Cream,CrÃ¨me aigre,21540,NOK,35.9,76.92307692,en
+167,7948,Organic Unsalted Butter,Beurre non salÃ© biologique,21509,USD,10.99,80,en
+168,30450,Creamy Almond Butter,Beurre d'amande crÃ©meux,21490,USD,11.99,100,en
+169,38456,Large Grapefruit,Gros Pamplemousse,21451,EUR,3.7,84.84848485,fr
+170,46969,Organic Bosc Pear,Poire Bosc Bio,21431,USD,3.09,75.86206897,en
+171,44910,Organic Spring Mix Salad,Salade printaniÃ¨re bio,21416,EUR,3.23,70,fr
+172,47734,Organic Green Cabbage,Chou vert biologique,21352,EUR,1.45,90,fr
+173,38159,Organic Yellow Peaches,PÃªches jaunes biologiques,21301,USD,3.09,72.34042553,en
+174,26620,Peach Pear Flavored Sparkling Water,Eau gazeuse aromatisÃ©e Ã  la pÃªche et Ã  la poire,21233,USD,6.69,64.51612903,en
+175,47672,Uncured Hickory Smoked Sunday Bacon,Bacon du dimanche fumÃ© Ã  l'hickory non sÃ©chÃ©,20775,USD,3.29,59.375,en
+176,4957,Total 2% Lowfat Greek Strained Yogurt With Blueberry,Total 2 % de yaourt grec filtrÃ© avec myrtilles et faible en gras,20758,USD,5.89,61.38613861,en
+177,26165,Electrolyte Enhanced Water,Eau enrichie en Ã©lectrolytes,20735,USD,8.49,56.66666667,en
+178,30776,Organic Raw Kombucha Gingerade,Gingembre Kombucha cru biologique,20707,EUR,5.98,75.47169811,fr
+179,44987,Heavy Whipping Cream,CrÃ¨me fouettÃ©e Ã©paisse,20684,EUR,1.93,80.95238095,fr
+180,35939,Organic Jalapeno Pepper,Piment Jalapeno Bio,20262,EUR,1.8,88.23529412,fr
+181,14678,Organic Frozen Peas,Petits pois surgelÃ©s biologiques,20228,USD,2.49,91.42857143,en
+182,16349,Organic Yams,Ignames biologiques,20217,USD,3.09,83.33333333,en
+183,28289,Organic Shredded Carrots,Carottes rÃ¢pÃ©es biologiques,20211,CHF,1.95,82.60869565,fr
+184,29447,"Milk, Organic, Vitamin D","Lait, Bio, Vitamine D",20198,USD,6.36,70.58823529,en
+185,44422,Organic Old Fashioned Rolled Oats,Flocons d'avoine biologiques Ã  l'ancienne,20140,USD,10.49,75.86206897,en
+186,40310,Oven Roasted Turkey Breast,Poitrine de dinde rÃ´tie au four,20069,USD,5.49,76,en
+187,16953,Creamy Peanut Butter,Beurre de cacahuÃ¨te crÃ©meux,20033,EUR,8.39,100,fr
+188,23375,Marinara Sauce,Sauce Marinara,19998,USD,4.99,90.32258065,en
+189,33787,Total 2% Lowfat Greek Strained Yogurt with Peach,Total 2 % de yaourt grec filtrÃ© Ã  faible teneur en gras avec pÃªche,19908,EUR,22.95,53.78151261,fr
+190,19048,Organic Butternut Squash,Courge musquÃ©e biologique,19847,USD,3.09,100,en
+191,2078,Unsalted Pure Irish Butter,Beurre irlandais pur non salÃ©,19846,GBP,2.1,75,en
+192,13984,Organic Mint,Menthe Bio,19745,USD,6.36,83.33333333,en
+193,41290,Lemonade,Limonade,19692,EUR,0.44,84.21052632,fr
+194,23165,Organic Leek,Poireau Bio,19671,EUR,2.89,100,fr
+195,32864,Organic Baby Rainbow Carrots,Petites carottes arc-en-ciel biologiques,19639,USD,1.39,66.66666667,en
+196,17600,"YoKids Squeezers Organic Low-Fat Yogurt, Strawberry","YoKids Squeezers Yogourt biologique faible en gras, fraise",19611,USD,1.79,70.21276596,en
+197,39812,Organic Thyme,Thym biologique,19544,EUR,0.88,93.75,fr
+198,8859,Natural Spring Water,Eau de source naturelle,19518,USD,1.98,80,en
+199,48364,Sweet Onion,Oignon doux,19501,USD,3.99,100,en
+200,33120,Organic Egg Whites,Blancs d'Å“ufs biologiques,19400,USD,5.79,83.72093023,en
+201,31683,Original No Pulp 100% Florida Orange Juice,Jus d'orange de Floride original sans pulpe Ã  100 %,19345,EUR,3.33,69.04761905,fr
+202,26940,Organic Large Green Asparagus,Grosses asperges vertes biologiques,19286,EUR,3.4,79.31034483,fr
+203,28465,Icelandic Style Skyr Blueberry Non-fat Yogurt,Yogourt sans gras Skyr Ã  la myrtille Ã  l'islandaise,19257,USD,1.79,60,en
+204,35108,Salted Butter,Beurre SalÃ©,19163,EUR,2.29,100,fr
+205,26283,White Corn,MaÃ¯s blanc,18906,USD,0.69,100,en
+206,37158,Chicken & Maple Breakfast Sausage,Saucisse dÃ©jeuner au poulet et Ã  l'Ã©rable,18602,USD,7.49,81.15942029,en
+207,37067,Organic Banana,Banane biologique,18583,USD,3.28,100,en
+208,18370,Organic Shredded Mozzarella,Mozzarella rÃ¢pÃ©e biologique,18449,EUR,2.98,70.83333333,fr
+209,45,European Cucumber,Concombre europÃ©en,18413,EUR,1.09,78.78787879,fr
+210,41665,Organic Mexican Blend Finely Shredded Cheese,Fromage finement rÃ¢pÃ© Ã  base de mÃ©lange mexicain biologique,18367,USD,7.89,65.82278481,en
+211,35547,Organic Baby Kale,Chou frisÃ© biologique,18358,EUR,1.85,89.36170213,fr
+212,3952,Organic Broccoli Crowns,Couronnes de brocoli bio,18341,USD,2.89,80.85106383,en
+213,10957,Fridge Pack Cola,Pack RÃ©frigÃ©rateur Cola,18269,EUR,8.9,64.86486486,en
+214,2086,Sustainably Soft Bath Tissue,Papier hygiÃ©nique durablement doux,18231,EUR,5.32,64.61538462,fr
+215,2966,Pure Coconut Water,Eau de coco pure,18183,EUR,3.49,81.48148148,fr
+216,43154,Sparkling Mineral Water,Eau MinÃ©rale PÃ©tillante,18161,EUR,0.44,79.06976744,fr
+217,24799,Vanilla Skyr Nonfat Yogurt,Yaourt sans gras Skyr Ã  la vanille,18142,EUR,1.42,72.13114754,fr
+218,40571,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,"Total 2 % de yaourt grec filtrÃ© avec cerise 5,3 oz",18044,EUR,2.81,57.94392523,fr
+219,43713,Organic Creamy Peanut Butter,Beurre de cacahuÃ¨te crÃ©meux biologique,18040,USD,75.49,85.71428571,en
+220,10132,Organic American Cheese Singles,Singles de fromage amÃ©ricain biologique,18040,USD,2.49,66.66666667,en
+221,40396,Guacamole,Guacamole,17960,EUR,1.79,100,en
+222,18027,Ezekiel 4:9 Bread Organic Sprouted Whole Grain,Ezekiel 4:9 Pain Grains entiers germÃ©s biologiques,17789,USD,7.79,84.09090909,en
+223,45535,Organic Low Sodium Chicken Broth,Bouillon de poulet biologique Ã  faible teneur en sodium,17716,USD,5.29,82.05128205,en
+224,1158,Mango Chunks,Morceaux de mangue,17699,USD,3.49,100,en
+225,25931,Organic Baby Spinach Salad,Salade de bÃ©bÃ©s Ã©pinards biologiques,17672,USD,1.99,88,en
+226,7021,Organic Tomato Paste,PÃ¢te de Tomate Bio,17629,USD,1.79,100,en
+227,38739,Hass Avocado,Hass Avocat,17565,USD,1.74,100,en
+228,13629,Organic Snipped Green Beans,Haricots verts coupÃ©s biologiques,17423,EUR,2.01,77.96610169,fr
+229,42450,Macaroni & Cheese,Macaroni au fromage,17420,NOK,69.9,81.48148148,en
+230,20119,Sparkling Water Berry,Baies d'eau pÃ©tillante,17411,USD,1.25,73.91304348,en
+231,15937,Shallot,Ã‰chalote,17401,EUR,2.61,100,fr
+232,42342,Roasted Turkey Breast,Poitrine de dinde rÃ´tie,17332,USD,8.99,82.92682927,en
+233,32478,Reduced Fat 2% Milk,Lait allÃ©gÃ© 2%,17320,USD,5.99,72.34042553,en
+234,48745,Globe Eggplant,Aubergine Globe,17257,EUR,3.98,80,fr
+235,45633,Organic Beef Hot Dogs,Hot-dogs au bÅ“uf biologique,17140,EUR,5.09,69.23076923,fr
+236,21019,Roasted Red Pepper Hummus,Houmous aux poivrons rouges rÃ´tis,17038,USD,4,70.42253521,en
+237,34050,Orange Juice,Du jus d'orange,16987,EUR,2.45,81.81818182,en
+238,34448,Original Veggie Straws,Pailles vÃ©gÃ©tariennes originales,16850,USD,2.59,70,en
+239,48205,Spinach,Ã‰pinard,16829,EUR,5,100,fr
+240,39619,Organic Tomato Basil Pasta Sauce,Sauce pour pÃ¢tes tomates et basilic biologique,16824,USD,5.29,86.15384615,en
+241,17461,Air Chilled Organic Boneless Skinless Chicken Breasts,Poitrines de poulet dÃ©sossÃ©es et sans peau biologiques refroidies Ã  l'air,16816,USD,15.41,67.36842105,en
+242,45603,Trilogy Kombucha Drink,Boisson Kombucha Trilogie,16791,USD,3.69,71.79487179,en
+243,30169,Total 2% All Natural Plain Greek Yogurt,Total 2 % de yogourt grec nature entiÃ¨rement naturel,16636,EUR,1.81,63.15789474,fr
+244,31040,Sea Salt Pita Chips,Chips de pita au sel de mer,16626,NOK,58.9,72.22222222,en
+245,38400,Asparation/Broccolini/Baby Broccoli,Asparation/Brcolini/BÃ©bÃ© Brocoli,16535,EUR,1.88,57.14285714,fr
+246,13646,Lemon Hummus,Houmous au citron,16439,EUR,2.85,90.32258065,fr
+247,36865,Non Fat Raspberry Yogurt,Yaourt Ã©crÃ©mÃ© Ã  la framboise,16377,EUR,2.66,75.86206897,fr
+248,40174,2% Reduced Fat Organic Milk,Lait biologique allÃ©gÃ© 2 %,16356,EUR,9.75,68.42105263,fr
+249,21267,Sourdough Bread,Pain Au Levain,16318,EUR,1.16,100,fr
+250,17872,Total 2% Lowfat Plain Greek Yogurt,Total Yogourt grec nature faible en gras 2 %,16246,USD,5.99,67.79661017,en
+251,5818,White Onion,Oignon blanc,16155,USD,3.28,100,en
+252,26790,Organic AppleApple,Pomme BioPomme,16129,EUR,2.99,78.57142857,fr
+253,39984,Organic Dill,Aneth biologique,15954,USD,6.36,83.33333333,en
+254,14084,Organic Unsweetened Vanilla Almond Milk,Lait d'amande vanille non sucrÃ© biologique,15935,USD,2.99,100,en
+255,23288,Distilled Water,Eau distillÃ©e,15871,EUR,7,72.72727273,fr
+256,21376,Pretzel Crisps Original Deli Style Pretzel Crackers,Bretzel Chips Craquelins bretzels originaux style charcuterie,15831,USD,5.29,65.97938144,en
+257,32734,Spaghetti,Spaghetti,15813,EUR,1.19,100,en
+258,33768,Sinfully Sweet Campari Tomatoes,Tomates Campari dÃ©licieusement sucrÃ©es,15774,USD,5.99,70.37037037,en
+259,37766,XL Emerald White Seedless Grapes,Raisins sans pÃ©pins blanc Ã©meraude XL,15740,EUR,3.48,73.52941176,fr
+260,46654,Organic Grade A Large Brown Eggs,Gros Å“ufs bruns biologiques de qualitÃ© A,15703,USD,9.99,100,en
+261,12206,Basil Pesto,Pesto au basilic,15638,USD,2.99,100,en
+262,329,Organic Whole Grassmilk Milk,Lait de Grasse Entier Biologique,15459,USD,4.59,78.26086957,en
+263,28934,Frozen Broccoli Florets,Fleurons de brocoli surgelÃ©s,15458,USD,1.99,93.02325581,en
+264,6187,Raisin Bran Cereal,CÃ©rÃ©ales au son et aux raisins,15415,USD,3.19,100,en
+265,6348,Mini Original Babybel Cheese,Mini fromage Babybel original,15377,USD,8.99,65.51724138,en
+266,39993,Vine Ripe Tomatoes,Tomates MÃ»res De Vigne,15367,GBP,2.19,83.87096774,en
+267,18441,Organic Ketchup,Ketchup Bio,15304,USD,3.99,84.61538462,en
+268,5646,Organic Turkey Bacon,Bacon de dinde biologique,15302,USD,8.8,82.35294118,en
+269,25340,Large Yellow Flesh Nectarine,Nectarine Ã  grosse chair jaune,15301,EUR,5.99,75.47169811,fr
+270,43086,Super Greens Salad,Salade de super lÃ©gumes verts,15298,EUR,1.55,75.47169811,fr
+271,6104,Whole Milk Plain Yogurt,Yaourt nature au lait entier,15267,EUR,3.45,100,fr
+272,42356,Strawberry Preserves,Conserves de fraises,15253,USD,8.39,88.88888889,en
+273,48775,Organic Red Cabbage,Chou Rouge Bio,15055,EUR,1.69,100,fr
+274,651,Organic Salted Butter,Beurre SalÃ© Bio,15035,EUR,3.1,85.71428571,fr
+275,10673,Original Nooks & Crannies English Muffins,Muffins anglais originaux Nooks & Crannies,14973,EUR,37.99,62.5,en
+276,47977,Grapefruit Sparkling Water,Eau Gazeuse Pamplemousse,14928,NOK,32.5,75.47169811,en
+277,19508,Corn Tortillas,Tortillas de maÃ¯s,14905,EUR,2.72,89.47368421,fr
+278,39180,Organic Lowfat 1% Milk,Lait biologique faible en gras 1%,14869,USD,6.36,72.72727273,en
+279,40709,Sea Salt & Vinegar Potato Chips,Chips de pommes de terre au sel de mer et au vinaigre,14800,EUR,2.69,78.26086957,fr
+280,19677,Original Pure Creamy Almond Milk,Lait d'amande pur et crÃ©meux original,14712,EUR,2.17,74.57627119,fr
+281,10017,Tilapia Filet,Filet de tilapia,14707,EUR,6.75,73.33333333,fr
+282,27336,Organic Rainbow Carrots,Carottes arc-en-ciel biologiques,14687,EUR,1.98,72,fr
+283,13535,Organic Medium Salsa,Salsa moyenne biologique,14678,USD,5.29,69.56521739,en
+284,13829,Mild Salsa,Salsa douce,14664,USD,1.99,100,en
+285,42244,Total 2% All Natural Low Fat 2% Milkfat Greek Strained Yogurt,"Total 2 % de yaourt grec filtrÃ© entiÃ¨rement naturel, faible en gras et 2 % de matiÃ¨re grasse laitiÃ¨re",14621,EUR,1.85,56.25,fr
+286,11782,Bing Cherries,Cerises Bing,14618,GBP,3,76.19047619,en
+287,27695,Natural Chicken & Sage Breakfast Sausage,Saucisse naturelle pour petit-dÃ©jeuner au poulet et Ã  la sauge,14577,USD,4.99,77.41935484,en
+288,36070,"Super Spinach! Baby Spinach, Baby Bok Choy, Sweet Baby Kale","Super Ã©pinards ! BÃ©bÃ©s Ã©pinards, bÃ©bÃ©s bok choy, chou frisÃ© sucrÃ©",14572,USD,3.99,52.3364486,en
+289,28156,Total 0% Nonfat Plain Greek Yogurt,Yogourt grec nature total 0 % sans gras,14549,USD,5.99,67.79661017,en
+290,6873,Organic Iceberg Lettuce,Laitue iceberg biologique,14476,EUR,1.49,80,fr
+291,49520,Orange Sparkling Water,Eau PÃ©tillante Orange,14439,USD,1.98,76.19047619,en
+292,49383,Organic Bunch Beets,Botte de betteraves biologiques,14433,EUR,2.65,80.70175439,fr
+293,8571,Baby Cucumbers,BÃ©bÃ©s concombres,14399,PLN,11.99,78.26086957,en
+294,24561,Organic Cheese Frozen Pizza,Pizza surgelÃ©e au fromage biologique,14313,USD,8.49,65.57377049,en
+295,13249,Skim Milk,Lait Ã©crÃ©mÃ©,14289,EUR,5.52,100,fr
+296,49075,Organic Brown Rice,Riz brun biologique,14276,USD,5.29,81.81818182,en
+297,16083,Organic Large Brown Eggs,Gros Å“ufs bruns biologiques,14255,USD,9.99,85.71428571,en
+298,24024,1% Lowfat Milk,Lait faible en gras 1 %,14231,USD,9.49,72.72727273,en
+299,40545,Berry Medley,MÃ©lange de baies,14227,EUR,4.99,83.87096774,fr
+300,40199,Chocolate Chip Cookies,Biscuits aux pÃ©pites de chocolat,14148,USD,7.99,100,en
+301,30720,Sugar Snap Peas,Pois sucrÃ©s,14120,EUR,3.11,72,fr
+302,17795,Organic Green Leaf Lettuce,Laitue verte biologique,14016,EUR,4.98,80,fr
+303,25588,Seedless Small Watermelon,Petite pastÃ¨que sans pÃ©pins,13996,EUR,1.99,88.46153846,fr
+304,35921,Organic Large Grade A Brown Eggs,Gros Å“ufs bruns biologiques de qualitÃ© A,13881,USD,9.99,100,en
+305,17122,Honeycrisp Apples,Pommes Honey Crisp,13880,USD,4.99,85,en
+306,11422,Plain Greek Yogurt,Yaourt grec nature,13861,EUR,3.55,90,fr
+307,8670,Diced Tomatoes,Tomates en dÃ©s,13852,USD,5.99,100,en
+308,31915,Organic Red Delicious Apple,Pomme DÃ©licieuse Rouge Bio,13833,EUR,2.45,80.85106383,en
+309,35561,Organic Tortilla Chips,Chips tortillas biologiques,13776,NOK,36.9,82.92682927,en
+310,42445,Organic Plain Whole Milk Yogurt,Yaourt nature au lait entier biologique,13732,EUR,3.45,83.58208955,fr
+311,14233,Natural Artesian Water,Eau ArtÃ©sienne Naturelle,13727,PLN,4.79,66.66666667,en
+312,7963,Gluten Free Whole Grain Bread,Pain Ã  grains entiers sans gluten,13715,USD,6.49,77.33333333,en
+313,17706,Organic Whole Grain Wheat English Muffins,Muffins anglais au blÃ© entier biologique,13692,USD,7.49,67.39130435,en
+314,3599,Baked Aged White Cheddar Rice and Corn Puffs,Riz au cheddar blanc vieilli et choux au maÃ¯s cuits au four,13691,USD,5.99,60.75949367,en
+315,21295,Organic Spaghetti Squash,Courge spaghetti biologique,13637,EUR,1.98,100,fr
+316,44449,Organic Tomato Sauce,Sauce Tomate Bio,13597,USD,2.29,100,en
+317,36550,Organic Extra Large Grade AA Brown Eggs,Å’ufs bruns biologiques extra gros de qualitÃ© AA,13587,USD,10.49,91.66666667,en
+318,19019,Uncured Slow Cooked Ham,Jambon cru cuit lentement,13571,EUR,4.25,68.08510638,fr
+319,30827,Seedless Cucumbers,Concombres sans pÃ©pins,13571,EUR,3.89,70.27027027,fr
+320,20082,Organic Whole Milk with DHA Omega-3,Lait entier biologique avec DHA omÃ©ga-3,13528,USD,4.59,67.9245283,en
+321,35042,Black Beans,Haricots noirs,13525,EUR,2.9,100,fr
+322,25466,Water,Eau,13494,NOK,22,66.66666667,en
+323,33401,Goat Cheese Crumbles,Crumbles au fromage de chÃ¨vre,13450,USD,12.49,70.96774194,en
+324,1511,2% Reduced Fat DHA Omega-3 Reduced Fat Milk,Lait Ã  teneur rÃ©duite en gras 2 % DHA omÃ©ga-3,13397,USD,3.79,62.79069767,en
+325,42625,"Flat Parsley, Bunch","Persil plat, botte",13378,EUR,0.99,100,fr
+326,5194,Organic Bunny Fruit Snacks Berry Patch,Patch de baies de collations aux fruits de lapin biologiques,13372,USD,8.49,72.72727273,en
+327,8048,Packaged Grape Tomatoes,Tomates raisins emballÃ©es,13355,EUR,2.49,76,fr
+328,23537,Light Brown Sugar,Sucre roux clair,13354,EUR,1.57,77.77777778,fr
+329,2825,Organic Original Hommus,Hommus Original Bio,13340,SEK,25.9,82.35294118,fr
+330,16965,Chocolate Ice Cream,Glace Au Chocolat,13273,USD,4.99,91.89189189,en
+331,38928,0% Greek Strained Yogurt,Yaourt grec 0 %,13238,EUR,1.33,77.41935484,fr
+332,21195,Organic Extra Virgin Olive Oil,Huile d'olive extra vierge biologique,13216,USD,24.99,100,en
+333,19706,Organic Nectarine,Nectarine biologique,13101,EUR,1.98,78.94736842,fr
+334,18288,Sea Salt Potato Chips,Chips de pommes de terre au sel de mer,13086,EUR,2.78,78.87323944,fr
+335,13380,Organic Blue Corn Tortilla Chips,Chips tortilla de maÃ¯s bleu biologique,13040,USD,3.99,85.71428571,en
+336,7751,Tomato Ketchup,Ketchup aux tomates,13039,EUR,2,100,en
+337,15872,Celery Hearts,Coeurs de cÃ©leri,13039,EUR,3.26,100,fr
+338,4562,English Seedless Cucumber,Concombre anglais sans pÃ©pins,13034,EUR,2.29,64,fr
+339,9339,Organic Chicken & Apple Sausage,Saucisse biologique au poulet et aux pommes,12992,USD,7.49,100,en
+340,22395,Tomato Sauce,Sauce Tomate,12906,EUR,1.67,88.88888889,fr
+341,38164,Almonds & Sea Salt in Dark Chocolate,Amandes et sel de mer au chocolat noir,12905,USD,3.99,90.4109589,en
+342,46720,Organic Free Range Chicken Broth,Bouillon de poulet fermier biologique,12849,USD,1.99,85.71428571,en
+343,40723,Organic Cripps Pink Apples,Pommes roses Cripps biologiques,12834,USD,3.99,80,en
+344,15902,100 Calorie  Per Bag Popcorn,100 calories par sac de pop-corn,12822,EUR,1.9,66.66666667,fr
+345,35140,Organic Whole Cashews,Noix de cajou entiÃ¨res biologiques,12816,USD,8.49,72.72727273,en
+346,4472,Toasted Coconut Almondmilk Blend,MÃ©lange de lait d'amande et de noix de coco grillÃ©e,12749,USD,5.79,66.66666667,en
+347,3376,Organic Whole Kernel Sweet Corn No Salt Added,MaÃ¯s sucrÃ© Ã  grains entiers biologique sans sel ajoutÃ©,12738,USD,2.49,69.87951807,en
+348,13166,"Organic Milk Reduced Fat, 2% Milkfat","Lait biologique allÃ©gÃ©, 2% de matiÃ¨re grasse laitiÃ¨re",12737,USD,6.99,59.45945946,en
+349,29662,Potato Yukon Gold Organic,Pomme De Terre Yukon Gold Biologique,12709,EUR,2.98,66.66666667,fr
+350,2855,Organic Good Seed Bread,Pain aux bonnes graines bio,12705,USD,8.79,73.68421053,en
+351,28993,Iceberg Lettuce,Laitue Iceberg,12698,USD,5.99,100,en
+352,7175,Organic Whipped Naturally Buttery Spread,Tartinade fouettÃ©e biologique au beurre naturel,12648,USD,12.49,63.88888889,en
+353,13575,Apples,Pommes,12575,EUR,1.5,100,en
+354,13740,Organic Summer Strawberry Bunny Fruit Snacks,Snacks biologiques aux fruits de lapin aux fraises d'Ã©tÃ©,12568,USD,6.99,72,en
+355,12916,Ginger Ale,Soda au gingembre,12536,EUR,2.69,76.92307692,en
+356,40516,Organic Romaine Hearts,CÅ“urs de Romaine Bio,12495,EUR,6.8,80.95238095,fr
+357,45200,Organic Cauliflower,Chou-fleur biologique,12492,EUR,1.75,100,fr
+358,7503,Whole Almonds,Amandes entiÃ¨res,12474,EUR,3.99,87.5,fr
+359,5782,Grade A Large White Eggs,Gros Å“ufs blancs de catÃ©gorie A,12441,USD,5.79,83.72093023,en
+360,19691,Green Seedless Grapes,Raisins verts sans pÃ©pins,12437,EUR,7,100,en
+361,5134,Organic Thompson Seedless Raisins,Raisins secs sans pÃ©pins Thompson biologiques,12430,USD,6.49,60.60606061,en
+362,40332,"Cage Free Brown Eggs-Large, Grade A","Å’ufs bruns sans cage, gros, catÃ©gorie A",12424,USD,4.19,81.92771084,en
+363,12456,Organic Sunday Bacon,Bacon du dimanche bio,12391,USD,3.28,68.57142857,en
+364,21174,I Heart Baby Kale,J'aime bÃ©bÃ© chou frisÃ©,12361,EUR,5.54,64,fr
+365,5258,Sparkling Water,Eau gazeuse,12321,EUR,1.26,75.86206897,fr
+366,10644,Italian Extra Virgin Olive Oil,Huile d'olive extra vierge italienne,12318,USD,15.49,100,en
+367,39561,Crackers Cheddar Bunnies Snack Packs,Packs de collations Crackers Cheddar Bunnies,12315,USD,5.29,67.64705882,en
+368,4421,Organic Beef Uncured Hot Dogs,Hot Dogs non salÃ©s au bÅ“uf biologique,12230,USD,7.29,69.04761905,en
+369,33129,Classic Hummus,Houmous classique,12196,USD,2.87,88,en
+370,44765,Colby Cheese Sticks,BÃ¢tonnets de fromage Colby,12191,EUR,4.66,68.18181818,en
+371,20955,Cereal,CÃ©rÃ©ale,12184,EUR,4.49,87.5,fr
+372,46584,YoKids Blueberry & Strawberry/Vanilla Yogurt,YoKids Yogourt Myrtille & Fraise/Vanille,12179,EUR,4.62,61.97183099,fr
+373,22124,Total 0% Raspberry Yogurt,Yaourt Total 0% Framboise,12153,EUR,2.28,73.07692308,fr
+374,44570,Kale Greens,Feuilles de chou frisÃ©,12141,EUR,1.25,75,fr
+375,3464,"Organic Butterhead (Boston, Butter, Bibb) Lettuce","Laitue pommÃ©e biologique (Boston, Butter, Bibb)",12137,USD,29.99,60,en
+376,43662,"Yogurt, Strained Low-Fat, Coconut","Yaourt, Ã©gouttÃ© faible en gras, noix de coco",12123,USD,1.79,70.96774194,en
+377,13198,85% Lean Ground Beef,85Â % de bÅ“uf hachÃ© maigre,12123,USD,12.49,74.28571429,en
+378,10070,Organic 1% Low Fat Milk,Lait biologique 1% faible en gras,12121,USD,6.36,70.58823529,en
+379,32691,Vanilla Ice Cream,Glace Vanille,12117,USD,6.39,100,en
+380,7559,Cinnamon Rolls with Icing,Brioches Ã  la cannelle avec glaÃ§age,12102,EUR,10.02,64.61538462,fr
+381,37710,Trail Mix,MÃ©lange montagnard,12068,NOK,42.9,76.19047619,en
+382,36735,Organic Roasted Sliced Chicken Breast,Poitrine De Poulet RÃ´tie En Tranches Biologique,12056,USD,9.29,66.66666667,en
+383,35898,Original Hot Sauce,Sauce piquante originale,12048,USD,4.79,100,en
+384,37029,Cream Cheese Spread,Fromage Ã  la crÃ¨me Ã  tartiner,11975,EUR,2.23,81.48148148,fr
+385,34262,Hint Of Sea Salt Almond Nut Thins,"Un soupÃ§on de sel de mer, d'amandes et de noix",11945,USD,3.69,66.66666667,en
+386,1025,Organic Fresh Basil,Basilic frais biologique,11930,EUR,9.75,73.68421053,fr
+387,18918,Organic Chopped Spinach,Ã‰pinards hachÃ©s biologiques,11925,USD,2.89,100,en
+388,42719,Natural Premium Coconut Water,Eau de coco naturelle de qualitÃ© supÃ©rieure,11908,USD,2.39,68.96551724,en
+389,11408,Crushed Tomatoes,Tomates concassÃ©es,11872,EUR,1.45,100,fr
+390,18234,Organic Spinach Bunch,Bouquet d'Ã©pinards biologiques,11843,USD,2.89,81.81818182,en
+391,44560,Kids Organic Chocolate Chip ZBars,ZBars aux pÃ©pites de chocolat bio pour enfants,11798,USD,5.79,72.22222222,en
+392,23029,Organic Uncured Sliced Black Forest Ham,Jambon ForÃªt-Noire tranchÃ© non affinÃ© biologique,11747,USD,8.99,70.58823529,en
+393,45123,Organic 21 Grain Thin Sliced Bread,Pain tranchÃ© fin biologique 21 grains,11736,USD,5.99,91.89189189,en
+394,3896,Organic Honey Sweet Whole Wheat Bread,Pain de blÃ© entier sucrÃ© au miel biologique,11705,USD,7.99,80.59701493,en
+395,9092,Organic Vegetable Broth,Bouillon De LÃ©gumes Biologique,11703,USD,1.99,82.60869565,en
+396,28745,Oven Roasted Turkey,Dinde rÃ´tie au four,11684,USD,5.49,88.37209302,en
+397,18811,Organic Apple Juice,Jus de pomme biologique,11666,USD,4.49,100,en
+398,26384,Large Brown Eggs,Gros Å“ufs bruns,11655,USD,5.99,82.05128205,en
+399,35503,Organic Vanilla Almond Milk,Lait d'Amande Vanille Bio,11621,EUR,2.59,87.27272727,fr
+400,35628,Organic Strawberry Smoothie,Smoothie aux fraises bio,11610,USD,8.39,80.59701493,en
+401,47141,Cola,Cola,11585,NOK,28,100,en
+402,28476,Organic Small Curd Cottage Cheese,Fromage Cottage Petit CaillÃ© Biologique,11570,USD,8.49,68.65671642,en
+403,25138,Organic Plain Greek Whole Milk Yogurt,Yaourt grec nature au lait entier biologique,11552,USD,2.99,78.04878049,en
+404,21386,Smartwater,Eau intelligente,11504,EUR,1.65,61.9047619,fr
+405,47042,Organic Red On the Vine Tomato,Tomate rouge sur vigne biologique,11466,USD,3.9,72,en
+406,46820,Vanilla Pure Almond Milk,Lait d'Amande Pur Vanille,11455,EUR,1.97,86.36363636,fr
+407,21292,Rainbow Bell Peppers,Poivrons arc-en-ciel,11451,EUR,2.99,77.77777778,en
+408,11140,Organic Romaine Leaf,Feuille de romaine biologique,11431,USD,4.29,75,en
+409,21573,Roasted Pine Nut Hummus,Houmous aux pignons de pin rÃ´tis,11381,EUR,2.9,67.9245283,fr
+410,38768,Sweet Kale Salad Mix,MÃ©lange de salade de chou frisÃ© sucrÃ©,11362,EUR,14.5,67.53246753,fr
+411,17949,Mild Cheddar Cheese Sticks,BÃ¢tonnets de fromage cheddar doux,11339,USD,3.29,86.95652174,en
+412,1999,Organic Chicken Broth,Bouillon de poulet biologique,11297,USD,10.99,89.36170213,en
+413,14197,Tomato Paste,PÃ¢te De Tomate,11279,NOK,44.9,95.65217391,en
+414,46616,Organic Dark Chocolate Peanut Butter Cups,Coupes de beurre de cacahuÃ¨te au chocolat noir biologique,11264,USD,6.99,93.18181818,en
+415,32433,Green Peas,Pois Verts,11253,EUR,7.95,100,en
+416,37220,Organic Strawberry Fruit Spread,Tartinade aux fraises biologiques,11238,USD,6.99,100,en
+417,47759,Mandarin Oranges,Mandarines,11238,PLN,9.99,100,en
+418,39947,Blackberry Cucumber Sparkling Water,Eau PÃ©tillante MÃ»re Concombre,11237,EUR,3.89,68.18181818,fr
+419,24954,Total 0% with Honey Nonfat Greek Strained Yogurt,Total 0% avec du yaourt grec sans gras au miel,11234,EUR,5.76,57.89473684,fr
+420,41065,Organic Yellow Squash,Courge jaune biologique,11223,EUR,3.25,83.72093023,fr
+421,21333,Original Whipped Cream Cheese,Fromage Ã  la crÃ¨me fouettÃ© original,11179,EUR,2.23,70,fr
+422,25824,Pita Chips Simply Naked,Chips de pita simplement nues,11178,EUR,3.28,67.9245283,fr
+423,48628,Organic Whole Wheat Bread,Pain de blÃ© entier biologique,11165,USD,7.99,80,en
+424,43504,Organic Chicken Strips,LaniÃ¨res de poulet bio,11110,USD,9.99,100,en
+425,1194,Natural Artisan Water,Eau artisanale naturelle,11110,EUR,2.49,75,fr
+426,44628,Organic Dijon Mustard,Moutarde de Dijon Bio,11103,EUR,1.73,89.47368421,fr
+427,5456,Green Tea With Ginseng and Honey,ThÃ© vert au ginseng et au miel,11079,USD,5.99,60.71428571,en
+428,38273,Marinara Pasta Sauce,Sauce pour pÃ¢tes marinara,11066,USD,8.79,100,en
+429,15613,Salted Tub of Butter,Pot de beurre salÃ©,11053,EUR,3.89,79.06976744,fr
+430,35535,Organic Red Chard Greens,Feuilles de blettes rouges biologiques,11029,USD,5.99,70.83333333,en
+431,15424,Purified Water,Eau purifiÃ©e,10998,USD,3.69,66.66666667,en
+432,27548,Original Semisoft Cheese,Fromage mi-ferme original,10990,USD,7.89,75,en
+433,24841,Aged White Cheddar Baked Rice & Corn Puffs Gluten Free Lunch Packs,Paquets-repas sans gluten de riz et de maÃ¯s au four au cheddar blanc vieilli,10978,USD,7.99,60.86956522,en
+434,39190,Vanilla Unsweetened Almond Milk,Lait d'amande non sucrÃ© Ã  la vanille,10972,USD,3.49,98.36065574,en
+435,27730,Almond Breeze Original Almond Milk,Lait d'amande original Almond Breeze,10950,EUR,2.17,78.78787879,fr
+436,42110,Organic Macaroni Shells & Real Aged Cheddar,Coquilles de macaroni biologiques et vrai cheddar vieilli,10907,USD,4.99,64.36781609,en
+437,29307,Baby Arugula,BÃ©bÃ© roquette,10893,EUR,3.71,73.33333333,fr
+438,14161,Kiwi,Kiwi,10872,NOK,29.9,100,en
+439,49175,Organic Pinto Beans,Haricots Pinto biologiques,10829,USD,4.99,75,en
+440,14462,Sliced Black Olives,Olives noires tranchÃ©es,10816,GBP,0.89,84.21052632,en
+441,31066,Aluminum Foil,Feuille d'aluminium,10774,EUR,1.9,72.72727273,en
+442,16696,Coke Classic,Coca Classique,10772,NOK,51.9,86.95652174,en
+443,26800,Organic Baby Kale Mix,MÃ©lange de chou frisÃ© biologique pour bÃ©bÃ©,10725,EUR,1.85,70.58823529,fr
+444,9825,Organic Multigrain Waffles,Gaufres multigrains biologiques,10704,USD,1.99,66.66666667,en
+445,5322,Gluten Free Dark Chocolate Chunk Chewy with a Crunch Granola Bars,Morceaux de chocolat noir sans gluten tendres avec barres granola croquantes,10701,USD,6.99,66.66666667,en
+446,27744,Organic Whipping Cream,CrÃ¨me fouettÃ©e biologique,10687,EUR,3.25,80,fr
+447,8309,Nonfat Icelandic Style Strawberry Yogurt,Yaourt aux fraises de style islandais sans gras,10663,USD,4.69,63.01369863,en
+448,11005,Organic Cream Cheese Bar,Barre de fromage Ã  la crÃ¨me biologique,10653,USD,11.99,77.96610169,en
+449,41588,Firm Tofu,Tofu ferme,10652,EUR,2.45,100,fr
+450,11068,Medium Cheddar Cheese Block,Bloc de fromage cheddar moyen,10652,NOK,37.9,75.55555556,en
+451,27796,Real Mayonnaise,Vraie mayonnaise,10630,EUR,3.95,83.87096774,fr
+452,27325,Alpine Spring Water,Eau de source alpine,10603,USD,1.98,82.05128205,en
+453,2228,Organic Frozen Mango Chunks,Morceaux de mangue surgelÃ©s biologiques,10584,USD,9.99,85.10638298,en
+454,7969,Lime,Citron vert,10576,EUR,3.49,100,en
+455,22474,Cheddar Bunnies Snack Crackers,Craquelins Cheddar Bunnies,10557,USD,5.29,74.19354839,en
+456,9020,Boneless Skinless Chicken Thighs,Cuisses de poulet dÃ©sossÃ©es et sans peau,10550,USD,3.49,78.04878049,en
+457,16521,Walnut Halves & Pieces,MoitiÃ©s et morceaux de noix,10531,GBP,2,69.76744186,en
+458,5769,Organic Chicken Stock,Bouillon de poulet biologique,10521,USD,9.99,83.72093023,en
+459,3298,Mozzarella String Cheese,Fromage ficelle mozzarella,10521,EUR,2.64,81.81818182,fr
+460,1244,Organic Orange Bell Pepper,Poivron Orange Bio,10518,EUR,3.49,87.5,fr
+461,13517,Whole Wheat Bread,Pain De BlÃ© Entier,10512,NOK,36.9,73.68421053,en
+462,27323,Pure & Natural Sour Cream,CrÃ¨me sure pure et naturelle,10483,EUR,1.88,70.58823529,fr
+463,2452,Naturals Chicken Nuggets,Nuggets de poulet naturels,10462,EUR,5.65,78.57142857,fr
+464,28601,Collard Greens,Chou vert,10455,EUR,2.89,100,fr
+465,2314,Whole Milk Ricotta Cheese,Fromage Ricotta Au Lait Entier,10434,NOK,40.1,66.66666667,en
+466,21927,Organic Boneless Skinless Chicken Breast,Poitrine de poulet dÃ©sossÃ©e et sans peau biologique,10424,USD,15.41,73.17073171,en
+467,32177,Blood Oranges,Oranges sanguines,10421,EUR,4.09,93.75,fr
+468,13733,Red Potatoes,Pommes de terre rouges,10415,EUR,2.8,100,en
+469,12980,Large Greenhouse Tomato,Grande tomate de serre,10405,EUR,4.99,79.06976744,fr
+470,15261,Organic Rosemary,Romarin biologique,10390,EUR,2.65,80,fr
+471,19173,Orange Calcium & Vitamin D Pulp Free,Orange sans pulpe de calcium et de vitamine D,10390,EUR,5.96,62.5,fr
+472,21872,Organic Italian Salad,Salade Italienne Bio,10388,EUR,4.84,86.36363636,fr
+473,20345,Thin Crust Pepperoni Pizza,Pizza au pepperoni Ã  croÃ»te mince,10386,NOK,29.9,73.17073171,en
+474,41658,Authentic French Brioche Hamburger Buns,Pains Ã  hamburger briochÃ©s franÃ§ais authentiques,10379,EUR,1.69,63.15789474,en
+475,18479,Organic Low Sodium Vegetable Broth,Bouillon de lÃ©gumes biologique Ã  faible teneur en sodium,10375,USD,5.29,82.92682927,en
+476,49191,Cran Raspberry Sparkling Water,Eau PÃ©tillante Cran Framboise,10365,USD,1.25,76.36363636,en
+477,20734,Organic Medjool Dates,Dattes Medjool Bio,10360,USD,14.99,86.48648649,en
+478,4086,Mint,Menthe,10347,EUR,1.5,100,en
+479,22849,Bunny-Luv Fresh Organic Carrots,Carottes biologiques fraÃ®ches Bunny-Luv,10347,EUR,1.98,63.15789474,fr
+480,36724,Organic Sea Salt Roasted Seaweed Snacks,Snacks aux algues grillÃ©es au sel de mer biologique,10345,USD,1.69,63.49206349,en
+481,17316,Vitamin D Organic Whole Milk,Lait entier biologique Ã  la vitamine D,10329,USD,4.59,78.26086957,en
+482,5373,Organic No Salt Added Diced Tomatoes,Tomates en dÃ©s biologiques sans sel ajoutÃ©,10303,USD,2.49,100,en
+483,26497,Romaine Lettuce,Laitue romaine,10281,EUR,1.49,100,en
+484,20738,Plain Bagels,Bagels nature,10274,USD,7.99,100,en
+485,44799,Fresh CA Grown Eggs,Oeufs frais cultivÃ©s en Californie,10260,EUR,3.99,69.09090909,fr
+486,20574,Roasted Turkey,Dinde RÃ´tie,10195,USD,5.49,73.68421053,en
+487,5161,Dried Mango,Mangue sÃ©chÃ©e,10150,EUR,4.95,92.85714286,fr
+488,35914,Dha Omega 3 Reduced Fat 2% Milk,Lait Dha Omega 3 allÃ©gÃ© 2 %,10148,USD,5.99,61.01694915,en
+489,22959,Reduced Fat Milk 100% Lactose Free,Lait allÃ©gÃ© 100% sans lactose,10130,EUR,2.15,75.55555556,fr
+490,37524,Fresh Mozzarella Ball,Boule de Mozzarella FraÃ®che,10101,CHF,2.3,81.08108108,en
+491,6948,Organic Original Almond Milk,Lait d'Amande Original Bio,10060,EUR,2.17,91.66666667,fr
+492,12845,Chopped Walnuts,Noix hachÃ©es,10027,EUR,9.99,78.26086957,fr
+493,4656,Raspberry Preserves,Conserves de Framboises,9989,USD,8.39,88.37209302,en
+494,17758,Strawberry Rhubarb Yoghurt,Yaourt Fraise Rhubarbe,9961,EUR,2.28,72.34042553,fr
+495,47630,Medium Navel Orange,Orange nombril moyen,9959,EUR,1.7,77.41935484,en
+496,26348,Mixed Fruit Fruit Snacks,Snacks aux fruits mÃ©langÃ©s,9955,EUR,5.32,70.83333333,fr
+497,25513,Boomchickapop Sea Salt Popcorn,MaÃ¯s soufflÃ© au sel de mer Boomchickapop,9938,NOK,14.8,63.15789474,en
+498,33055,Organic Golden Delicious Apple,Pomme Golden Delicious biologique,9929,EUR,3.49,83.01886792,en
+499,34584,Organic Sliced Peaches,PÃªches tranchÃ©es biologiques,9922,USD,3.98,84.61538462,en
+500,11712,Cage Free Large White Eggs,Gros Å“ufs blancs sans cage,9917,USD,6.99,82.14285714,en
+501,21543,Organic Quick Oats,Avoine rapide biologique,9893,USD,6.68,71.42857143,en
+502,15649,Baby Seedless Cucumbers,BÃ©bÃ©s concombres sans pÃ©pins,9881,EUR,2.29,65.30612245,fr
+503,35887,Organic Mixed Vegetables,MÃ©lange de lÃ©gumes biologiques,9877,USD,2.49,80,en
+504,31720,Organic  Whole Milk,Lait entier biologique,9842,USD,4.59,100,en
+505,18926,Fat Free Strawberry Yogurt,Yaourt aux fraises sans gras,9813,EUR,2.49,70.1754386,en
+506,40198,Blueberry Yoghurt,Yaourt Aux Myrtilles,9788,NOK,14.4,81.25,en
+507,48697,Canola Oil,Huile de canola,9783,EUR,1.55,89.65517241,fr
+508,49131,Smoked Turkey Breast Slices,Tranches de poitrine de dinde fumÃ©e,9746,EUR,2.66,80,fr
+509,39108,Pulp Free Orange Juice,Jus d'orange sans pulpe,9733,EUR,2.45,95.45454545,fr
+510,6740,Organic Braeburn Apple,Pomme Braeburn biologique,9720,EUR,2.98,78.26086957,fr
+511,18963,Apple Cider Vinegar,Vinaigre de cidre de pomme,9710,USD,1.99,88.37209302,en
+512,31651,Extra Fancy Unsalted Mixed Nuts,MÃ©lange de noix non salÃ©es extra fantaisie,9709,EUR,23.95,66.66666667,en
+513,23543,Organic Extra Large Brown Eggs,Å’ufs bruns extra gros biologiques,9564,USD,9.99,87.09677419,en
+514,45104,ALMONDBREEZE UNSWEETENED,BREEZE D'AMANDES NON SUCRÃ‰ES,9541,USD,8.79,76.59574468,en
+515,5612,Reduced Fat Milk,Lait allÃ©gÃ©,9514,USD,2.79,69.56521739,en
+516,36316,Lemon Sparkling Water,Eau Gazeuse CitronnÃ©e,9496,EUR,0.59,73.46938776,fr
+517,40377,Unrefined Virgin Coconut Oil,Huile de noix de coco vierge non raffinÃ©e,9490,EUR,14.65,66.66666667,fr
+518,30406,Butternut Squash,Courge musquÃ©e,9458,USD,3.73,100,en
+519,7500,Organic Vanilla Extract,Extrait de Vanille Bio,9450,EUR,12.5,92.68292683,fr
+520,11512,Honey Yoghurt,Yaourt au Miel,9427,NOK,13.9,83.33333333,en
+521,44008,Organic Greek Whole Milk Blended Vanilla Bean Yogurt,Yogourt grec biologique au lait entier et aux gousses de vanille,9417,USD,1.99,77.35849057,en
+522,9755,Original Popcorn,Pop-corn original,9410,EUR,3.2,85.71428571,fr
+523,30639,Organic Orange Juice,Jus d'Orange Bio,9403,EUR,1.29,87.5,fr
+524,44661,Bicolor Sweet Corn,MaÃ¯s sucrÃ© bicolore,9399,USD,0.59,71.42857143,en
+525,36082,Organic Mango,Mangue Bio,9382,USD,0.69,100,en
+526,18656,Organic Red Potato,Pomme de terre rouge biologique,9381,EUR,4.49,78.43137255,fr
+527,23516,Organic Unbleached All-Purpose Flour,Farine tout usage biologique non blanchie,9292,USD,5.49,76.66666667,en
+528,24221,Organic Red Grapes,Raisins rouges biologiques,9284,EUR,1.9,79.16666667,fr
+529,40063,Gluten Free Chocolate Chip Cookies,Biscuits aux pÃ©pites de chocolat sans gluten,9279,USD,5.49,83.95061728,en
+530,10305,Black Plum,Prune noire,9270,EUR,1.33,73.68421053,en
+531,46069,Supergreens!,Des super-vertsÂ !,9240,EUR,12.8,70,en
+532,32303,Red Seedless Grapes,Raisins rouges sans pÃ©pins,9182,USD,6.99,100,en
+533,13838,Natural Free & Clear Dish Liquid,Liquide vaisselle naturel gratuit et transparent,9175,EUR,3.39,72.72727273,fr
+534,12576,Kiwi Sandia Sparkling Water,Eau PÃ©tillante Kiwi Sandia,9148,USD,6.69,66.66666667,en
+535,32403,Fat Free Skim Milk,Lait Ã©crÃ©mÃ© sans gras,9130,EUR,1.96,70.37037037,fr
+536,12409,Organic Distilled White Vinegar,Vinaigre blanc distillÃ© biologique,9113,EUR,1.9,75,fr
+537,45504,Whole Organic Omega 3 Milk,Lait Entier OmÃ©ga 3 Bio,9108,USD,4.59,81.81818182,en
+538,12872,Penne Rigate,Penne Rigate,9097,EUR,2.09,100,en
+539,43129,Panko Bread Crumbs,Chapelure Panko,9008,EUR,0.89,75,fr
+540,28427,Vitamin D Whole Milk,Lait entier Ã  la vitamine D,8996,EUR,1.51,72.13114754,fr
+541,2450,Taco Seasoning,Assaisonnement pour tacos,8992,USD,2.99,71.79487179,en
+542,39581,French Vanilla Creamer,CrÃ©mier Ã  la vanille franÃ§aise,8987,USD,4.39,91.66666667,en
+543,30353,Curate Cherry Lime Sparkling Water,Eau pÃ©tillante cerise-lime Curate,8974,USD,1.25,64.40677966,en
+544,25718,Cold Brew Coffee,CafÃ© infusÃ© Ã  froid,8971,USD,1.99,80,en
+545,11759,Organic Simply Naked Pita Chips,Chips de pita bio Simply Naked,8957,USD,8.99,69.09090909,en
+546,31215,Lemon Yogurt,Yaourt au Citron,8941,NOK,25.9,80,en
+547,34668,Organic Large Grade AA Omega-3 Eggs,Å’ufs omÃ©ga-3 biologiques de grande qualitÃ© AA,8921,USD,6.89,87.09677419,en
+548,47912,Vanilla Skyr Style Yogurt,Yaourt style Skyr Ã  la vanille,8910,EUR,1.69,73.07692308,fr
+549,48559,Synergy Organic Kombucha Gingerberry,Synergy Kombucha Bio Gingembre,8910,EUR,4.41,79.31034483,fr
+550,46842,Plain Pre-Sliced Bagels,Bagels nature prÃ©tranchÃ©s,8900,EUR,2.79,70.37037037,fr
+551,30696,Eggo Homestyle Waffles,Gaufres maison Eggo,8880,USD,6.99,65.51724138,en
+552,26317,Organic Lemonade,Limonade Bio,8869,USD,3.99,100,en
+553,29941,Red Plums,Prunes rouges,8869,EUR,5.95,91.66666667,fr
+554,25640,White Peach,PÃªche blanche,8856,USD,6.59,100,en
+555,14715,Coconut Water,Eau de coco,8848,EUR,3.49,100,fr
+556,27690,Apple Cinnamon GoGo Squeez,GoGo Squeez Pomme Cannelle,8839,EUR,2.99,69.3877551,fr
+557,6631,No Pulp Calcium & Vitamin D Pure Orange Juice,"Jus d'orange pur sans pulpe, calcium et vitamine D",8825,EUR,5.15,67.56756757,fr
+558,28553,Whole Strawberries,Fraises entiÃ¨res,8822,USD,9.99,81.81818182,en
+559,15392,Organic Mayonnaise,Mayonnaise Bio,8817,EUR,1.99,86.66666667,fr
+560,43875,Baby Food Stage 2 Blueberry Pear & Purple Carrot,Aliments pour bÃ©bÃ©s Stage 2 Myrtille Poire & Carotte violette,8793,USD,26.99,58.94736842,en
+561,2091,Almond Nut & Rice Cracker Snacks,"Snacks aux amandes, aux noix et aux craquelins de riz",8775,EUR,2.6,63.33333333,en
+562,35163,Red Leaf Lettuce,Laitue frisÃ©e rouge,8754,CAD,3.98,76.19047619,en
+563,1529,"Parsley, Italian (Flat), New England Grown","Persil italien (plat), cultivÃ© en Nouvelle-Angleterre",8736,USD,10.99,59.375,en
+564,36929,"Milk, Vitamin D","Lait, Vitamine D",8732,EUR,2.43,70.96774194,fr
+565,32747,Low Fat 1% Milk,Lait faible en gras 1 %,8731,USD,6.99,92.30769231,en
+566,41400,Crunchy Oats 'n Honey Granola Bars,Barres granola croustillantes Ã  l'avoine et au miel,8723,EUR,3.26,66.66666667,en
+567,38996,Grape Tomatoes,Tomates raisins,8698,EUR,1.99,88.88888889,en
+568,39558,Gold Potato,Pomme de terre dorÃ©e,8677,EUR,2.99,85,fr
+569,13263,Non Fat Acai & Mixed Berries Yogurt,Yaourt sans gras Ã  l'aÃ§aÃ¯ et aux baies mÃ©langÃ©es,8662,USD,2.99,69.76744186,en
+570,25753,Organic Homestyle Waffles,Gaufres maison bio,8653,EUR,5.59,68.75,fr
+571,5550,YoBaby Peach Pear Yogurt,Yaourt Ã  la pÃªche et Ã  la poire YoBaby,8641,EUR,1.51,61.11111111,fr
+572,31981,1% Low Fat Milk,Lait faible en gras 1 %,8621,USD,6.99,92.30769231,en
+573,24009,Organic Long Grain White Rice,Riz blanc Ã  grains longs biologique,8598,USD,7.99,100,en
+574,7628,"Dressing, Jersey Sweet Onion, Calorie Free","Vinaigrette, oignon doux Jersey, sans calories",8579,EUR,0.65,69.33333333,fr
+575,14218,Grade A Large Eggs Cage Free Omega 3,"Gros Å“ufs de catÃ©gorie A, OmÃ©ga 3 sans cage",8568,USD,4.49,82.75862069,en
+576,11576,Corn Chips,Chips de maÃ¯s,8566,EUR,3.93,80,en
+577,45948,Gluten Free 7 Grain Bread,Pain aux 7 cÃ©rÃ©ales sans gluten,8564,EUR,1.35,72,fr
+578,23236,Chopped Spinach,Ã‰pinards hachÃ©s,8559,USD,2.49,100,en
+579,46149,Zero Calorie Cola,Cola zÃ©ro calorie,8558,USD,6.49,77.41935484,en
+580,5652,Organic Red Potatoes,Pommes de terre rouges biologiques,8550,EUR,2.8,75,en
+581,14852,All Natural Marinara Sauce,Sauce marinara entiÃ¨rement naturelle,8548,USD,8.79,78.26086957,en
+582,17652,Air Chilled Breaded Chicken Breast Nuggets,Nuggets de poitrine de poulet panÃ©s rÃ©frigÃ©rÃ©s Ã  l'air,8548,USD,7.99,69.87951807,en
+583,49533,Cane Sugar,Sucre de canne,8519,EUR,3.22,87.5,fr
+584,12099,Honey Greek Yogurt,Yaourt grec au miel,8486,NOK,27.9,80,en
+585,31766,Cheese Pizza Snacks,Collations de pizza au fromage,8483,USD,5.99,77.41935484,en
+586,14129,Organic Chicken Bone Broth,Bouillon d'os de poulet biologique,8479,USD,10.99,100,en
+587,22142,100% Pure Pumpkin,Citrouille 100 % pure,8478,USD,1.99,82.75862069,en
+588,43394,Organic Lactose Free Whole Milk,Lait entier biologique sans lactose,8477,USD,3.99,76.36363636,en
+589,20940,Organic Low Fat Milk,Lait biologique faible en gras,8438,USD,6.36,75,en
+590,11440,Chicken Breast Tenders Breaded,Filets de poitrine de poulet panÃ©s,8436,USD,7.99,84.50704225,en
+591,17284,Organic Sugar Snap Peas,Pois sucrÃ©s biologiques,8423,EUR,2.98,78.04878049,fr
+592,4461,Organic Raw Unfiltered Apple Cider Vinegar,Vinaigre de cidre de pomme biologique cru non filtrÃ©,8408,EUR,1.9,68.29268293,fr
+593,14651,Tommy/Kent/Keitt/Haden Mango,Tommy/Kent/Keitt/Haden Mangue,8400,EUR,2.95,58.53658537,fr
+594,34217,Pesto Tortellini  Bowls,Bols de tortellini au pesto,8391,EUR,2.59,73.17073171,en
+595,14633,Veggie Chips,Chips vÃ©gÃ©tariennes,8377,EUR,6.62,80,fr
+596,7156,Traditional Plain Greek Yogurt,Yaourt grec nature traditionnel,8371,EUR,1.99,67.9245283,fr
+597,28928,Uncured Black Forest Ham,Jambon cru ForÃªt-Noire,8370,EUR,3.15,80,fr
+598,46886,Raspberry Yoghurt,Yaourt Framboise,8368,EUR,2.62,82.05128205,fr
+599,41149,Organic Riced Cauliflower,Chou-fleur en riz biologique,8366,USD,4.19,100,en
+600,32465,Sliced White Mushrooms,Champignons blancs tranchÃ©s,8361,EUR,4.69,80.85106383,fr
+601,24810,Organic Lightly Salted Brown Rice Cakes,Galettes de Riz Brun LÃ©gÃ¨rement SalÃ©es Bio,8357,USD,4.99,69.47368421,en
+602,29926,Roasted & Salted Almonds,Amandes grillÃ©es et salÃ©es,8347,EUR,2.19,100,fr
+603,38772,Provolone,Provolone,8337,EUR,2.19,69.23076923,en
+604,10831,Yobaby Organic Plain Yogurt,Yobaby Yogourt nature biologique,8337,CHF,0.7,70.37037037,fr
+605,48395,Original Rice Pilaf Mix,MÃ©lange de riz pilaf original,8329,EUR,2.35,71.42857143,en
+606,6489,Backyard Barbeque Potato Chips,Chips de pommes de terre barbecue dans la cour,8329,EUR,2.89,70,fr
+607,781,Organic Shredded Mild Cheddar,Cheddar doux rÃ¢pÃ© biologique,8326,EUR,1.45,79.16666667,fr
+608,42557,Crunchy Almond Butter,Beurre d'amande croquant,8324,USD,11.99,82.92682927,en
+609,10912,Lowfat Vanilla Yogurt,Yaourt Ã  la vanille faible en gras,8303,EUR,1.51,76.47058824,fr
+610,47788,Honeydew Melon,Melon miel,8291,EUR,1.99,96.55172414,en
+611,32429,Red Mango,Mangue Rouge,8259,EUR,2.64,78.26086957,fr
+612,2120,Sauvignon Blanc,Sauvignon Blanc,8246,EUR,15.86,88.88888889,en
+613,34466,Sweet Potatoes,Patates douces,8229,EUR,4.49,100,en
+614,18594,Emmentaler Swiss Slices,Emmentaler Tranches Suisses,8215,EUR,1.95,69.23076923,fr
+615,40268,Organic Wheat-Free & Gluten-Free Original Crackers,Crackers originaux biologiques sans blÃ© et sans gluten,8213,USD,5.99,71.30434783,en
+616,311,Naturals Savory Turkey Breakfast Sausage,Saucisse de petit-dÃ©jeuner savoureuse Ã  la dinde Naturals,8212,USD,7.49,64.1025641,en
+617,2326,Organic Blueberry Waffles,Gaufres aux bleuets biologiques,8202,USD,3.98,80.76923077,en
+618,35004,Macaroni Shells & White Cheddar Cheese,Coquilles de macaroni et fromage cheddar blanc,8200,USD,1.39,76.71232877,en
+619,7485,Garlic Hummus,Houmous Ã  l'ail,8179,USD,2.87,86.95652174,en
+620,8138,Traditional Hummus,Houmous traditionnel,8170,SEK,25.9,78.78787879,en
+621,29675,Organic Bagged Carrots,Carottes biologiques en sachet,8165,EUR,1.98,75,fr
+622,9515,Natural Classic Pork Breakfast Sausage,Saucisse de petit-dÃ©jeuner au porc classique naturelle,8162,USD,3.99,77.77777778,en
+623,10385,Organic English Cucumber,Concombre anglais biologique,8158,EUR,1.75,83.33333333,fr
+624,5240,Spaghetti  No 12,Spaghettis nÂ°12,8153,EUR,1.99,89.65517241,en
+625,33043,Crescent Rolls,Rouleaux de croissant,8150,NOK,50,71.42857143,fr
+626,3142,Organic Short Grain Brown Rice,Riz brun Ã  grains courts biologique,8138,USD,7.89,86.95652174,en
+627,2846,Organic Green Onions,Oignons verts biologiques,8138,EUR,4.85,83.33333333,fr
+628,12276,Chocolate Chip Cookie Dough Ice Cream,CrÃ¨me glacÃ©e Ã  la pÃ¢te Ã  biscuits aux pÃ©pites de chocolat,8137,USD,8.39,86.04651163,en
+629,5068,Cauliflower Florets,Fleurons de chou-fleur,8135,GBP,3.5,77.41935484,en
+630,16616,Organic Sliced White Mushrooms,Champignons blancs tranchÃ©s biologiques,8131,EUR,15.5,73.52941176,fr
+631,38200,Apple Juice,Jus de pomme,8121,EUR,4.29,100,fr
+632,36772,Bunny Pasta with Yummy Cheese Macaroni & Cheese,PÃ¢tes de lapin avec macaroni au fromage dÃ©licieux,8103,EUR,2.18,57.5,en
+633,4367,Garlic & Fine Herbs Gournay Cheese,Fromage Gournay Ail & Fines Herbes,8082,EUR,2.09,85.71428571,fr
+634,19006,Dark Chocolate Pretzels with Sea Salt,Bretzels au chocolat noir et sel marin,8080,USD,1.99,75.36231884,en
+635,29127,Dairy Free Unsweetened Coconut Milk,Lait de coco non sucrÃ© sans produits laitiers,8076,USD,8.79,72.72727273,en
+636,31433,Organic Cinnamon Crunch Cereal,CÃ©rÃ©ales croquantes Ã  la cannelle biologique,8073,USD,2.99,73.07692308,en
+637,4793,Wild Berry Smoothie,Smoothie aux baies sauvages,8043,EUR,1.89,69.3877551,fr
+638,34134,Spinach Peas & Pear Stage 2 Baby Food,"Aliments pour bÃ©bÃ©s aux Ã©pinards, aux pois et aux poires, Ã©tape 2",8035,USD,1.99,61.01694915,en
+639,12745,"Yogurt, Lowfat, Strawberry","Yaourt, faible en gras, fraise",8030,USD,3.19,70,en
+640,13292,"Juice Beverage, Cold Pressed, Kale Apple Ginger Romaine Spinach Cucumber Celery Parsley Lemon","Boisson Ã  base de jus, pressÃ©e Ã  froid, chou frisÃ©, pomme, gingembre, romaine, Ã©pinards, concombre, cÃ©leri, persil, citron",8025,EUR,4.34,50.74626866,en
+641,48104,Organic Lite Coconut Milk,Lait de coco allÃ©gÃ© biologique,8019,USD,3.79,82.75862069,en
+642,37119,Uncured Pepperoni,Pepperoni non sÃ©chÃ©,8010,USD,6.49,63.82978723,fr
+643,44234,Squeeze Tomato Ketchup,Presser le ketchup aux tomates,7988,EUR,4.7,81.08108108,en
+644,17224,Oats & Honey Gluten Free Granola,Granola sans gluten Ã  l'avoine et au miel,7987,USD,5.79,67.74193548,en
+645,47792,Organic Beans & Rice Cheddar Cheese Burrito,Burrito au fromage cheddar et haricots biologiques,7979,USD,16.49,65.82278481,en
+646,3583,Unsweetened Coconut Milk Beverage,Boisson au lait de coco non sucrÃ©e,7973,USD,8.79,84.375,en
+647,46522,Spaghetti Pasta,PÃ¢tes Spaghettis,7969,USD,4.49,100,en
+648,23405,Pure Baking Soda,Bicarbonate de soude pur,7952,EUR,3.85,90.90909091,fr
+649,44479,Organic Stringles Mozzarella String Cheese,Fromage Ã  ficelle mozzarella Stringles biologique,7924,USD,8.49,63.91752577,en
+650,16254,ZBar Organic Chocolate Brownie Energy Snack,Snack Ã©nergÃ©tique ZBar Brownie au chocolat biologique,7923,USD,1.89,67.6056338,en
+651,8555,Sweet Potato Tortilla Chips,Chips tortillas de patates douces,7920,USD,4.49,75.47169811,en
+652,34530,Organic Chicken Thighs,Cuisses de poulet biologiques,7917,USD,9.99,86.36363636,en
+653,37065,Serrano Chile Peppers,Piments Serrano du Chili,7912,USD,5.99,71.11111111,en
+654,22025,YoBaby Blueberry Apple Yogurt,YoBaby Yogourt aux pommes et aux bleuets,7898,USD,19.49,69.3877551,en
+655,16145,Organic Cannellini Beans,Haricots Cannellini biologiques,7890,USD,3.49,72.72727273,en
+656,9808,Organic Cottage Cheese,Fromage cottage biologique,7885,NOK,40.1,77.77777778,en
+657,19816,Sonoma Traditional Flour Tortillas 10 Count,Tortillas Ã  la farine traditionnelles Sonoma 10 piÃ¨ces,7869,USD,5.99,60.86956522,en
+658,4942,Vanilla Almond Breeze,Brise Vanille Amande,7860,EUR,1.15,85.71428571,fr
+659,38650,Organic Red Lentils,Lentilles rouges biologiques,7836,EUR,3.19,77.19298246,fr
+660,365,Cheerios Cereal,CÃ©rÃ©ales Cheerios,7830,EUR,3.14,87.17948718,fr
+661,14901,Raisins,Raisins secs,7821,EUR,3.96,100,en
+662,39040,Organic Sliced Crimini Mushrooms,Champignons Crimini tranchÃ©s biologiques,7812,EUR,15.5,77.14285714,fr
+663,30305,Fancy Eggplant,Aubergine fantaisie,7805,EUR,4.6,77.77777778,fr
+664,1700,White Cheddar Popcorn,MaÃ¯s soufflÃ© au cheddar blanc,7788,USD,7.29,82.35294118,en
+665,33548,Peach on the Bottom Nonfat Greek Yogurt,PÃªche sur le fond Yogourt grec sans gras,7783,USD,5.59,57.5,en
+666,14870,Icelandic Style Fat Free Plain Yogurt,Yogourt nature sans gras Ã  l'islandaise,7771,EUR,2.67,64.93506494,fr
+667,42460,Plain Mini Bagels,Mini bagels nature,7761,USD,7.99,82.75862069,en
+668,1408,Mini Cucumbers,Mini-concombres,7752,USD,2.99,87.5,en
+669,32566,Dha Omega 3 Vitamin D Milk,Lait Dha Omega 3 Vitamine D,7751,EUR,3.65,74.07407407,en
+670,20580,Original Real Vegetable Chips,Chips de vrais lÃ©gumes originales,7746,USD,7.89,75.47169811,en
+671,16262,Everything Bagels,Tout Bagels,7723,USD,11.99,100,en
+672,16617,Organic Muenster Cheese Slices,Tranches de fromage MÃ¼nster biologique,7709,USD,8.49,67.85714286,en
+673,17429,Jalapeno Hummus,Houmous aux jalapenos,7707,EUR,3.5,76.92307692,fr
+674,45646,Grated Parmesan Cheese,Parmesan rÃ¢pÃ©,7696,USD,3.49,97.77777778,en
+675,10504,Yukon Gold Potatoes 5lb Bag,Sac de pommes de terre Yukon Gold de 5 lb,7673,USD,2.18,65,en
+676,42495,Pink Lady (Cripps) Apple,Pomme Dame Rose (Cripps),7668,NOK,56.9,70,en
+677,40910,Root Beer,BiÃ¨re de Racine,7642,EUR,4,82.35294118,en
+678,23579,Peanut Butter Chocolate Chip Fruit & Nut Food Bar,Barre alimentaire aux fruits et noix au beurre de cacahuÃ¨te et aux pÃ©pites de chocolat,7642,USD,22.49,84.09090909,en
+679,27243,Premium Pure Cane Granulated Sugar,Sucre granulÃ© de canne pure de premiÃ¨re qualitÃ©,7640,GBP,1.35,86.66666667,en
+680,44156,Strawberry on the Bottom Nonfat Greek Yogurt,Fraise sur le fond Yogourt grec sans gras,7639,USD,1.79,63.63636364,en
+681,10603,93% Ground Beef,93% de boeuf hachÃ©,7630,EUR,8.69,90.32258065,fr
+682,7644,Scoops! Tortilla Chips,Des cuillÃ¨res ! Chips tortillas,7625,NOK,58.5,84.21052632,en
+683,31869,Organic Edamame,Edamame Bio,7595,NOK,29.9,77.77777778,fr
+684,12384,Organic Lactose Free 1% Lowfat Milk,Lait biologique 1% faible en gras sans lactose,7569,USD,3.99,70.1754386,en
+685,13083,Lowfat Small Curd Cottage Cheese,Fromage cottage Ã  petit caillÃ© faible en gras,7562,CHF,2.8,63.33333333,en
+686,48857,Authentic French Brioche,Brioche franÃ§aise authentique,7561,EUR,2,68,en
+687,45763,Mini Seedless Cucumbers,Mini concombres sans pÃ©pins,7559,USD,2.99,68.29268293,en
+688,46226,Thick & Crispy Tortilla Chips,Chips tortilla Ã©paisses et croustillantes,7559,EUR,1.19,77.55102041,en
+689,14168,Penne Pasta,Pennes,7558,EUR,1.28,90.90909091,fr
+690,2962,"Milk, Reduced Fat, 2% Milkfat","Lait, allÃ©gÃ©, 2% de matiÃ¨re grasse laitiÃ¨re",7558,USD,5.99,65.45454545,en
+691,23622,Organic Hot House Tomato,Tomate de serre biologique,7548,EUR,4.95,80.70175439,fr
+692,28278,Organic Penne Rigate,Penne Rigate Bio,7545,USD,3.99,87.17948718,en
+693,12614,Yellow Grape Tomatoes,Tomates raisins jaunes,7535,NOK,45,73.17073171,en
+694,24759,Club Soda,Club-Soda,7528,EUR,1.5,77.77777778,en
+695,9337,Purity Farms Ghee Clarified Butter,Beurre clarifiÃ© au ghee Purity Farms,7522,USD,6.29,63.01369863,en
+696,31964,Passionfruit Sparkling Water,Eau gazeuse aux fruits de la passion,7518,EUR,15.81,72.4137931,fr
+697,29370,Organic White Cheddar Popcorn,MaÃ¯s soufflÃ© au cheddar blanc biologique,7517,USD,7.29,77.96610169,en
+698,3990,Natural Sharp Cheddar Sliced Cheese,Fromage cheddar fort naturel en tranches,7508,EUR,2.99,75.36231884,fr
+699,5460,Butter,Beurre,7503,EUR,3.11,100,fr
+700,38890,No Pulp Calcium & Vitamin D Pure Premium 100% Pure Orange Juice,"Jus d'orange 100 % pur sans pulpe, calcium et vitamine D Pure Premium",7501,EUR,2.83,63.55140187,en
+701,8955,Basil,Basilic,7498,EUR,1.8,100,en
+702,21009,"Crispy Wheat, Crackers","BlÃ© croustillant, craquelins",7494,EUR,4.95,70.1754386,fr
+703,26128,Organic Mango Chunks,Morceaux de mangue biologique,7477,USD,9.99,100,en
+704,33716,Apple Pie Fruit & Nut Food Bar,"Barre alimentaire aux fruits et aux noix, tarte aux pommes",7476,USD,22.49,72,en
+705,7131,Light Semisoft Cheese,Fromage mi-ferme lÃ©ger,7472,EUR,1.66,68.18181818,fr
+706,8479,Original Black Box Tablewater Cracker,Cracker Ã  eau de table Original Black Box,7464,EUR,2.55,64.93506494,fr
+707,1090,Shells & Real Aged Cheddar Macaroni & Cheese,Macaroni au fromage aux coquilles et au vrai cheddar fort,7460,USD,3.79,68.42105263,en
+708,31759,Cherrios Honey Nut,Cherrios Miel Noix,7452,EUR,3.25,73.17073171,fr
+709,39922,Celery Sticks,BÃ¢tonnets de cÃ©leri,7393,EUR,2.12,81.08108108,fr
+710,17616,Goldfish Cheddar Baked Snack Crackers,Craquelins au four au cheddar et au poisson rouge,7381,USD,3.99,69.87951807,en
+711,10621,Organic Purple Kale,Chou violet biologique,7374,EUR,1.45,85.71428571,fr
+712,22504,Organic Mountain Forest Amber Honey,Miel AmbrÃ© de ForÃªt de Montagne Bio,7358,EUR,6.5,72.72727273,fr
+713,3481,Pineapple,Ananas,7350,USD,4.99,100,en
+714,46692,Multigrain Tortilla Chips,Chips tortilla multigrains,7340,NOK,36.9,81.81818182,en
+715,24535,Plain Whole Milk Yogurt,Yaourt nature au lait entier,7338,EUR,3.45,100,fr
+716,18880,Organic Free Range Low Sodium Chicken Broth,Bouillon de poulet fermier biologique Ã  faible teneur en sodium,7336,USD,4.99,81.72043011,en
+717,28373,Original Rotisserie Chicken,Poulet rÃ´ti original,7335,USD,9.99,83.01886792,en
+718,17341,Presliced Everything Bagels,Bagels tout prÃ©tranchÃ©s,7333,USD,11.99,77.27272727,en
+719,6532,Organic YoKids Very Berry Smoothies,Smoothies aux baies YoKids biologiques,7329,USD,7.79,70.27027027,en
+720,32455,Whole Grain Cheddar Baked Snack Crackers,Craquelins cuits au four au cheddar Ã  grains entiers,7321,USD,5.29,69.44444444,en
+721,20754,Mediterranean Mint Gelato,Gelato MÃ©diterranÃ©en Ã  la Menthe,7319,EUR,1.19,68.85245902,fr
+722,23765,Organic Smoked Turkey Breast,Poitrine de Dinde FumÃ©e Bio,7314,USD,8.99,70.83333333,en
+723,4724,Broccoli Florettes,Fleurons de brocoli,7311,USD,2.49,94.11764706,en
+724,16823,Organic Beef Broth,Bouillon de Boeuf Bio,7306,EUR,0.73,80,fr
+725,17835,Thin & Light Tortilla Chips,Chips tortilla fines et lÃ©gÃ¨res,7302,NOK,15.2,77.27272727,en
+726,25005,Organic Green Lentils,Lentilles vertes biologiques,7299,EUR,3.99,83.33333333,fr
+727,36389,Organic Rainbow Chard Vegetable,LÃ©gumes de blettes arc-en-ciel biologiques,7292,USD,5.49,63.76811594,en
+728,30949,Organic YoKids Smoothie Strawberry Banana Lowfat Yogurt,YoKids Smoothie Bio Yogourt Faible en Gras Fraise Banane,7273,USD,1.79,64.64646465,en
+729,8230,100% Recycled Bathroom Tissue,Papier hygiÃ©nique 100 % recyclÃ©,7264,EUR,3.11,77.19298246,fr
+730,30442,Low Fat Vanilla Yogurt,Yaourt Ã  la Vanille Faible en Gras,7259,USD,1.79,80,en
+731,49610,100% Lactose Free Fat Free Milk,Lait 100 % sans lactose et sans gras,7226,EUR,2.99,69.44444444,fr
+732,26131,Mixed Berries Whole Milk Icelandic Style Skyr Yogurt,Yogourt Skyr style islandais au lait entier et aux baies mÃ©langÃ©es,7223,USD,2.99,61.11111111,en
+733,21417,Organic Creamy Tomato Soup,Soupe crÃ©meuse aux tomates bio,7212,USD,19.99,76.59574468,en
+734,16589,Plantain Chips,Chips de plantain,7192,USD,1.99,100,en
+735,23233,California Sourdough Bread,Pain au levain californien,7177,USD,7.99,78.57142857,en
+736,9124,Broccoli & Cheddar Bake Meal Bowl,Bol de repas au four au brocoli et au cheddar,7176,USD,7.99,85.71428571,en
+737,19156,Fat Free Blueberry Yogurt,Yaourt aux bleuets sans gras,7170,EUR,3.26,72.34042553,fr
+738,36086,Philadelphia Original Cream Cheese,Fromage Ã  la crÃ¨me original Philadelphia,7167,NOK,22.3,73.52941176,en
+739,28123,Organic Cut Green Beans,Haricots verts coupÃ©s biologiques,7144,EUR,2.01,77.96610169,fr
+740,45063,Organic Baby Bella Mushrooms,Champignons Baby Bella biologiques,7118,USD,3.69,74.50980392,en
+741,17008,Shredded Sharp Cheddar Cheese,Fromage Cheddar fort rÃ¢pÃ©,7117,USD,14.99,71.11111111,fr
+742,33572,Lactose Free 2% Reduced Fat Milk,Lait rÃ©duit en gras Ã  2 % sans lactose,7114,USD,5.99,73.33333333,en
+743,28535,Cucumber & Garlic  Tzatziki,Tzatziki au concombre et Ã  l'ail,7112,EUR,3.09,63.15789474,en
+744,1215,Kidz All Natural Baked Chicken Nuggets,Nuggets de poulet cuits au four entiÃ¨rement naturels Kidz,7093,USD,13.99,64.93506494,en
+745,2611,Gluten Free SpongeBob Spinach Littles,Petits Ã©pinards Bob l'Ã©ponge sans gluten,7083,EUR,3.25,66.66666667,fr
+746,38944,Seven Grain Crispy Tenders,Filets croustillants aux sept grains,7082,EUR,14.5,68.96551724,en
+747,11352,Organic Mini Sandwich Crackers Peanut Butter,Mini craquelins sandwich bio au beurre de cacahuÃ¨te,7069,USD,7.99,70.47619048,en
+748,29553,Super Soft Taco Flour Tortillas,Tortillas Ã  la farine de tacos super douces,7063,EUR,2.27,66.66666667,en
+749,45747,Curate Melon Pomelo Sparking Water,Eau pÃ©tillante Curate Melon Pomelo,7050,EUR,4.7,67.85714286,fr
+750,8087,Florida Orange Juice With Calcium & Vitamin D,Jus d'orange de Floride avec calcium et vitamine D,7049,EUR,2.99,58.82352941,en
+751,24082,Organic Dark Sweet Cherries,Cerises noires douces biologiques,7040,USD,3.99,100,en
+752,31562,Sweet Onions,Oignons doux,7024,USD,3.99,95.65217391,en
+753,6287,Organic & Raw Strawberry Serenity Kombucha,Kombucha SÃ©rÃ©nitÃ© Aux Fraises Biologiques Et Crues,7018,USD,6.99,67.6056338,en
+754,7521,New Orleans Iced Coffee,CafÃ© glacÃ© de la Nouvelle-OrlÃ©ans,7011,USD,10.79,65.2173913,en
+755,9741,Cheese Pizza,Pizza au fromage,7010,USD,5.99,100,en
+756,19894,Enlightened Organic Raw Kombucha,Kombucha cru biologique Ã©clairÃ©,7007,EUR,3.25,65.45454545,fr
+757,38028,White Sliced Mushrooms,Champignons blancs tranchÃ©s,7004,EUR,4.69,80.85106383,fr
+758,41544,Organic Crushed Fire Roasted Tomatoes,Tomates rÃ´ties au feu concassÃ©es biologiques,6999,USD,3.09,91.66666667,en
+759,21614,Crackers Harvest Whole Wheat,Craquelins rÃ©coltent du blÃ© entier,6994,USD,6.29,69.84126984,en
+760,4138,Arancita Rossa,Arancita Rossa,6986,EUR,2.59,78.78787879,en
+761,40593,Cream Cheese,Fromage Ã  la crÃ¨me,6975,EUR,0.86,85.71428571,en
+762,31805,Gourmet Tomato Medley,MÃ©lange gastronomique de tomates,6961,EUR,2.35,67.85714286,fr
+763,14467,Sweet Baguette,Baguette sucrÃ©e,6953,EUR,0.99,80,fr
+764,37825,Organic Whole Wheat Fusilli,Fusilli de blÃ© entier biologique,6948,USD,1.99,75,en
+765,33352,Organic Kale Greens,Feuilles de chou frisÃ© biologiques,6942,USD,3.99,88.37209302,en
+766,12606,100% Natural Spring Water,Eau de source 100% naturelle,6938,TND,0.51,76.36363636,fr
+767,13819,Roasted Salted Cashews,Noix de cajou grillÃ©es et salÃ©es,6935,EUR,1.79,92.75362319,fr
+768,10814,Applewood Smoked Bacon,Bacon fumÃ© au bois de pommier,6925,EUR,3.59,64.28571429,fr
+769,48171,Shredded Hash Browns,Pommes de terre rissolÃ©es rÃ¢pÃ©es,6925,EUR,2.29,73.07692308,fr
+770,17807,Gluten Free Blueberry Waffles,Gaufres aux bleuets sans gluten,6922,EUR,2.09,67.9245283,fr
+771,47029,Organic Greek Nonfat Yogurt With Mixed Berries,Yaourt grec sans gras biologique aux baies mÃ©langÃ©es,6891,USD,2.99,64.70588235,en
+772,47601,Unsalted Cultured Butter,Beurre de culture non salÃ©,6890,GBP,2.1,82.60869565,en
+773,10032,Cola Soft Drink,Boisson gazeuse au cola,6880,EUR,1.49,78.57142857,en
+774,13431,Flaky Biscuits,Biscuits feuilletÃ©s,6877,EUR,2.29,74.07407407,en
+775,35383,Classic White Bread,Pain Blanc Classique,6872,USD,7.89,86.36363636,en
+776,18382,Saltine Crackers,Craquelins salÃ©s,6871,EUR,1.26,75,en
+777,1559,Cherry Pomegranate Greek Yogurt,Yaourt grec cerise-grenade,6858,EUR,3.3,69.56521739,fr
+778,42803,Organic Apple Slices,Tranches de pommes biologiques,6842,EUR,3.5,72.34042553,fr
+779,3020,Broccoli & Apple Stage 2 Baby Food,Nourriture pour bÃ©bÃ© Brocoli et pomme Stage 2,6837,EUR,5.54,60.75949367,fr
+780,46061,Popcorn,Popcorn,6829,NOK,10,100,en
+781,48595,Organic Wheat Square Crackers,Craquelins carrÃ©s au blÃ© biologique,6814,USD,3.99,70.1754386,en
+782,45570,Organic Greek Plain Nonfat Yogurt,Yogourt grec nature sans gras biologique,6812,USD,2.99,67.56756757,en
+783,17630,YoKids Squeeze! Organic Strawberry Flavor Yogurt,YoKids PressezÂ ! Yaourt Bio Saveur Fraise,6807,USD,1.79,63.73626374,en
+784,23341,Large Grade AA Eggs,Gros Å“ufs de qualitÃ© AA,6796,USD,5.79,100,en
+785,22888,90% Lean Ground Beef,90Â % de bÅ“uf hachÃ© maigre,6784,USD,7.99,74.50980392,en
+786,23801,Fusilli No. 34,Fusilli nÂ°34,6773,EUR,1.95,88,en
+787,17902,Liquid Egg Whites,Blancs d'Å“ufs liquides,6763,USD,7.49,82.35294118,en
+788,9366,Penne Rigate #41 Pasta,Penne Rigate #41 PÃ¢tes,6763,USD,4.49,92.30769231,en
+789,18434,Organic Whole Crimini Mushrooms,Champignons Crimini entiers biologiques,6757,USD,2.69,77.77777778,en
+790,18987,Hot Dog Buns,Petits pains Ã  hot-dog,6742,NOK,41.2,100,en
+791,29594,YoKids Strawberry Banana/Strawberry Yogurt,YoKids Yogourt Fraise Banane/Fraise,6739,EUR,3.85,65.45454545,fr
+792,581,Garnet Sweet Potato (Yam),Patate douce grenat (igname),6735,EUR,1.99,69.3877551,fr
+793,19003,Celery,CÃ©leri,6722,EUR,2.49,100,en
+794,20632,Mache Rosettes French Salad Mix,MÃ©lange Ã  Salade FranÃ§aise Rosettes Mache,6720,EUR,5.45,63.88888889,fr
+795,43631,Diet Coke,Coca light,6720,USD,3.99,100,en
+796,24382,Ranch Dressing,Vinaigrette ranch,6719,EUR,1.45,77.77777778,fr
+797,15200,Organic Green Beans,Haricots verts biologiques,6704,EUR,2.78,81.81818182,fr
+798,5449,Margherita Pizza,Pizza Marguerite,6700,NOK,33.9,100,en
+799,38656,Gluten Free Peanut Butter Dark Chocolate Chewy With a Crunch Granola Bars,Barres granola moelleuses au chocolat noir et au beurre de cacahuÃ¨te sans gluten avec barres granola croquantes,6692,USD,32.99,68.49315068,en
+800,39121,Organic Jasmine Rice,Riz au jasmin biologique,6676,USD,14.49,100,en
+801,17878,Grilled Chicken Breast Strips,LaniÃ¨res de poitrine de poulet grillÃ©es,6673,USD,9.99,72.4137931,en
+802,41319,Sea Salt Caramel Gelato,Gelato au caramel au sel de mer,6671,USD,14.99,72,en
+803,7916,Grilled Chicken Breast,Poitrine de poulet grillÃ©e,6639,NOK,49.9,72.72727273,en
+804,25837,Mini Babybel Light Semisoft Edam Cheeses,Mini fromages Edam mi-ferme lÃ©gers Babybel,6638,EUR,3.55,55.55555556,en
+805,39097,Gluten Free White Sandwich Bread,Pain de mie blanc sans gluten,6607,USD,6.49,85.33333333,en
+806,19488,Select-A-Size White Paper Towels,Essuie-tout blanc d'une taille sÃ©lectionnÃ©e,6592,EUR,6.29,60,fr
+807,9421,Organic Raw Multigreen Kobmbucha,Kobmbucha cru multivert biologique,6584,EUR,4.98,67.85714286,fr
+808,8490,Strawberry Rhubarb Yogurt,Yaourt Fraise Rhubarbe,6575,EUR,2.28,72.34042553,fr
+809,11461,White Corn Tortillas,Tortillas de maÃ¯s blanc,6575,EUR,2.72,86.36363636,fr
+810,27360,Boneless Skinless Chicken Breast Fillets,Filets de poitrine de poulet dÃ©sossÃ©s et sans peau,6572,USD,3.49,68.88888889,en
+811,24010,Wheat Gluten Free Waffles,Gaufres sans gluten de blÃ©,6562,USD,3.99,71.69811321,en
+812,6615,Mozzarella Cheese,Fromage Mozzarella,6558,EUR,2.64,100,fr
+813,34551,Organic Cane Sugar,Sucre de canne biologique,6550,EUR,3.67,80,fr
+814,5337,Monterey Jack Cheese,Fromage Monterey Jack,6543,EUR,3.26,70,fr
+815,9550,Ancient Grain Original Granola,Granola Original aux Grains Anciens,6542,EUR,8.49,71.69811321,en
+816,34,Peanut Butter Cereal,CÃ©rÃ©ales au beurre de cacahuÃ¨te,6536,EUR,3.59,85.71428571,fr
+817,37011,Artichokes,Artichauts,6536,USD,2.99,100,en
+818,46650,Special Reserve Extra Sharp Cheddar Cheese,Fromage Cheddar Extra Fort RÃ©serve SpÃ©ciale,6536,USD,7.79,67.56756757,en
+819,31371,Whole Wheat English Muffins,Muffins anglais au blÃ© entier,6527,USD,6.29,61.29032258,en
+820,41259,Poblano Pepper,Poivre Poblano,6518,EUR,2.76,84.61538462,fr
+821,41540,Organic Whole White Mushrooms,Champignons blancs entiers biologiques,6515,EUR,12.5,73.52941176,fr
+822,47866,Jalapeno Potato Chips,Chips de pommes de terre aux jalapenos,6515,EUR,2.78,81.69014085,fr
+823,7806,Soft Pretzel Burger Buns,Pains Ã  burger mous aux bretzels,6513,EUR,9.1,63.15789474,en
+824,21497,White Sandwich Bread,Pain de mie blanc,6511,EUR,1.6,75.67567568,fr
+825,34234,Grade AA Large White Eggs,Gros Å“ufs blancs de qualitÃ© AA,6506,USD,5.79,86.36363636,en
+826,47492,Organic Berry Blend,MÃ©lange de baies biologiques,6500,USD,8.99,77.77777778,en
+827,46900,Organic Chicken Noodle Soup,Soupe Poulet Nouilles Biologique,6499,USD,4.39,90,en
+828,6347,Unsweetened Almond Milk,Lait d'amande non sucrÃ©,6486,USD,8.79,100,en
+829,44514,Yellow Straightneck Squash,Courge droite jaune,6481,EUR,2.99,82.35294118,fr
+830,12427,Original Beef Jerky,Jerky de boeuf original,6476,USD,13.99,80.85106383,en
+831,11136,Organic Low Sodium Chicken Cooking Stock,Bouillon de poulet biologique Ã  faible teneur en sodium,6475,USD,2.87,76.31578947,en
+832,33290,Lemon Verbena Dish Soap,Savon Ã  Vaisselle Verveine CitronnÃ©e,6471,EUR,4.26,73.23943662,fr
+833,31338,Classic Almond Butter,Beurre d'amande classique,6470,USD,12.99,85.71428571,en
+834,41276,Energy Drink,Boisson Ã©nergisante,6461,ILS,5.6,88.88888889,en
+835,14778,Organic Chocolate Chip Chewy Granola Bars,Barres granola moelleuses aux pÃ©pites de chocolat biologique,6445,USD,4.39,82.35294118,en
+836,46049,Salt & Pepper Krinkle Chips,Chips Krinkle Sel & Poivre,6438,EUR,3.36,76.59574468,fr
+837,19478,Organic Marinara Pasta Sauce,Sauce pour pÃ¢tes marinara biologique,6436,USD,2.59,100,en
+838,4149,Frozen Organic Blueberries,Bleuets biologiques surgelÃ©s,6423,USD,27.99,91.22807018,en
+839,46041,Beef Franks,Francs de boeuf,6409,EUR,8.69,75.86206897,fr
+840,38274,Ice Cream Sandwiches Vanilla,Sandwichs Ã€ La CrÃ¨me GlacÃ©e Vanille,6394,USD,3.59,85.24590164,en
+841,42240,Ultra Soft Facial Tissues,Mouchoirs ultra doux,6394,EUR,3.45,70,fr
+842,14999,Grade A Large Brown Eggs,Gros Å“ufs bruns de catÃ©gorie A,6388,USD,9.99,85.71428571,en
+843,8467,Cinnamon Raisin Bread,Pain aux raisins et Ã  la cannelle,6384,USD,11.99,83.72093023,en
+844,22260,Organic Rolled Oats,Flocons d'avoine biologiques,6380,EUR,3.15,80,fr
+845,23296,Blueberry on the Bottom Nonfat Greek Yogurt,Yogourt grec sans gras aux myrtilles,6374,EUR,2.76,65.625,fr
+846,248,Dried Sweetened Cranberries,Canneberges sucrÃ©es sÃ©chÃ©es,6371,EUR,2.49,70.83333333,en
+847,33636,Organic Shells And White Cheddar,Coquilles Bio Et Cheddar Blanc,6370,USD,3.79,77.96610169,en
+848,45013,Apple Sauce,Compote de pommes,6367,EUR,3.25,96.96969697,fr
+849,10761,Organic Yokids Lemonade/Blueberry Variety Pack Yogurt Squeezers Tubes,Tubes de presse-yogourt en pack variÃ© de limonade/myrtille Yokids biologiques,6359,USD,5.89,55.46218487,en
+850,27307,Cage Free Grade A Large Brown Eggs,Gros Å“ufs bruns de catÃ©gorie A sans cage,6351,USD,4.19,81.92771084,en
+851,28785,Organic Tahini,Tahini Bio,6344,USD,6.89,82.35294118,en
+852,29615,"Bread, Country Buttermilk","Pain, Babeurre de Campagne",6337,EUR,2.6,76.19047619,fr
+853,2180,Angel Hair Pasta,PÃ¢tes aux cheveux d'ange,6328,USD,1.99,80,en
+854,43643,Organic Strawana Probugs Kefir,KÃ©fir Strawana Probugs Bio,6318,USD,6.99,62.29508197,en
+855,41593,Blue Cheese Crumbles,Crumbles au fromage bleu,6315,EUR,2.05,68.18181818,fr
+856,44471,Free & Clear Unscented Baby Wipes,Lingettes pour bÃ©bÃ© non parfumÃ©es gratuites et transparentes,6315,USD,5.99,57.57575758,en
+857,2716,Organic Greek Lowfat Yogurt With Strawberries,Yaourt grec faible en gras biologique aux fraises,6311,USD,1.79,69.66292135,en
+858,29898,Organic Spaghetti Pasta,PÃ¢tes Spaghetti Biologiques,6310,USD,1.99,100,en
+859,16290,Sparkling Clementine Juice,Jus de ClÃ©mentine PÃ©tillant,6301,EUR,3.25,73.68421053,fr
+860,9327,Garlic Powder,Ail en poudre,6299,EUR,3.8,100,fr
+861,49247,Coconut Yoghurt,Yaourt Ã  la Noix de Coco,6292,USD,1.99,78.57142857,en
+862,24390,Pomegranate,Grenade,6287,EUR,4.17,100,fr
+863,47890,Whole White Mushrooms,Champignons blancs entiers,6285,EUR,1.25,84.44444444,fr
+864,38544,Organic Whole Milk Strawberry Beet Berry Yogurt Pouch,"Sachet de yaourt aux fraises, betteraves et baies au lait entier biologique",6281,USD,2.29,69.56521739,en
+865,10473,Half And Half Cream,MoitiÃ©-moitiÃ© crÃ¨me,6281,EUR,8.99,70,fr
+866,35233,Peach,PÃªche,6274,EUR,1.29,100,en
+867,14897,Sweet Potato Yam,Igname de patate douce,6262,USD,3.28,85.71428571,en
+868,19049,Peeled Garlic,Ail pelÃ©,6259,USD,17.49,96,en
+869,3849,Organic Sprouted English Muffin,Muffin anglais germÃ© biologique,6258,USD,4,64.61538462,en
+870,44375,Canned Aranciata Orange,Orange aranciata en conserve,6257,EUR,2.99,68.18181818,en
+871,8239,Peanut Butter Creamy With Salt,Beurre De CacahuÃ¨te CrÃ©meux Au Sel,6247,EUR,8.39,88.52459016,fr
+872,47357,Original Restaurant Style Tortilla Chips,Chips tortilla originales de style restaurant,6243,EUR,1.5,72.94117647,fr
+873,44292,Premium Unsweetened Iced Tea,ThÃ© glacÃ© non sucrÃ© de qualitÃ© supÃ©rieure,6242,USD,8.79,66.66666667,en
+874,13802,Salted Sweet Cream Butter,Beurre CrÃ¨me Douce SalÃ©e,6240,EUR,7.03,77.55102041,fr
+875,36127,Freshly Squeezed Orange Juice,Jus d'orange fraÃ®chement pressÃ©,6220,EUR,1.95,70.1754386,fr
+876,23645,Sour Cream & Onion Potato Chips,Chips de pommes de terre Ã  la crÃ¨me sure et Ã  l'oignon,6220,USD,6.19,72.22222222,en
+877,30480,"Tomatoes, Whole Peeled","Tomates, entiÃ¨res pelÃ©es",6213,USD,2.29,100,en
+878,18599,Garlic Couscous,Couscous Ã  l'ail,6204,EUR,2.19,75.86206897,en
+879,4006,Hazelnut Spread With Skim Milk & Cocoa,Tartinade De Noisettes Au Lait Ã‰crÃ©mÃ© Et Cacao,6202,USD,4.59,71.79487179,en
+880,25133,Organic String Cheese,Fromage Ã  cordes biologique,6196,NOK,85,76.47058824,en
+881,20899,Goo Berry Pie Probugs Kefir,Goo Berry Pie Probugs KÃ©fir,6187,USD,5.29,59.57446809,en
+882,20520,Mild Diced Green Chiles,Piments verts doux coupÃ©s en dÃ©s,6183,USD,1.79,68.85245902,en
+883,18564,Diet Ginger Ale All Natural Soda,"Soda au gingembre diÃ©tÃ©tique, soda entiÃ¨rement naturel",6168,EUR,2.25,64.40677966,en
+884,5991,Bok Choy,Bok Choy,6165,USD,7.99,100,en
+885,49111,Original Instant Oatmeal,Gruau instantanÃ© original,6162,USD,5.69,73.91304348,en
+886,45681,Americone DreamÂ® Ice Cream,CrÃ¨me glacÃ©e Americone DreamÂ®,6155,USD,8.99,74.07407407,en
+887,38444,Chardonnay,Chardonnay,6153,EUR,3.16,75,en
+888,5031,Medium Salsa Roja,Salsa Roja moyenne,6141,USD,5.29,73.91304348,en
+889,49478,Frozen Organic Strawberries,Fraises biologiques surgelÃ©es,6141,USD,2.99,94.11764706,en
+890,45106,Low Fat Strawberry Yogurt Tubes,Tubes de yaourt aux fraises faibles en gras,6135,USD,1.79,66.66666667,en
+891,4137,Whole Grain Oat Cereal,CÃ©rÃ©ales d'avoine Ã  grains entiers,6132,USD,9.99,72.13114754,en
+892,40002,Strawberry Ice Cream,Glace Ã  la fraise,6129,USD,6.49,81.63265306,en
+893,5618,Cauliflower,Chou-fleur,6127,USD,3.29,100,en
+894,4962,Yotoddler Organic Pear Spinach Mango Yogurt,"Yotoddler Yogourt biologique Ã  la poire, aux Ã©pinards et Ã  la mangue",6125,USD,2.89,58.66666667,en
+895,31663,Vanilla Blueberry Clusters With Flax Seeds Granola,Grappes de myrtilles et de vanille avec granola aux graines de lin,6122,USD,3.99,56.07476636,en
+896,33065,Cabernet Sauvignon,Cabernet-Sauvignon,6115,EUR,15.86,73.33333333,en
+897,11941,"Tortillas, Corn, Organic","Tortillas, MaÃ¯s, Biologique",6100,EUR,2.72,82.60869565,fr
+898,18019,Macaroni & Cheese Dinner Original Flavor,DÃ®ner macaroni au fromage saveur originale,6081,USD,8.99,79.41176471,en
+899,48726,Organic Nonfat Greek Yogurt With Peaches,Yaourt grec sans gras biologique aux pÃªches,6067,USD,5.89,64.78873239,en
+900,5959,Four Cheese Thin Crust Pizza,Pizza Ã  croÃ»te mince aux quatre fromages,6066,EUR,4.59,73.91304348,en
+901,8736,Synergy Organic & Raw Cosmic Cranberry,Synergy Canneberge Cosmique Biologique & Crue,6065,USD,3.99,61.97183099,en
+902,14332,Organic Yellow Mustard,Moutarde jaune biologique,6046,EUR,2.25,75,fr
+903,26914,Bean & Cheese Burrito,Burrito aux haricots et au fromage,6045,USD,4.49,69.76744186,en
+904,23044,Cream Top Smooth & Creamy Vanilla Yogurt,Yaourt Ã  la vanille onctueux et crÃ©meux Cream Top,6045,EUR,2.28,65.11627907,fr
+905,26047,Tuna Salad,Salade de thon,6044,EUR,2.04,78.78787879,fr
+906,13712,Cold Brew Coffee Double Espresso with Almond Milk,CafÃ© infusÃ© Ã  froid Double Espresso au lait d'amande,6027,USD,15.99,60.50420168,en
+907,40348,Large Burrito Flour Tortillas,Grandes tortillas Ã  la farine de burrito,6023,USD,7.99,72.72727273,en
+908,20583,Sourdough Baguette,Baguette au levain,6019,EUR,0.99,72.72727273,en
+909,44310,Soft Pretzel Mini Buns,Mini-pains mous aux bretzels,6005,EUR,4.2,66.66666667,en
+910,25544,Fresh Cut Golden Sweet Whole Kernel Corn,MaÃ¯s entier sucrÃ© dorÃ© fraÃ®chement coupÃ©,6002,EUR,5.59,63.76811594,fr
+911,33846,Roasted Garlic Hummus,Houmous Ã  l'ail rÃ´ti,5979,USD,10.99,69.56521739,en
+912,47087,Total 0% Blueberry Acai Greek Yogurt,Total Yogourt grec 0 % aux bleuets et Ã  l'aÃ§aÃ¯,5976,USD,1.79,62.85714286,en
+913,25705,Butterhead Lettuce,Laitue pommÃ©e,5943,EUR,1.39,80,fr
+914,47526,Goat Cheese Log,BÃ»che de ChÃ¨vre,5942,EUR,4.57,100,fr
+915,12312,Lavender Hand Soap,Savon pour les mains Ã  la lavande,5941,EUR,8.9,66.66666667,fr
+916,22802,Mineral Water,Eau minÃ©rale,5936,EUR,1.49,88.88888889,fr
+917,7054,Low Fat Plain Yogurt,Yaourt nature faible en gras,5934,USD,1.79,78.43137255,en
+918,22151,Tart Cherry Yoghurt,Yaourt acidulÃ© aux cerises,5934,NOK,45,66.66666667,en
+919,1695,Major Dickason's Blend Ground Coffee Dark Roast,CafÃ© moulu Major Dickason's Blend torrÃ©faction foncÃ©e,5930,USD,13.99,78,en
+920,46175,Half BakedÂ® Ice Cream,CrÃ¨me glacÃ©e mi-cuiteÂ®,5928,USD,6.39,81.48148148,en
+921,48057,"Hummus, Hope, Original Recipe","Houmous, Espoir, Recette Originale",5925,SEK,25.9,71.42857143,en
+922,13852,Organic Broccoli Crown,Couronne de Brocoli Bio,5902,USD,2.89,78.26086957,en
+923,23554,Organic Vanilla Bean Ice Cream,Glace Ã  la Gousse de Vanille Bio,5892,USD,9.99,82.75862069,en
+924,17027,Avocado Roll,Rouleau d'avocat,5885,USD,9.99,86.95652174,en
+925,28597,Organic Stoneground Wheat Crackers,Craquelins de blÃ© moulus sur pierre biologiques,5880,USD,4.99,74.66666667,en
+926,32650,White Giant Paper Towel Rolls,Rouleaux d'essuie-tout gÃ©ants blancs,5878,EUR,4.71,68.65671642,fr
+927,35336,Naked Green Machine Boosted Juice Smoothie,Smoothie au jus boostÃ© par la machine verte nue,5874,USD,8.49,58.33333333,en
+928,49605,Classic Hummus Family Size,Houmous classique format familial,5873,EUR,1.47,67.74193548,fr
+929,16283,Fresh Asparagus,Asperges fraÃ®ches,5869,EUR,3.67,82.35294118,fr
+930,35168,Ezekiel 4:9 Sprouted Grain Tortillas,Ã‰zÃ©chiel 4: 9 Tortillas aux grains germÃ©s,5868,USD,4.99,62.06896552,en
+931,31927,Four Cheese Pasta Sauce,Sauce pour pÃ¢tes aux quatre fromages,5866,USD,10.49,100,en
+932,28851,Cage Free  100% Liquid Egg Whites,Blancs dâ€™Å“ufs liquides 100 % sans cage,5860,USD,7.99,80.51948052,en
+933,26882,Russet Potatoes,Pommes de terre rousses,5853,USD,2.84,92.85714286,en
+934,45064,Honey Wheat Bread,Pain De BlÃ© Au Miel,5845,EUR,3.04,76.92307692,fr
+935,46088,Beer,BiÃ¨re,5844,EUR,0.55,100,fr
+936,28986,Mild Italian Chicken Sausage,Saucisse de poulet italienne douce,5813,USD,7.49,80,en
+937,10369,Organic Genoa Salami,Salami de GÃªnes Bio,5797,EUR,36.99,70.27027027,fr
+938,43867,100% Grated Parmesan Cheese,Fromage 100% Parmesan rÃ¢pÃ©,5795,USD,3.49,89.79591837,en
+939,41757,Organic Air Chilled Whole Chicken,Poulet entier rÃ©frigÃ©rÃ© Ã  l'air biologique,5784,NOK,42.5,66.66666667,en
+940,41273,Broccoli Florets,Fleurons de brocoli,5778,USD,2.49,100,en
+941,5250,Blueberry Muffin Bar,Barre de muffins aux bleuets,5751,NOK,12.9,86.48648649,en
+942,47877,Coke Zero,Coca ZÃ©ro,5746,USD,10.69,100,en
+943,24850,Organic Super Fruit Punch Juice Drink,Boisson au jus de punch aux super fruits bio,5743,EUR,3.6,65.82278481,fr
+944,16249,Lacinato Kale Og,Lacinato chou frisÃ© Og,5740,EUR,3.9,69.3877551,fr
+945,27683,Black Beans No Salt Added,Haricots noirs sans sel ajoutÃ©,5740,EUR,3.45,88.52459016,fr
+946,19068,Boneless And Skinless Chicken Breast,Poitrine De Poulet DÃ©sossÃ©e Et Sans Peau,5735,USD,15.41,71.79487179,en
+947,7952,Chicken & Apple Breakfast Sausage,Saucisse de petit-dÃ©jeuner au poulet et aux pommes,5730,USD,7.49,75.6097561,en
+948,38312,Almond Milk Strawberry Yogurt,Yaourt aux fraises et au lait d'amande,5719,USD,2.29,73.52941176,en
+949,46346,Sweet Potato Fries with Sea Salt,Frites de patates douces au sel marin,5712,EUR,4.44,72.22222222,fr
+950,3999,Bosc Pear,Poire Bosc,5711,USD,5.93,94.73684211,en
+951,9623,Sparkling Natural Spring Water,Eau de source naturelle pÃ©tillante,5709,USD,1.98,72,en
+952,45866,Fig Newmans Fruit Filled Cookies,Biscuits fourrÃ©s aux fruits et aux figues Newmans,5709,USD,6.89,65.88235294,en
+953,46206,Red Grapefruit,Pamplemousse Rouge,5708,EUR,4.31,91.42857143,fr
+954,32740,Cold-Brew Black Coffee,CafÃ© noir infusÃ© Ã  froid,5701,USD,1.99,95.65217391,en
+955,49215,Kids Sensible Foods Broccoli Littles,Petits brocolis pour enfants Sensible Foods,5700,USD,10.49,60,en
+956,13113,Organic Apple Juice Boxes,Coffrets de jus de pomme bio,5698,USD,4.49,86.36363636,en
+957,46990,Ground Buffalo,Buffle hachÃ©,5691,EUR,8.69,76.92307692,fr
+958,34024,Classic Soda,Soda classique,5687,NOK,40,91.66666667,en
+959,4796,Baby Portabella Mushrooms,BÃ©bÃ©s champignons Portabella,5671,EUR,3.78,69.09090909,fr
+960,25197,Iced Oatmeal Cookie Kid Z Bar,Barre Kid Z aux biscuits glacÃ©s Ã  l'avoine,5641,CHF,3.6,66.66666667,fr
+961,31640,Original Puffins Cereal,CÃ©rÃ©ales originales de macareux,5636,USD,7.39,78.26086957,en
+962,11123,Vitamin Water Zero Squeezed Lemonade,Limonade ZÃ©ro PressÃ©e Vitamin Water,5635,USD,3.79,57.14285714,en
+963,12254,Organic Cherries,Cerises biologiques,5629,USD,3.99,85.71428571,en
+964,37464,Apple Cinnamon Instant Oatmeal,Gruau instantanÃ© pomme cannelle,5615,EUR,3.05,64.28571429,fr
+965,13702,Good Seed Organic Thin Sliced Bread,Pain tranchÃ© mince biologique Good Seed,5608,USD,5.99,85.71428571,en
+966,9018,All Natural Virgin Lemonade,Limonade vierge entiÃ¨rement naturelle,5590,EUR,7.83,61.76470588,fr
+967,5491,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Ã‰tape 1 Pommes Patates douces Citrouille et bleuets Nourriture en purÃ©e biologique pour bÃ©bÃ©,5581,USD,9.49,56,en
+968,18352,Flax Plus Organic Pumpkin Flax Granola,Granola de lin Ã  la citrouille biologique Flax Plus,5575,USD,5.99,59.45945946,en
+969,20919,Baby Spinach Salad,Salade de bÃ©bÃ©s Ã©pinards,5571,USD,1.99,85.71428571,en
+970,26648,Ataulfo Mango,Mangue Ataulfo,5569,EUR,15.49,100,fr
+971,21162,Organic Mixed Berry Yogurt & Fruit Snack,Yaourt aux fruits et aux fruits biologiques,5563,USD,2.99,70.32967033,en
+972,43409,Frosted Mini-Wheats Original Cereal,CÃ©rÃ©ales originales mini-blÃ©s givrÃ©s,5560,USD,6.89,65.51724138,en
+973,26629,Cherry Pie Fruit & Nut Bar,Barre de fruits et de noix Ã  la tarte aux cerises,5541,USD,22.49,76.59574468,en
+974,44643,Gallon Freezer Bags,Sacs de congÃ©lation d'un gallon,5537,EUR,2.75,70.1754386,fr
+975,26172,Light Sour Cream,CrÃ¨me sure lÃ©gÃ¨re,5528,NOK,35.9,75,en
+976,10326,Organic Fuji Apples,Pommes Fuji biologiques,5526,USD,4.49,84.21052632,en
+977,40229,Organic Whole Wheat Penne Rigate,Penne Rigate de blÃ© entier biologique,5519,USD,1.99,100,en
+978,32578,Organic Fresh Squeezed Orange Juice,Jus d'orange fraÃ®chement pressÃ© biologique,5518,USD,8.39,72.46376812,en
+979,12545,French Vanilla Coconut Milk Creamer,CrÃ©mier au lait de coco et vanille franÃ§aise,5517,USD,4.39,75.40983607,en
+980,13885,Caramel Cookie Crunch Gelato,Gelato croquant aux biscuits au caramel,5517,USD,4.99,69.3877551,en
+981,1468,Organic Peeled & Cooked Beets,Betteraves pelÃ©es et cuites biologiques,5512,EUR,2.65,70.76923077,fr
+982,39216,Original Multigrain Spoonfuls Cereal,CuillÃ¨res de cÃ©rÃ©ales multigrains originales,5509,USD,4.99,67.6056338,en
+983,9598,Gogo Squeez Organic Apple Strawberry Applesauce on the Go,Compote de pommes biologique aux pommes et aux fraises Gogo Squeez Ã  emporter,5508,USD,9.49,59.25925926,en
+984,25256,Cultured Low Fat Buttermilk,Babeurre de culture faible en gras,5504,USD,3.49,74.57627119,en
+985,10106,Honey & Maple Turkey Breast,Poitrine de dinde au miel et Ã  l'Ã©rable,5504,USD,8.99,71.11111111,en
+986,2361,Mint Chip,Chips de Menthe,5502,EUR,2.48,78.78787879,fr
+987,22556,All Natural Apricot Sparkling Water,Eau pÃ©tillante entiÃ¨rement naturelle Ã  l'abricot,5497,USD,1.79,70.12987013,en
+988,18670,Original Enriched Rice Drink,Boisson de riz enrichie originale,5497,EUR,2.35,80.85106383,en
+989,2480,Organic 85% Cacao Dark Chocolate Bar,Barre de chocolat noir 85% cacao biologique,5488,USD,5.49,90.90909091,en
+990,12797,Organic Whole Peeled Tomatoes,Tomates entiÃ¨res pelÃ©es biologiques,5488,USD,6.69,100,en
+991,4945,Large Pineapple Chunks,Gros morceaux d'ananas,5485,EUR,4.6,81.81818182,fr
+992,13966,Chicken Pot Pie,PÃ¢tÃ© au poulet,5484,EUR,4.56,84.61538462,fr
+993,7746,Oregano,Origan,5482,EUR,1.32,100,fr
+994,35199,100% Apple Juice,100% Jus de Pomme,5481,EUR,4.29,85.71428571,fr
+995,45190,Vodka,Vodka,5475,USD,8.79,62.5,en
+996,18023,Organic Coconut Water,Eau de Coco Bio,5474,EUR,2.17,84.84848485,fr
+997,20378,Chicken Broth,Bouillon de poulet,5468,EUR,1.29,97.14285714,fr
+998,43014,Sliced Baby Bella Mushrooms,Champignons Baby Bella tranchÃ©s,5453,EUR,2.99,74.07407407,fr
+999,3339,Organic Russet Potato Bag,Sac de pommes de terre Russet bio,5448,USD,0.99,74.41860465,en
+1000,27020,Mandarins Bag,Sac Mandarines,5445,EUR,3.99,85.71428571,fr

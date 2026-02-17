@@ -1,0 +1,18 @@
+{
+  "date": "2026-02-16T19:51:08.729303",
+  "project": "Data-Driven Retail Insights",
+  "instructor": "Assan Sanogo",
+  "data_sources": {
+    "orders": 3421083,
+    "orders_prior": 32434489,
+    "aisles": 134,
+    "departments": 21
+  },
+  "output_files": {
+    "baskets.csv": 3214874,
+    "rfm_customer_segments.csv": 206209,
+    "aisle_performance.csv": 134,
+    "department_performance.csv": 21
+  },
+  "price_coverage": "Available"
+}
