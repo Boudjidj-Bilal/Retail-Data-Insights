@@ -21,8 +21,17 @@ CSV file with columns: antecedent, consequent, lift, support, confidence
 
 # Installation des dépendances
 
+```python
+
+pip install streamlit pandas plotly
+```
+
 pip install streamlit pandas plotly
 
-# Exécution de l'application
+# Lancement du dashboard
+
+```python
 
 streamlit run app.py
+```
+
