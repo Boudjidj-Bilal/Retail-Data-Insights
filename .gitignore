@@ -15,3 +15,5 @@ notebooks/price_integration/*.csv
 notebooks/price_integration/*.xlsx
 notebooks/price_integration/final/*.csv
 notebooks/price_integration/final/*.xlsx
+
+notebooks/products_segmentation/csv/*.csv
