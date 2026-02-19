@@ -95,16 +95,29 @@ def plot_sales_by_department_barplot(df):
     return fig
 
 def plot_sales_by_department_boxplot(df):
-
-    fig = px.box(df,
-                 x='department',
-                 y='nb_sales',
-                 log_y=True)            
+    # Order departments by median sales for better visualization
+    dept_order = (
+        df.groupby('department')['nb_sales']
+        .median()
+        .sort_values(ascending=False)
+        .index
+        .tolist()
+    )
+    
+    fig = px.box(
+        df,
+        x='department',
+        y='nb_sales',
+        log_y=True,
+        category_orders={'department': dept_order},
+        title='Product sales distribution by department'
+    )
+    
+    fig.update_xaxes(tickangle=45)
     
     return fig
-
 def plot_sales_by_aisle_barplot(df):
-
+    
     fig = px.bar(df,
                  x='aisle',
                  y='total_sales',
@@ -122,10 +135,21 @@ def plot_sales_by_aisle_barplot(df):
 
 def plot_sales_by_aisle_boxplot(df):
 
+    aisle_order = (
+        df.groupby('aisle')['nb_sales']
+        .median()
+        .sort_values(ascending=False)
+        .index
+        .tolist()
+    )
+
     fig = px.box(df,
                  x='aisle',
                  y='nb_sales',
-                 log_y=True)
+                 log_y=True,
+                 category_orders={'aisle': aisle_order},
+                 title='Product sales distribution by aisle (Top 20)'
+    )
     
     return fig
 
@@ -232,8 +256,48 @@ def plot_days_since_prior_order_distribution(df):
 
     return fig
 
-def quick_info(df, name="Dataset"):
-    print(f"\n{name}: {df.shape[0]:,} rows × {df.shape[1]} columns")
-    print(f"Missing: {df.isnull().sum().sum()}")
-    print(f"Duplicates: {df.duplicated().sum()}")
-    print(df.dtypes)
+
+
+def plot_department_aisle_treemap(products_enriched, top_n_per_dept=3):
+
+    # Convert to string if categorical because tree map needs string labels
+    df = products_enriched.copy()
+    if df['department'].dtype.name == 'category':
+        df['department'] = df['department'].astype(str)
+    if df['aisle'].dtype.name == 'category':
+        df['aisle'] = df['aisle'].astype(str)
+    
+    # Get top N aisles per department
+    top_aisles = (
+        df
+        .groupby(['department', 'aisle'])
+        .agg(total_sales=('nb_sales', 'sum'))
+        .reset_index()
+        .sort_values('total_sales', ascending=False)
+        .groupby('department')
+        .head(top_n_per_dept)
+        .reset_index(drop=True)
+    )
+    
+    # Create treemap 
+    fig = px.treemap(
+        top_aisles,
+        path=['department', 'aisle'],
+        values='total_sales',
+        color='department',
+        color_discrete_sequence=px.colors.qualitative.Alphabet,  # color paletter with 26 colors > nber of departments
+        title=f'Sales per department and sales for top {top_n_per_dept} aisles per department',
+        hover_data={'total_sales': ':,.0f'}
+    )
+    
+    fig.update_traces(
+        textposition="middle center",
+        textfont_size=11
+    )
+    
+    fig.update_layout(
+        height=700,
+        margin=dict(t=50, l=25, r=25, b=25)
+    )
+    
+    return fig
