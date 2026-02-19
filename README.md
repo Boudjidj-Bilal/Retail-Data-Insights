@@ -26,8 +26,6 @@ CSV file with columns: antecedent, consequent, lift, support, confidence
 pip install streamlit pandas plotly
 ```
 
-pip install streamlit pandas plotly
-
 # Lancement du dashboard
 
 ```python
