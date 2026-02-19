@@ -18,3 +18,11 @@ recs = recommender.recommend(['Banana', 'Milk'], top_n=10)
 # Input Format
 
 CSV file with columns: antecedent, consequent, lift, support, confidence
+
+# Installation des dépendances
+
+pip install streamlit pandas plotly
+
+# Exécution de l'application
+
+streamlit run app.py
