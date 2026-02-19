@@ -77,22 +77,6 @@ def plot_aisles_per_department(df):
     
     return fig
 
-def plot_sales_by_department_barplot(df):
-    
-    fig = px.bar(df, 
-                 x='department',
-                 y='total_sales',
-                 title='Total sales per department',
-                 color='total_sales',
-                 color_continuous_scale='Reds')
-    
-    fig.update_layout(
-        xaxis_title='Department',
-        yaxis_title='Total sales',
-        showlegend=False
-    )
-    
-    return fig
 
 def plot_sales_by_department_boxplot(df):
     # Order departments by median sales for better visualization
@@ -116,22 +100,6 @@ def plot_sales_by_department_boxplot(df):
     fig.update_xaxes(tickangle=45)
     
     return fig
-def plot_sales_by_aisle_barplot(df):
-    
-    fig = px.bar(df,
-                 x='aisle',
-                 y='total_sales',
-                 title='Total sales by aisle (Top 20)',
-                 color='total_sales',
-                 color_continuous_scale='Oranges')
-    
-    fig.update_layout(
-        xaxis_title='Aisle',
-        yaxis_title='Total sales',
-        showlegend=False,
-    )
-    
-    return fig 
 
 def plot_sales_by_aisle_boxplot(df):
 
@@ -247,11 +215,20 @@ def plot_basket_size_vs_nb_orders(df):
 
 def plot_days_since_prior_order_distribution(df):
 
+    mean_val = df['days_since_prior_order'].mean()
+    median_val = df['days_since_prior_order'].median()
+
     fig = px.histogram(
         df, x='days_since_prior_order', nbins=30,
         title='Distribution of days since prior order',
         labels={'days_since_prior_order': 'Days since prior order'}
     )
+
+    fig.add_vline(x=mean_val, line_dash="dash", line_color="red", 
+                  annotation_text=f"Mean: {mean_val:.1f}")
+    fig.add_vline(x=median_val, line_dash="dot", line_color="green",
+                  annotation_text=f"Median: {median_val:.0f}")
+    
     fig.update_layout(yaxis_title='Number of orders')
 
     return fig
