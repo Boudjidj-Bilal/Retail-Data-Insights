@@ -2,11 +2,13 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import os
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
 
 # Config
 st.set_page_config(page_title="Retail Dashboard", layout="wide", initial_sidebar_state="expanded")
 
-# Chargement des datas
+# Load data
 @st.cache_data
 def load_data():
     base_path = "data/processed/"
@@ -24,7 +26,7 @@ def load_data():
         if os.path.exists(full_path):
             data[key] = pd.read_csv(full_path)
         else:
-            st.error(f"❌ Fichier manquant : {name}")
+            st.error(f"❌ Missing file: {name}")
             return None
     return data
 
@@ -36,17 +38,17 @@ if data:
 
     # Nav
     st.sidebar.header("Navigation")
-    menu = st.sidebar.radio("Aller vers :", ["Vue d'ensemble"])
+    menu = st.sidebar.radio("Go to:", ["Overview"])
 
-# Page 1
-    if menu == "Vue d'ensemble":
-        st.title("Tableau de Bord : Performance & Concentration")
+    # Overwiev
+    if menu == "Overview":
+        st.title("Dashboard: Performance Overview")
 
-        # Filtre segments
-        segments_disponibles = ["Tous les segments"] + list(df_rfm['segment'].unique())
-        segment_choisi = st.selectbox("Filtrer les indicateurs par segment :", segments_disponibles)
+        # Segment Filter
+        segments_disponibles = ["All Segments"] + list(df_rfm['segment'].unique())
+        segment_choisi = st.selectbox("Filter indicators by segment:", segments_disponibles)
 
-        if segment_choisi == "Tous les segments":
+        if segment_choisi == "All Segments":
             df_filtered = df_rfm
         else:
             df_filtered = df_rfm[df_rfm['segment'] == segment_choisi]
@@ -60,60 +62,85 @@ if data:
         aov = total_rev / total_ord if total_ord > 0 else 0
         items_per_order = total_itm / total_ord if total_ord > 0 else 0
 
-        st.subheader(f"Statistiques : {segment_choisi}")
+        st.subheader(f"Statistics: {segment_choisi}")
         m1, m2, m3, m4 = st.columns(4)
-        m1.metric("Chiffre d'Affaires", f"{total_rev:,.2f} €")
-        m2.metric("Total Commandes", f"{total_ord:,}")
-        m3.metric("Articles Vendus", f"{total_itm:,.0f}")
-        m4.metric("Clients dans le Segment", f"{total_cust:,}")
+        m1.metric("Revenue", f"{total_rev:,.2f} €")
+        m2.metric("Total Orders", f"{total_ord:,}")
+        m3.metric("Items Sold", f"{total_itm:,.0f}")
+        m4.metric("Segment Customers", f"{total_cust:,}")
 
         m5, m6, m7, m8 = st.columns(4)
-        m5.metric("Panier Moyen", f"{aov:.2f} €")
-        m6.metric("Articles / Panier", f"{items_per_order:.1f}")
-        m7.metric("CA / Client", f"{(total_rev/total_cust if total_cust > 0 else 0):.2f} €")
-        m8.metric("Score RFM Moyen", f"{df_filtered['RFM_score'].mean():.1f}/15")
+        m5.metric("Avg Basket", f"{aov:.2f} €")
+        m6.metric("Items by Order", f"{items_per_order:.1f}")
+        m7.metric("Revenue by Customer", f"{(total_rev/total_cust if total_cust > 0 else 0):.2f} €")
+        m8.metric("Avg RFM Score", f"{df_filtered['RFM_score'].mean():.1f}/15")
 
         st.markdown("---")
         col_left, col_right = st.columns(2)
         
-        # Graphique 1 
+        # Graph left
         with col_left:
-            st.subheader("Volume par Départements")
-            fig_tree = px.treemap(
-                df_dept, path=['department'], values='items_sold',
-                color='items_sold', color_continuous_scale='Blues',
-                labels={'department': 'Département', 'items_sold': 'Articles'}
-            )
-            fig_tree.update_traces(hovertemplate='<b>%{label}</b><br>Articles: %{value:,}')
-            st.plotly_chart(fig_tree, use_container_width=True)
+            st.subheader("Top 5 Departments & Top 10 Aisles")
             
+            # Préparation des données
+            top_5_depts = df_dept.nlargest(5, 'items_sold')
+            top_10_aisles = df_aisle.nlargest(10, 'items_sold')
 
-        # Graphique 2
+            fig_combined = make_subplots(
+                rows=2, cols=1,
+                row_heights=[0.3, 0.7],
+                specs=[[{"type": "treemap"}], [{"type": "treemap"}]],
+                vertical_spacing=0.05,
+                subplot_titles=("Top 5 Departments", "Top 10 Aisles")
+            )
+
+            # Top 5
+            fig_combined.add_trace(
+                go.Treemap(
+                    labels=top_5_depts['department'],
+                    parents=[""] * 5,
+                    values=top_5_depts['items_sold'],
+                    marker=dict(colorscale='Blues'),
+                    textinfo="label+value",
+                    hovertemplate='<b>%{label}</b><br>Items: %{value:,}<extra></extra>'
+                ),
+                row=1, col=1
+            )
+
+            # Top 10
+            fig_combined.add_trace(
+                go.Treemap(
+                    labels=top_10_aisles['aisle'],
+                    parents=[""] * 10,
+                    values=top_10_aisles['items_sold'],
+                    marker=dict(colorscale='Greys'), # Différenciation par couleur
+                    textinfo="label+value",
+                    hovertemplate='<b>%{label}</b><br>Items: %{value:,}<extra></extra>'
+                ),
+                row=2, col=1
+            )
+
+            fig_combined.update_layout(height=700, margin=dict(t=30, b=10, l=0, r=0))
+            st.plotly_chart(fig_combined, use_container_width=True)
+
+        # Graph right
         with col_right:
-            st.subheader("% CA par segment client")
+            st.subheader("Revenue % by Customer Segment")
             
-            total_cust_all = len(df_rfm)
             total_rev_all = df_rfm['total_spent_eur'].sum()
+            concentration = df_rfm.groupby('segment').agg({'user_id': 'count', 'total_spent_eur': 'sum'}).reset_index()
+            concentration['% Customers'] = (concentration['user_id'] / len(df_rfm)) * 100
+            concentration['% Revenue'] = (concentration['total_spent_eur'] / total_rev_all) * 100
 
-            concentration = df_rfm.groupby('segment').agg({
-                'user_id': 'count',
-                'total_spent_eur': 'sum'
-            }).reset_index()
+            df_plot = concentration.melt(id_vars='segment', value_vars=['% Customers', '% Revenue'], 
+                                        var_name='Metric', value_name='Percentage')
 
-            concentration['% Clients'] = (concentration['user_id'] / total_cust_all) * 100
-            concentration['% Chiffre d\'Affaires'] = (concentration['total_spent_eur'] / total_rev_all) * 100
-
-            df_plot = concentration.melt(id_vars='segment', value_vars=['% Clients', '% Chiffre d\'Affaires'], 
-                                        var_name='Métrique', value_name='Pourcentage')
-
-            # 2. Crea du graphique
             fig_money = px.bar(
-                df_plot, 
-                x='segment', 
-                y='Pourcentage', 
-                color='Métrique', 
-                barmode='group',
-                color_discrete_map={'% Clients': '#94a3b8', '% Chiffre d\'Affaires': '#3b82f6'},
-                labels={'segment': 'Segment Client', 'Pourcentage': 'Part du Total (%)'},
+                df_plot, x='segment', y='Percentage', color='Metric', barmode='group',
+                color_discrete_map={'% Customers': '#94a3b8', '% Revenue': '#3b82f6'}
             )
+            fig_money.update_layout(height=700) # Aligné sur la hauteur du bloc de gauche
             st.plotly_chart(fig_money, use_container_width=True)
+
+else:
+    st.warning("Please check your data files in 'data/processed/'.")
