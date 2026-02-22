@@ -189,11 +189,20 @@ def plot_basket_size_distribution(df):
 
 def plot_departments_per_basket(df):
 
+    mean = df['nb_departments'].mean()
+    median = df['nb_departments'].median()
+
     fig = px.histogram(
         df, x='nb_departments',
         title='Number of departments per basket',
         labels={'nb_departments': 'Number of departments'}
     )
+
+    fig.add_vline(x=mean, line_color='red', line_dash='dash', line_width=2,
+                  annotation_text=f'Mean: {mean:.1f}', annotation_position='top right')
+    fig.add_vline(x=median, line_color='green', line_dash='dash', line_width=2,
+                  annotation_text=f'Median: {median:.0f}', annotation_position='top left')
+    
     fig.update_layout(yaxis_title='Number of orders')
     return fig
 

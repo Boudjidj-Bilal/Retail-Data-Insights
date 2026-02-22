@@ -24,3 +24,48 @@ def load_instacart_data(data_path='../data/raw/'):
     
     return data
 
+def quick_info(df, name="Dataset"):
+
+    # name for each dataset
+    print(f"\n{'='*60}")
+    print(f"{name.upper()}")
+    print(f"{'='*60}")
+    
+    # Shape
+    print(f"\n SHAPE:")
+    print(f"  - Rows: {df.shape[0]:,}")
+    print(f"  - Columns: {df.shape[1]}")
+    
+    # Missing values
+    missing = df.isnull().sum()
+    if missing.sum() > 0:
+        print(f"\n⚠️  MISSING VALUES:")
+        for col, count in missing[missing > 0].items():
+            print(f"  - {col}: {count:,}")
+    else:
+        print(f"\n✅ NO MISSING VALUES")
+    
+    # Duplicates
+    dup = df.duplicated().sum()
+    if dup > 0:
+        print(f"\n⚠️  DUPLICATES: {dup:,} rows")
+    else:
+        print(f"\n✅ NO DUPLICATES")
+
+def create_products_enriched(order_products_prior, products, aisles, departments):
+# compute product sales with information from products, aisles and departments
+
+    product_sales = order_products_prior.groupby('product_id').agg(nb_sales=('order_id', 'count'),reorder_rate=('reordered', 'mean')).reset_index()
+    
+    products_enriched = product_sales.merge(products[['product_id', 'product_name', 'aisle_id', 'department_id']], on='product_id',how='left')
+
+    products_enriched = products_enriched.merge(departments[['department_id', 'department']], on='department_id',how='left')
+    
+    products_enriched = products_enriched.merge(aisles[['aisle_id', 'aisle']], on='aisle_id',how='left')
+
+# add frequency of purchase
+    total_orders = order_products_prior['order_id'].nunique()
+    
+    products_enriched['purchase_frequency'] = (products_enriched['nb_sales'] / total_orders * 100)
+
+    return products_enriched
