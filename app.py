@@ -5,10 +5,10 @@ import os
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
-# Config
+# --- CONFIGURATION ---
 st.set_page_config(page_title="Retail Dashboard", layout="wide", initial_sidebar_state="expanded")
 
-# Load data
+# --- CHARGEMENT DES DONNÉES ---
 @st.cache_data
 def load_data():
     base_path = "data/processed/"
@@ -16,11 +16,9 @@ def load_data():
         "aisle": "aisle_performance.csv",
         "dept": "department_performance.csv",
         "rfm": "rfm_customer_segments.csv",
-        "rules": "rules_clean.csv",
-        "prod_list": "products_in_rules.csv",
         "impulse": "impulse_products.csv",
         "enriched": "products_enriched.csv",
-        "rules_by_department": "rules_by_department.csv"
+        "prod_segment": "products_per_segment.csv"
     }
     
     data = {}
@@ -29,65 +27,71 @@ def load_data():
         if os.path.exists(full_path):
             data[key] = pd.read_csv(full_path)
         else:
-            st.error(f"Missing file: {name}")
+            st.error(f"Fichier manquant : {name}")
             return None
     return data
 
 data = load_data()
 
 if data:
-    df_aisle, df_dept, df_rfm = data['aisle'], data['dept'], data['rfm']
-    df_rules, df_prod_list = data['rules'], data['prod_list']
-
-    # Nav
+    df_rfm = data['rfm']
+    # Calcul du score RFM global s'il n'est pas déjà dans le fichier
+    if 'RFM_score' not in df_rfm.columns:
+        df_rfm['RFM_score'] = df_rfm['R_score'] + df_rfm['F_score'] + df_rfm['M_score']
+    
+    # --- NAVIGATION ---
     st.sidebar.header("Navigation")
-    menu = st.sidebar.radio("Go to:", ["Overview", "Customer Segmentation", "Bundles & Simulation"])
+    menu = st.sidebar.radio("Go to:", ["Overview", "Customer Segmentation"])
 
-    # Page 1
+    # --- PAGE 1: OVERVIEW ---
     if menu == "Overview":
         st.title("Dashboard: Performance Overview")
 
-        # Segment Filter
-        segments_disponibles = ["All Segments"] + list(df_rfm['segment'].unique())
-        segment_choisi = st.selectbox("Filter indicators by segment:", segments_disponibles)
+        # Filtre Segments
+        segments_list = ["All Segments"] + sorted(list(df_rfm['segment'].unique()))
+        segment_choisi = st.selectbox("Filter indicators by segment:", segments_list)
 
         df_filtered = df_rfm if segment_choisi == "All Segments" else df_rfm[df_rfm['segment'] == segment_choisi]
         
-        # KPI
+        # --- CALCUL DES 8 KPIs ---
         total_rev = df_filtered['total_spent_eur'].sum()
         total_ord = df_filtered['num_orders'].sum()
-        total_itm = df_filtered['total_items'].sum()
         total_cust = len(df_filtered)
+        
         aov = total_rev / total_ord if total_ord > 0 else 0
-        items_per_order = total_itm / total_ord if total_ord > 0 else 0
+        rev_per_cust = total_rev / total_cust if total_cust > 0 else 0
+        avg_days = df_filtered['avg_days_between_orders'].mean()
+        avg_rfm = df_filtered['RFM_score'].mean()
 
         st.subheader(f"Statistics: {segment_choisi}")
+        
+        # Ligne 1 des KPIs
         m1, m2, m3, m4 = st.columns(4)
-        m1.metric("Revenue", f"{total_rev:,.2f} €")
+        m1.metric("Total Revenue", f"{total_rev:,.2f} €")
         m2.metric("Total Orders", f"{total_ord:,}")
-        m3.metric("Items Sold", f"{total_itm:,.0f}")
-        m4.metric("Segment Customers", f"{total_cust:,}")
+        m3.metric("Unique Customers", f"{total_cust:,}")
+        m4.metric("Revenue / Customer", f"{rev_per_cust:,.2f} €")
 
+        # Ligne 2 des KPIs
         m5, m6, m7, m8 = st.columns(4)
-        m5.metric("Avg Basket", f"{aov:.2f} €")
-        m6.metric("Items by Order", f"{items_per_order:.1f}")
-        m7.metric("Revenue by Customer", f"{(total_rev/total_cust if total_cust > 0 else 0):.2f} €")
-        m8.metric("Avg RFM Score", f"{df_filtered['RFM_score'].mean():.1f}/15")
+        m5.metric("Avg Basket (AOV)", f"{aov:.2f} €")
+        m6.metric("Avg Days Between Orders", f"{avg_days:.1f} days")
+        m7.metric("Avg RFM Score", f"{avg_rfm:.1f} / 15")
+        m8.metric("Active Segments", len(df_filtered['segment'].unique()))
 
         st.markdown("---")
         col_left, col_right = st.columns(2)
         
         with col_left:
-            # Graph top 5 departments and top 10 aisles
             st.subheader("Top 5 Departments & Top 10 Aisles")
-            top_5_depts = df_dept.nlargest(5, 'items_sold')
-            top_10_aisles = df_aisle.nlargest(10, 'items_sold')
+            top_5_depts = data['dept'].nlargest(5, 'items_sold')
+            top_10_aisles = data['aisle'].nlargest(10, 'items_sold')
 
             fig_combined = make_subplots(
                 rows=2, cols=1, row_heights=[0.3, 0.7],
                 specs=[[{"type": "treemap"}], [{"type": "treemap"}]],
-                vertical_spacing=0.05,
-                subplot_titles=("Top 5 Departments", "Top 10 Aisles")
+                vertical_spacing=0.07,
+                subplot_titles=("Top 5 Departments (Global)", "Top 10 Aisles (Global)")
             )
             fig_combined.add_trace(go.Treemap(labels=top_5_depts['department'], parents=[""] * 5, values=top_5_depts['items_sold'], marker=dict(colorscale='Blues'), textinfo="label+value"), row=1, col=1)
             fig_combined.add_trace(go.Treemap(labels=top_10_aisles['aisle'], parents=[""] * 10, values=top_10_aisles['items_sold'], marker=dict(colorscale='Greys'), textinfo="label+value"), row=2, col=1)
@@ -95,8 +99,7 @@ if data:
             st.plotly_chart(fig_combined, use_container_width=True)
 
         with col_right:
-            #Graph revenue by segment
-            st.subheader("Revenue % by Customer Segment")
+            st.subheader("Revenue Concentration")
             concentration = df_rfm.groupby('segment').agg({'user_id': 'count', 'total_spent_eur': 'sum'}).reset_index()
             concentration['% Customers'] = (concentration['user_id'] / len(df_rfm)) * 100
             concentration['% Revenue'] = (concentration['total_spent_eur'] / df_rfm['total_spent_eur'].sum()) * 100
@@ -105,88 +108,45 @@ if data:
             fig_money.update_layout(height=700)
             st.plotly_chart(fig_money, use_container_width=True)
 
-    # Page 2
-    #Characteristics of customer segments
+    # --- PAGE 2: CUSTOMER SEGMENTATION ---
     elif menu == "Customer Segmentation":
         st.title("Customer Segmentation & Behavioral Insights")
-        strat_data = {
-            "Segment": ["Champions", "Loyal", "Potential Loyalist", "At Risk", "Hibernating"],
-            "Characteristics": [
-                "High value, high frequency, recent.",
-                "Steady customers, high frequency.",
-                "Recent spenders with growth potential.",
-                "High spenders who haven't returned recently.",
-                "Low frequency, low monetary, long time ago."
-            ]
-        }
-        st.table(pd.DataFrame(strat_data))
-        st.markdown("---")
-        col1, col2 = st.columns(2)
+        
+        col1, col2 = st.columns([1, 2])
         with col1:
-            # Graph customer segment distribution
-            st.subheader("Customer Base Mix")
-            fig_pie = px.pie(df_rfm, names='segment', hole=0.4, title="Proportion of Total Customers")
+            st.subheader("Segment Mix")
+            fig_pie = px.pie(df_rfm, names='segment', hole=0.4, color_discrete_sequence=px.colors.qualitative.Pastel)
             st.plotly_chart(fig_pie, use_container_width=True)
         with col2:
-            # Graph average RFM scores
-            st.subheader("RFM Scores Distribution")
-            avg_rfm = df_rfm.groupby('segment')[['R_score', 'F_score', 'M_score']].mean().reset_index()
-            fig_bar_rfm = px.bar(avg_rfm, x='segment', y=['R_score', 'F_score', 'M_score'], barmode='group')
+            st.subheader("Average RFM Profile")
+            avg_rfm_scores = df_rfm.groupby('segment')[['R_score', 'F_score', 'M_score']].mean().reset_index()
+            fig_bar_rfm = px.bar(avg_rfm_scores, x='segment', y=['R_score', 'F_score', 'M_score'], barmode='group')
             st.plotly_chart(fig_bar_rfm, use_container_width=True)
 
-        if 'impulse' in data:
-            # Graph top 5 impulse products
-            st.markdown("---")
-            st.subheader("Impulse Buy Analysis")
-            top_impulse = data['impulse'].nlargest(10, 'impulse_ratio')
-            fig_impulse = px.bar(top_impulse, x='impulse_ratio', y='product_name', orientation='h', color='impulse_ratio', color_continuous_scale='Reds')
-            st.plotly_chart(fig_impulse, use_container_width=True)
-
-        if 'enriched' in data:
-            # Graph top 5 products by reorder rate
-            st.markdown("---")
-            st.subheader("Product Loyalty & Reorder Rates")
-            top_reorder = data['enriched'][data['enriched']['nb_sales'] > 1000].nlargest(5, 'reorder_rate')
-            fig_reorder = px.scatter(top_reorder, x='nb_sales', y='reorder_rate', size='purchase_frequency', color='department', text='product_name')
-            fig_reorder.update_traces(textposition='top center')
-            st.plotly_chart(fig_reorder, use_container_width=True)
-
-    # Page 3
-    elif menu == "Bundles & Simulation":
-        st.title("Smart Bundles & Revenue Projection")
-        available_products = sorted(df_prod_list['product_name'].unique())
-        base_product = st.selectbox("Select a base product:", available_products)
-
-        paires = df_rules[df_rules['antecedent'].str.contains(base_product, na=False, case=False)]
-        df_rules_dept = data['rules_by_department']
-        trios = df_rules_dept[df_rules_dept['antecedent'].str.contains(base_product, na=False, case=False)]
-        trios = trios[trios['antecedent'].str.contains(',', na=False)]
-
-        col_b1, col_b2 = st.columns(2)
-        with col_b1:
-            st.markdown("#### Best 2-Item Bundles (Pairs)")
-            if not paires.empty:
-                for _, row in paires.nlargest(5, 'lift').iterrows():
-                    with st.expander(f"➕ {row['consequent']}"):
-                        st.write(f"Confidence: {row['confidence']:.1%}, Lift: {row['lift']:.2f}")
-            else: st.write("No strong pair found.")
-
-        with col_b2:
-            st.markdown("#### Best 3-Item Bundles (Trios)")
-            if not trios.empty:
-                for _, row in trios.nlargest(5, 'lift').iterrows():
-                    with st.expander(f"🍱 {row['antecedent']} ➔ {row['consequent']}"):
-                        st.write(f"Confidence: {row['confidence']:.1%}")
-            else: st.write("No complex bundle found.")
-
         st.markdown("---")
-        st.subheader("Potential Revenue Simulator")
-        target_segment = st.selectbox("Target Segment:", df_rfm['segment'].unique())
-        conv_rate = st.slider("Conversion Rate (%)", 0.5, 20.0, 5.0) / 100
-        bundle_val = st.number_input("Average Bundle Price (€)", value=15.0)
-        num_cust = len(df_rfm[df_rfm['segment'] == target_segment])
-        est_rev = (num_cust * conv_rate) * bundle_val
-        st.metric("Estimated Revenue", f"{est_rev:,.2f} €")
+
+        st.subheader("Top 10 Favorite Products per Segment")
+        if 'prod_segment' in data:
+            df_ps = data['prod_segment']
+            seg_to_show = st.selectbox("Select a segment to explore its favorites:", df_ps['segment'].unique())
+            products_list = df_ps[df_ps['segment'] == seg_to_show]['products'].values[0]
+            items = [item.strip() for item in products_list.split(',')]
+            cols = st.columns(2)
+            for i, item in enumerate(items):
+                cols[i % 2].write(f"**{i+1}.** {item}")
+        
+        st.markdown("---")
+
+        st.subheader("Behavioral Product Insights")
+        t1, = st.tabs(["Top 5 Impulse Buys"])
+        
+        with t1:
+            top_1_impulse = data['impulse'].nlargest(1, 'impulse_ratio').iloc[0]
+            st.metric("Impulse Champion", top_1_impulse['product_name'], f"Ratio: {top_1_impulse['impulse_ratio']:.2f}")
+            top_5_impulse = data['impulse'].nlargest(5, 'impulse_ratio')
+            fig_imp = px.bar(top_5_impulse, x='impulse_ratio', y='product_name', orientation='h', color='impulse_ratio', color_continuous_scale='Reds')
+            fig_imp.update_layout(yaxis={'categoryorder':'total ascending'}, height=350)
+            st.plotly_chart(fig_imp, use_container_width=True)
 
 else:
-    st.warning("Please check your data files in 'data/processed/'.")
+    st.warning("Veuillez vérifier que les fichiers CSV sont bien présents dans 'data/processed/'.")
