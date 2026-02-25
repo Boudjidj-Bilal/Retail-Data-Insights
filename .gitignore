@@ -18,3 +18,4 @@ notebooks/price_integration/final/*.xlsx
 
 notebooks/products_segmentation/csv/*.csv
 data/processed/basket_size.csv
+data/processed/rules_by_department.csv
