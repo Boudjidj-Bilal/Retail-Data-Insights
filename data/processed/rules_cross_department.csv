@@ -1,0 +1,36 @@
+antecedent,consequent,support,confidence,lift,antecedent_dept,consequent_dept
+100% Whole Wheat Bread,Banana,0.005615,0.25505337270043155,1.5367901226188145,bakery,produce
+100% Whole Wheat Bread,Organic Strawberries,0.00301,0.13672496025437203,1.4586329573198062,bakery,produce
+Organic Whole String Cheese,Banana,0.004235,0.2256259989344699,1.3594794018887713,dairy eggs,produce
+Organic Whole String Cheese,Bag of Organic Bananas,0.00409,0.21790090570058604,1.8034422156059262,dairy eggs,produce
+Organic Whole String Cheese,Organic Hass Avocado,0.003005,0.16009589770911029,2.287901360616081,dairy eggs,produce
+Organic Whole String Cheese,Organic Strawberries,0.004575,0.24374001065530104,2.600309496509319,dairy eggs,produce
+Vanilla Almond Breeze Almond Milk,Banana,0.003135,0.28383884110457225,1.7102331280967207,dairy eggs,produce
+Half & Half,Banana,0.005225,0.23237714031576603,1.4001575049906065,dairy eggs,produce
+Unsweetened Almondmilk,Bag of Organic Bananas,0.003125,0.18865076969514036,1.5613554288859124,dairy eggs,produce
+Original Hummus,Bag of Organic Bananas,0.004105,0.1660262891809909,1.37410543497613,deli,produce
+Original Hummus,Organic Hass Avocado,0.0035,0.14155712841253792,2.0229671798862157,deli,produce
+Original Hummus,Organic Strawberries,0.00425,0.1718907987866532,1.8337952609660553,deli,produce
+Original Hummus,Banana,0.00624,0.25237613751263904,1.520658798618016,deli,produce
+Original Hummus,Organic Avocado,0.003045,0.12315470171890798,1.838267060510605,deli,produce
+Original Hummus,Organic Baby Spinach,0.003885,0.1571284125379171,1.8292015429326784,deli,produce
+Organic Whole Milk,Banana,0.00972,0.2174496644295302,1.3102139874644063,dairy eggs,produce
+Organic Whole Milk,Organic Baby Spinach,0.00576,0.12885906040268458,1.500105476166293,dairy eggs,produce
+Organic Whole Milk,Organic Strawberries,0.00804,0.17986577181208055,1.918875252702625,dairy eggs,produce
+Organic Whole Milk,Bag of Organic Bananas,0.008035,0.17975391498881435,1.4877212082666198,dairy eggs,produce
+Organic Whole Milk,Organic Avocado,0.004575,0.10234899328859061,1.527710923032922,dairy eggs,produce
+Whole Milk,Banana,0.00307,0.2492894843686561,1.5020605812590373,dairy eggs,produce
+Boneless Skinless Chicken Breasts,Organic Baby Spinach,0.00329,0.16507777220270947,1.9217435646415537,meat seafood,produce
+Boneless Skinless Chicken Breasts,Banana,0.00544,0.2729553437029604,1.6446560642482473,meat seafood,produce
+Boneless Skinless Chicken Breasts,Organic Avocado,0.003395,0.17034621174109382,2.5426705237867577,meat seafood,produce
+Organic Unsweetened Almond Milk,Organic Baby Spinach,0.00355,0.18308406395048996,2.131362793370081,dairy eggs,produce
+Organic Unsweetened Almond Milk,Organic Strawberries,0.00306,0.15781330582774625,1.6836113066383556,dairy eggs,produce
+Organic Unsweetened Almond Milk,Bag of Organic Bananas,0.004135,0.21325425477050022,1.764984521171117,dairy eggs,produce
+Organic Half & Half,Organic Strawberries,0.00308,0.1256886349724546,1.340893315970071,dairy eggs,produce
+Organic Half & Half,Bag of Organic Bananas,0.0039,0.15915119363395225,1.3172041682925906,dairy eggs,produce
+Feta Cheese Crumbles,Banana,0.00304,0.247758761206194,1.4928374127448196,dairy eggs,produce
+2% Reduced Fat Milk,Banana,0.003435,0.25388026607538805,1.5297217249142172,dairy eggs,produce
+Organic Reduced Fat Milk,Banana,0.00322,0.27939262472885035,1.6834430435866017,dairy eggs,produce
+Blueberries,Banana,0.0066,0.3120567375886525,1.8802563045741723,frozen,produce
+Blueberries,Strawberries,0.003215,0.1520094562647754,2.9896638069579193,frozen,produce
+Unsweetened Original Almond Breeze Almond Milk,Banana,0.00335,0.2760609806345282,1.6633686658905686,dairy eggs,produce

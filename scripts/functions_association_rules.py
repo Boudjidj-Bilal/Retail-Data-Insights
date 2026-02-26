@@ -19,6 +19,111 @@ from mlxtend.frequent_patterns import fpgrowth, association_rules
 from mlxtend.preprocessing import TransactionEncoder
 import gc
 
+
+# ════════════════════════════════════════════════════════════════════════
+# GENERATORS - Read CSV by chunks without loading everything in memory
+# ════════════════════════════════════════════════════════════════════════
+
+def csv_chunk_generator(filepath, chunksize=100_000, filter_column=None, filter_values=None):
+    """
+    Generator that reads a CSV file chunk by chunk and applies optional filtering.
+    
+    Arguments:
+        filepath: Path to the CSV file
+        chunksize: Number of rows per chunk (default: 100_000)
+        filter_column: Optional column to filter on ('department', 'segment')
+        filter_values: Value(s) to keep (string or list)
+    
+    Yields:
+        Filtered DataFrame chunks
+    """
+    if isinstance(filter_values, str):
+        filter_values = [filter_values]
+
+    for chunk in pd.read_csv(filepath, chunksize=chunksize):
+        if filter_column and filter_values:
+            chunk = chunk[chunk[filter_column].isin(filter_values)]
+        if not chunk.empty:
+            yield chunk
+
+
+def get_top_products_from_csv(filepath, top_n, filter_column=None, filter_values=None, chunksize=100_000):
+    """
+    Identify top N products by frequency from a CSV file using chunks.
+    
+    Makes a first pass through the CSV to count product frequencies,
+    without loading the entire file into memory.
+    
+    Arguments:
+        filepath: Path to the CSV file
+        top_n: Number of top products to keep
+        filter_column: Optional column to filter on
+        filter_values: Value(s) to keep
+        chunksize: Number of rows per chunk
+    
+    Returns:
+        Set of top N product names
+    """
+    print(f"    Computing top {top_n} products (pass 1/2)...")
+    product_counts = {}
+
+    for chunk in csv_chunk_generator(filepath, chunksize, filter_column, filter_values):
+        for product, count in chunk['product_name'].value_counts().items():
+            product_counts[product] = product_counts.get(product, 0) + count
+
+    top_products = set(
+        sorted(product_counts, key=product_counts.get, reverse=True)[:top_n]
+    )
+    return top_products
+
+
+def prepare_transactions_from_csv(filepath, filter_column=None, filter_values=None,
+                                   top_n_products=None, chunksize=100_000):
+    """
+    Prepare transaction list from a CSV file using a generator (chunk by chunk).
+    
+    Memory-efficient alternative to prepare_transactions() which requires
+    the full DataFrame to be loaded in memory.
+    
+    Makes 2 passes through the CSV:
+    - Pass 1 (if top_n_products): count product frequencies to identify top N
+    - Pass 2: build the transaction dict {order_id -> [products]}
+    
+    Arguments:
+        filepath: Path to the CSV file (must have 'order_id' and 'product_name' columns)
+        filter_column: Optional column to filter ('department', 'segment')
+        filter_values: Value(s) to keep (string or list)
+        top_n_products: Keep only top N most frequent products (int)
+        chunksize: Number of rows per chunk (default: 100_000)
+    
+    Returns:
+        List of transactions
+    """
+    # Pass 1: identify top N products if needed
+    top_products = None
+    if top_n_products:
+        top_products = get_top_products_from_csv(
+            filepath, top_n_products, filter_column, filter_values, chunksize
+        )
+
+    # Pass 2: build transactions dict
+    print(f"    Building transactions (pass 2/2)...")
+    transactions_dict = {}
+
+    for chunk in csv_chunk_generator(filepath, chunksize, filter_column, filter_values):
+        # Keep only top N products
+        if top_products:
+            chunk = chunk[chunk['product_name'].isin(top_products)]
+
+        # Group by order
+        for order_id, group in chunk.groupby('order_id'):
+            if order_id not in transactions_dict:
+                transactions_dict[order_id] = []
+            transactions_dict[order_id].extend(group['product_name'].tolist())
+
+    return list(transactions_dict.values())
+
+
 # Rules generation function using FP-Growth algorithm
 
 def generate_association_rules(transactions, min_support=0.005, min_confidence=0.15, 
@@ -97,6 +202,7 @@ def prepare_transactions(data, filter_column=None, filter_values=None,
     Prepare transaction list from DataFrame for association rule mining.
     
     Converts long-format DataFrame into list of transactions.
+    Use prepare_transactions_from_csv() instead if working with large CSV files.
     
     Arguments:
         data: DataFrame with columns 'product_name' and 'order_id'
@@ -128,6 +234,61 @@ def prepare_transactions(data, filter_column=None, filter_values=None,
 # ════════════════════════════════════════════════════════════════════════
 # RULE EVALUATION
 # ════════════════════════════════════════════════════════════════════════
+
+def evaluate_rules_from_csv(rules, filepath, groupby_column=None, k=10,
+                             sample_size=10_000, min_basket_size=4, chunksize=100_000):
+    """
+    Evaluate association rules from a CSV file using chunks (memory-efficient).
+    
+    Same logic as evaluate_rules() but reads test data chunk by chunk
+    instead of requiring a full DataFrame in memory.
+    
+    Arguments:
+        rules: DataFrame with columns [antecedent, consequent] and optional groupby_column
+        filepath: Path to the test CSV file
+        groupby_column: Optional column for grouped evaluation ('department', 'segment')
+        k: Number of recommendations to generate
+        sample_size: Number of test baskets to sample (default: 10000)
+        min_basket_size: Minimum basket size for evaluation (default: 4)
+        chunksize: Number of rows per chunk
+    
+    Returns:
+        Dictionary with metrics or None if no recommendations generated
+    """
+    print("    Building test baskets from CSV...")
+
+    # Build baskets dict from CSV chunks
+    baskets_dict = {}      # order_id -> list of products
+    group_dict = {}        # order_id -> group value (if groupby_column)
+
+    for chunk in csv_chunk_generator(filepath, chunksize):
+        for order_id, group in chunk.groupby('order_id'):
+            if order_id not in baskets_dict:
+                baskets_dict[order_id] = []
+            baskets_dict[order_id].extend(group['product_name'].tolist())
+
+            # Keep track of group value per basket
+            if groupby_column and order_id not in group_dict:
+                group_dict[order_id] = group[groupby_column].iloc[0]
+
+    # Convert to DataFrame
+    if groupby_column:
+        test_baskets = pd.DataFrame([
+            {'order_id': oid, 'product_name': prods, groupby_column: group_dict.get(oid)}
+            for oid, prods in baskets_dict.items()
+        ])
+    else:
+        test_baskets = pd.DataFrame([
+            {'order_id': oid, 'product_name': prods}
+            for oid, prods in baskets_dict.items()
+        ])
+
+    del baskets_dict, group_dict
+    gc.collect()
+
+    # Delegate to shared evaluation logic
+    return _evaluate_baskets(rules, test_baskets, groupby_column, k, sample_size, min_basket_size)
+
 
 def evaluate_rules(rules, test_data, groupby_column=None, k=10, 
                    sample_size=10000, min_basket_size=4):
@@ -228,7 +389,27 @@ def evaluate_rules(rules, test_data, groupby_column=None, k=10,
         # Without grouping: just aggregate products per order
         test_baskets = test_data.groupby('order_id')['product_name'].apply(list).reset_index()
         test_baskets.columns = ['order_id', 'product_name']
+
+    # Delegate to shared evaluation logic
+    return _evaluate_baskets(rules, test_baskets, groupby_column, k, sample_size, min_basket_size)
+
+
+def _evaluate_baskets(rules, test_baskets, groupby_column, k, sample_size, min_basket_size):
+    """
+    Core evaluation logic shared by evaluate_rules() and evaluate_rules_from_csv().
     
+    Arguments:
+        rules: DataFrame with association rules
+        test_baskets: DataFrame [order_id, product_name, (groupby_column)]
+        groupby_column: Optional column for grouped rule filtering
+        k: Number of recommendations
+        sample_size: Number of baskets to sample
+        min_basket_size: Minimum basket size
+    
+    Returns:
+        Dictionary with metrics or None
+    """
+
     # Step 2: Filter baskets by minimum size
     # Need at least 4 products to split 50/50 (2 antecedents, 2 targets)
     test_baskets = test_baskets[test_baskets['product_name'].apply(len) >= min_basket_size]

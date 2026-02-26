@@ -1,5 +1,5 @@
 import plotly.express as px
-
+import pandas as pd
 
 def plot_distribution_of_orders(df):
 
@@ -239,6 +239,47 @@ def plot_days_since_prior_order_distribution(df):
     )
     fig.update_layout(yaxis_title='Number of orders')
 
+    return fig
+def plot_department_aisle_treemap(products_enriched, top_n_per_dept=4):
+
+    dept_real_totals = products_enriched.groupby('department').agg(
+        dept_total_sales=('nb_sales', 'sum')).reset_index()
+    
+    dept_aisle_sales = products_enriched.groupby(['department', 'aisle']).agg(
+        total_sales=('nb_sales', 'sum')).reset_index()
+    
+    # Keep top N aisles per department
+    top_aisles = (
+        dept_aisle_sales
+        .sort_values('total_sales', ascending=False)
+        .groupby('department')
+        .head(top_n_per_dept)
+        .reset_index(drop=True)
+    )
+    top_aisles = top_aisles.merge(dept_real_totals, on='department', how='left')
+    
+    # Figure
+    fig = px.treemap(
+        top_aisles,
+        path=['department', 'aisle'],
+        values='total_sales',
+        color='department',
+        color_discrete_sequence=px.colors.qualitative.Alphabet,
+        title=f'Sales by Department (Top {top_n_per_dept} Aisles per Department)',
+        hover_data={'total_sales': ':,.0f', 'dept_total_sales': ':,.0f'},
+    )
+    
+    fig.update_traces(
+        textposition='middle center',
+        textfont_size=12,
+        marker=dict(line=dict(width=2, color='white'))
+    )
+    
+    fig.update_layout(
+        height=800,
+        showlegend=False
+    )
+    
     return fig
 
 def quick_info(df, name="Dataset"):

@@ -1,0 +1,401 @@
+antecedent,consequent,support,confidence,lift,antecedent_dept,consequent_dept,pair
+Organic Simply Naked Pita Chips,Soda,0.004093333333333333,0.35226620768789446,8.098073739951598,snacks,beverages,snacks × beverages
+Soda,Trail Mix,0.008546666666666666,0.19647509578544062,12.382884188158021,beverages,snacks,snacks × beverages
+Trail Mix,Soda,0.008546666666666666,0.5386554621848738,12.38288418815802,snacks,beverages,snacks × beverages
+Popcorn,Soda,0.005573333333333333,0.5274447949526814,12.125167700061642,snacks,beverages,snacks × beverages
+Soda,Popcorn,0.005573333333333333,0.12812260536398468,12.125167700061642,beverages,snacks,snacks × beverages
+Gluten Free Dark Chocolate Chunk Chewy with a Crunch Granola Bars,Sparkling Water Grapefruit,0.0036133333333333334,0.19853479853479852,1.9229172712739575,snacks,beverages,snacks × beverages
+Lightly Salted Baked Snap Pea Crisps,Sparkling Water Grapefruit,0.00646,0.15145357924351358,1.4669101108366396,snacks,beverages,snacks × beverages
+Organic Tortilla Chips,Soda,0.0034733333333333335,0.20108066383635662,4.622543996238083,snacks,beverages,snacks × beverages
+Soda,Mixed Fruit Fruit Snacks,0.005253333333333333,0.12076628352490422,6.787164679181578,beverages,snacks,snacks × beverages
+Mixed Fruit Fruit Snacks,Soda,0.005253333333333333,0.2952416635443986,6.787164679181578,snacks,beverages,snacks × beverages
+Pretzel Crisps Original Deli Style Pretzel Crackers,Sparkling Water Grapefruit,0.004253333333333333,0.1440505757507338,1.395208004301031,snacks,beverages,snacks × beverages
+Pretzel Crisps Original Deli Style Pretzel Crackers,Lime Sparkling Water,0.003086666666666667,0.1045382704899526,1.6185735521772182,snacks,beverages,snacks × beverages
+Baked Aged White Cheddar Rice and Corn Puffs,Sparkling Water Grapefruit,0.0035,0.15090543259557346,1.4616010130648944,snacks,beverages,snacks × beverages
+Sea Salt Pita Chips,Sparkling Water Grapefruit,0.0038933333333333333,0.15164892235782915,1.4688021149140809,snacks,beverages,snacks × beverages
+Almonds & Sea Salt in Dark Chocolate,Sparkling Water Grapefruit,0.00334,0.16733466933867738,1.6207270872862147,snacks,beverages,snacks × beverages
+Original Veggie Straws,Sparkling Water Grapefruit,0.0036866666666666667,0.14278337206300026,1.3829344488571085,snacks,beverages,snacks × beverages
+Soda,Extra Fancy Unsalted Mixed Nuts,0.006,0.13793103448275865,10.803997479067256,beverages,snacks,snacks × beverages
+Extra Fancy Unsalted Mixed Nuts,Soda,0.006,0.46997389033942555,10.803997479067254,snacks,beverages,snacks × beverages
+Whole Grain Cheddar Baked Snack Crackers,Soda,0.003173333333333333,0.31627906976744186,7.270783213044641,snacks,beverages,snacks × beverages
+Chocolate Chip Cookies,Soda,0.004573333333333334,0.19746689694876224,4.539468895373845,snacks,beverages,snacks × beverages
+Soda,Chocolate Chip Cookies,0.004573333333333334,0.10513409961685825,4.539468895373846,beverages,snacks,snacks × beverages
+Crunchy Oats 'n Honey Granola Bars,Soda,0.0061133333333333335,0.4932759548144164,11.339677122170492,snacks,beverages,snacks × beverages
+Soda,Crunchy Oats 'n Honey Granola Bars,0.0061133333333333335,0.14053639846743296,11.339677122170492,beverages,snacks,snacks × beverages
+Hint Of Sea Salt Almond Nut Thins,Sparkling Water Grapefruit,0.0032866666666666665,0.16158636512618813,1.5650516413074333,snacks,beverages,snacks × beverages
+Original Beef Jerky,Soda,0.0031866666666666666,0.3103896103896104,7.135393342289895,snacks,beverages,snacks × beverages
+Boneless Skinless Chicken Breasts,Limes,0.01554,0.12430674061433447,1.3380704048905756,meat seafood,produce,produce × meat seafood
+Limes,Boneless Skinless Chicken Breasts,0.01554,0.16727664155005384,1.3380704048905756,produce,meat seafood,produce × meat seafood
+"Limes, Organic Avocado",Boneless Skinless Chicken Breasts,0.00402,0.21721902017291067,1.737566820922387,produce,meat seafood,produce × meat seafood
+"Large Lemon, Limes",Boneless Skinless Chicken Breasts,0.003513333333333333,0.17786027674654065,1.4227304560570124,produce,meat seafood,produce × meat seafood
+"Banana, Limes",Boneless Skinless Chicken Breasts,0.00552,0.22216259726321438,1.777111219575627,produce,meat seafood,produce × meat seafood
+"Limes, Organic Baby Spinach",Boneless Skinless Chicken Breasts,0.0031666666666666666,0.1999158249158249,1.5991560226841797,produce,meat seafood,produce × meat seafood
+93% Ground Beef,Organic Avocado,0.0030733333333333333,0.1761559037065342,1.45175460447119,meat seafood,produce,produce × meat seafood
+Tilapia Filet,Large Lemon,0.00484,0.14913722267871815,1.5663480886295844,meat seafood,produce,produce × meat seafood
+Tilapia Filet,Limes,0.004486666666666667,0.13824979457682826,1.488157099858216,meat seafood,produce,produce × meat seafood
+Tilapia Filet,Organic Baby Spinach,0.006253333333333333,0.1926869350862777,1.348844514791005,meat seafood,produce,produce × meat seafood
+Boneless Skinless Chicken Breasts,Cucumber Kirby,0.014686666666666667,0.11748080204778157,1.7202382181928189,meat seafood,produce,produce × meat seafood
+Cucumber Kirby,Boneless Skinless Chicken Breasts,0.014686666666666667,0.21505271378367827,1.7202382181928189,produce,meat seafood,produce × meat seafood
+"Cucumber Kirby, Organic Avocado",Boneless Skinless Chicken Breasts,0.003353333333333333,0.2463271302644466,1.9704068653832651,produce,meat seafood,produce × meat seafood
+"Banana, Cucumber Kirby",Boneless Skinless Chicken Breasts,0.00602,0.24665391969407266,1.9730209019897023,produce,meat seafood,produce × meat seafood
+"Cucumber Kirby, Organic Baby Spinach",Boneless Skinless Chicken Breasts,0.0035066666666666666,0.2705761316872428,2.1643781864913834,produce,meat seafood,produce × meat seafood
+Air Chilled Organic Boneless Skinless Chicken Breasts,Organic Avocado,0.006866666666666667,0.1882309941520468,1.5512691128403395,meat seafood,produce,produce × meat seafood
+Air Chilled Organic Boneless Skinless Chicken Breasts,Organic Zucchini,0.00366,0.10032894736842106,1.6244972047995636,meat seafood,produce,produce × meat seafood
+Air Chilled Organic Boneless Skinless Chicken Breasts,Organic Strawberries,0.00758,0.20778508771929824,1.3509498139610219,meat seafood,produce,produce × meat seafood
+Air Chilled Organic Boneless Skinless Chicken Breasts,Bag of Organic Bananas,0.00746,0.20449561403508773,1.324453458776475,meat seafood,produce,produce × meat seafood
+Air Chilled Organic Boneless Skinless Chicken Breasts,Organic Yellow Onion,0.003833333333333333,0.10508040935672515,1.444867669218881,meat seafood,produce,produce × meat seafood
+Air Chilled Organic Boneless Skinless Chicken Breasts,Large Lemon,0.0057933333333333335,0.15880847953216376,1.6679226949884165,meat seafood,produce,produce × meat seafood
+Air Chilled Organic Boneless Skinless Chicken Breasts,Organic Baby Spinach,0.007413333333333333,0.20321637426900585,1.4225525546178308,meat seafood,produce,produce × meat seafood
+Organic Romaine,Boneless Skinless Chicken Breasts,0.003106666666666667,0.17840735068912714,1.427106580811064,produce,meat seafood,produce × meat seafood
+Organic Avocado,Boneless Skinless Chicken Breasts,0.022186666666666667,0.18284709631338938,1.4626207576263015,produce,meat seafood,produce × meat seafood
+Boneless Skinless Chicken Breasts,Organic Avocado,0.022186666666666667,0.17747440273037543,1.4626207576263015,meat seafood,produce,produce × meat seafood
+"Banana, Organic Avocado",Boneless Skinless Chicken Breasts,0.007993333333333333,0.2045028142589118,1.6358480236154422,produce,meat seafood,produce × meat seafood
+"Organic Avocado, Organic Baby Spinach",Boneless Skinless Chicken Breasts,0.00524,0.2144026186579378,1.715038011875569,produce,meat seafood,produce × meat seafood
+Red Vine Tomato,Boneless Skinless Chicken Breasts,0.00702,0.18357740585774057,1.4684626108501004,produce,meat seafood,produce × meat seafood
+Red Peppers,Boneless Skinless Chicken Breast,0.003953333333333333,0.10414471373375482,2.2005503676663225,produce,meat seafood,produce × meat seafood
+Jalapeno Peppers,Boneless Skinless Chicken Breasts,0.006246666666666667,0.19655968114117892,1.5723097360909148,produce,meat seafood,produce × meat seafood
+Garlic,Boneless Skinless Chicken Breasts,0.005226666666666667,0.17924096936442616,1.4337748189347228,produce,meat seafood,produce × meat seafood
+Organic Baby Spinach,Boneless Skinless Chicken Breasts,0.02396,0.16772447265260407,1.3416526716025283,produce,meat seafood,produce × meat seafood
+Boneless Skinless Chicken Breasts,Organic Baby Spinach,0.02396,0.19165955631399315,1.341652671602528,meat seafood,produce,produce × meat seafood
+"Banana, Organic Strawberries",Boneless Skinless Chicken Breasts,0.00666,0.1642551792173627,1.3139012842685798,produce,meat seafood,produce × meat seafood
+"Banana, Organic Baby Spinach",Boneless Skinless Chicken Breasts,0.008093333333333333,0.2204467041946613,1.7633855390997863,produce,meat seafood,produce × meat seafood
+Asparagus,Boneless Skinless Chicken Breasts,0.00852,0.16565132858068699,1.325069287921451,produce,meat seafood,produce × meat seafood
+Grape White/Green Seedless,Boneless Skinless Chicken Breasts,0.003853333333333333,0.1767584097859327,1.4139164605316716,produce,meat seafood,produce × meat seafood
+Organic Beef Hot Dogs,Organic Strawberries,0.010906666666666667,0.29115500978821857,1.8929934319376178,meat seafood,produce,produce × meat seafood
+Organic Beef Hot Dogs,Bag of Organic Bananas,0.007806666666666667,0.20840007118704396,1.3497413936984712,meat seafood,produce,produce × meat seafood
+Organic Beef Hot Dogs,Organic Hass Avocado,0.0058,0.15483182060864922,1.3959712142391887,meat seafood,produce,produce × meat seafood
+"Banana, Large Lemon",Boneless Skinless Chicken Breasts,0.00516,0.18686624818928052,1.4947705433229563,produce,meat seafood,produce × meat seafood
+"Large Lemon, Organic Avocado",Boneless Skinless Chicken Breasts,0.0037133333333333332,0.1932015261879986,1.5454473617853983,produce,meat seafood,produce × meat seafood
+"Large Lemon, Organic Baby Spinach",Boneless Skinless Chicken Breasts,0.00336,0.1948955916473318,1.5589984400117198,produce,meat seafood,produce × meat seafood
+Organic Sunday Bacon,Organic Strawberries,0.005273333333333333,0.21832735302235715,1.4194921309589341,meat seafood,produce,produce × meat seafood
+Organic Sunday Bacon,Organic Hass Avocado,0.004893333333333334,0.20259453491581564,1.8266021660979952,meat seafood,produce,produce × meat seafood
+Organic Sunday Bacon,Bag of Organic Bananas,0.006406666666666666,0.26524979298923546,1.7179390737644782,meat seafood,produce,produce × meat seafood
+Organic Garnet Sweet Potato (Yam),Boneless Skinless Chicken Breasts,0.0051533333333333336,0.16425839354016147,1.3139269961083735,produce,meat seafood,produce × meat seafood
+Organic Garnet Sweet Potato (Yam),Ground Turkey Breast,0.00328,0.1045473863153421,1.6867922929225896,produce,meat seafood,produce × meat seafood
+90% Lean Ground Beef,Organic Avocado,0.003533333333333333,0.22064945878434636,1.8184395812126781,meat seafood,produce,produce × meat seafood
+"Banana, Organic Garlic",Boneless Skinless Chicken Breasts,0.00334,0.21973684210526317,1.757707248068978,produce,meat seafood,produce × meat seafood
+Natural Chicken & Sage Breakfast Sausage,Organic Hass Avocado,0.00428,0.1447576099210823,1.3051416414114532,meat seafood,produce,produce × meat seafood
+Natural Chicken & Sage Breakfast Sausage,Organic Strawberries,0.005913333333333333,0.19999999999999998,1.3003337523297644,meat seafood,produce,produce × meat seafood
+Honeycrisp Apple,Boneless Skinless Chicken Breasts,0.008393333333333333,0.17578888578609325,1.4061610957718635,produce,meat seafood,produce × meat seafood
+"Banana, Honeycrisp Apple",Boneless Skinless Chicken Breasts,0.0033133333333333335,0.18733509234828497,1.4985208965573136,produce,meat seafood,produce × meat seafood
+Organic Chicken & Apple Sausage,Bag of Organic Bananas,0.006486666666666667,0.2369125882639396,1.5344079550773289,meat seafood,produce,produce × meat seafood
+Organic Chicken & Apple Sausage,Organic Raspberries,0.0033133333333333335,0.12101290479668858,1.9640700843435714,meat seafood,produce,produce × meat seafood
+Organic Chicken & Apple Sausage,Organic Strawberries,0.006093333333333333,0.22254687119551983,1.4469260404545954,meat seafood,produce,produce × meat seafood
+Organic Chicken & Apple Sausage,Organic Hass Avocado,0.005413333333333333,0.19771122473825176,1.782574004372048,meat seafood,produce,produce × meat seafood
+Red Onion,Boneless Skinless Chicken Breasts,0.00676,0.1945137157107232,1.5559437583515614,produce,meat seafood,produce × meat seafood
+Uncured Hickory Smoked Sunday Bacon,Organic Raspberries,0.00456,0.10324528301886791,1.6756970842707408,meat seafood,produce,produce × meat seafood
+Broccoli Crown,Boneless Skinless Chicken Breasts,0.008153333333333334,0.23136587211502083,1.8507295657664848,produce,meat seafood,produce × meat seafood
+"Banana, Broccoli Crown",Boneless Skinless Chicken Breasts,0.0031866666666666666,0.25865800865800864,2.0690433713044634,produce,meat seafood,produce × meat seafood
+85% Lean Ground Beef,Organic Avocado,0.00456,0.16391085549964055,1.3508394222815274,meat seafood,produce,produce × meat seafood
+85% Lean Ground Beef,Yellow Onions,0.003013333333333333,0.10831536065180924,1.87137803475828,meat seafood,produce,produce × meat seafood
+85% Lean Ground Beef,Cucumber Kirby,0.00336,0.1207764198418404,1.7684950191600997,meat seafood,produce,produce × meat seafood
+85% Lean Ground Beef,Large Lemon,0.0041066666666666665,0.14761562425113825,1.5503671500959766,meat seafood,produce,produce × meat seafood
+Yellow Onions,Boneless Skinless Chicken Breasts,0.01034,0.17864547339322737,1.4290113592674971,produce,meat seafood,produce × meat seafood
+"Banana, Yellow Onions",Boneless Skinless Chicken Breasts,0.003606666666666667,0.20751822017644805,1.6599686980837887,produce,meat seafood,produce × meat seafood
+Russet Potato,Boneless Skinless Chicken Breasts,0.0044,0.18992805755395686,1.5192624057750388,produce,meat seafood,produce × meat seafood
+Bunched Cilantro,Boneless Skinless Chicken Breasts,0.005946666666666667,0.17313664596273293,1.3849454401882433,produce,meat seafood,produce × meat seafood
+Organic Turkey Bacon,Organic Raspberries,0.0032733333333333334,0.10036794766966475,1.6289972030350264,meat seafood,produce,produce × meat seafood
+Organic Turkey Bacon,Organic Baby Spinach,0.0067733333333333335,0.20768601798855274,1.4538408950104027,meat seafood,produce,produce × meat seafood
+Organic Turkey Bacon,Bag of Organic Bananas,0.007533333333333334,0.23098937040065412,1.4960451450819567,meat seafood,produce,produce × meat seafood
+Organic Turkey Bacon,Organic Hass Avocado,0.0062,0.19010629599345868,1.7140075974646152,meat seafood,produce,produce × meat seafood
+Organic Turkey Bacon,Organic Strawberries,0.0071333333333333335,0.2187244480784955,1.422073911480834,meat seafood,produce,produce × meat seafood
+Organic Peeled Whole Baby Carrots,Boneless Skinless Chicken Breasts,0.005726666666666666,0.16760975609756099,1.3407350370432032,produce,meat seafood,produce × meat seafood
+Lean Ground Turky,Banana,0.0033266666666666666,0.3392250169952413,1.3773211495584181,meat seafood,produce,produce × meat seafood
+Green Beans,Boneless Skinless Chicken Breasts,0.004953333333333333,0.1979749533706368,1.5836307063564163,produce,meat seafood,produce × meat seafood
+Ground Turkey Breast,Organic Baby Spinach,0.01382,0.22297515327525008,1.5608676960653123,meat seafood,produce,produce × meat seafood
+Ground Turkey Breast,Organic Avocado,0.010906666666666667,0.17597074325051093,1.4502286406008813,meat seafood,produce,produce × meat seafood
+Ground Turkey Breast,Limes,0.00756,0.12197483059051306,1.312969112922638,meat seafood,produce,produce × meat seafood
+Organic Yellow Onion,Ground Turkey Breast,0.007526666666666667,0.10349252910440922,1.6697729768378382,produce,meat seafood,produce × meat seafood
+Ground Turkey Breast,Organic Yellow Onion,0.007526666666666667,0.12143702269549317,1.6697729768378382,meat seafood,produce,produce × meat seafood
+Ground Turkey Breast,Organic Garlic,0.00698,0.11261697321716684,1.563256152375997,meat seafood,produce,produce × meat seafood
+"Banana, Organic Baby Spinach",Ground Turkey Breast,0.003766666666666667,0.10259669511530779,1.6553193790788607,produce,meat seafood,produce × meat seafood
+Hardwood SmokedCenter Cut Original Bacon,Banana,0.003406666666666667,0.3443396226415094,1.3980874674162627,meat seafood,produce,produce × meat seafood
+Boneless Skinless Chicken Breast Fillets,Banana,0.0043,0.3319608852290273,1.3478273274240498,meat seafood,produce,produce × meat seafood
+Yellow Bell Pepper,Boneless Skinless Chicken Breasts,0.003926666666666667,0.19918836658775788,1.5933369767578756,produce,meat seafood,produce × meat seafood
+Turkey Bacon,Banana,0.0034866666666666666,0.32264034546576187,1.3099840791431432,meat seafood,produce,produce × meat seafood
+Organic Zucchini,Ground Turkey Breast,0.00664,0.10751295336787564,1.7346394541444925,produce,meat seafood,produce × meat seafood
+Ground Turkey Breast,Organic Zucchini,0.00664,0.10713133268796386,1.7346394541444925,meat seafood,produce,produce × meat seafood
+Organic Boneless Skinless Chicken Breast,Bag of Organic Bananas,0.0052,0.21052631578947367,1.3635124079629124,meat seafood,produce,produce × meat seafood
+Organic Boneless Skinless Chicken Breast,Organic Strawberries,0.005406666666666666,0.21889338731443994,1.423172298433791,meat seafood,produce,produce × meat seafood
+Organic Boneless Skinless Chicken Breast,Limes,0.0032933333333333334,0.13333333333333333,1.4352350197344816,meat seafood,produce,produce × meat seafood
+Extralean Ground Turkey Breast,Banana,0.003,0.3954305799648506,1.6055269325121153,meat seafood,produce,produce × meat seafood
+Organic Beef Uncured Hot Dogs,Organic Strawberries,0.006226666666666667,0.23663541930580187,1.5385251136002027,meat seafood,produce,produce × meat seafood
+Organic Beef Uncured Hot Dogs,Bag of Organic Bananas,0.00538,0.20445908284773245,1.3242168578221014,meat seafood,produce,produce × meat seafood
+100 Calorie  Per Bag Popcorn,Chardonnay,0.0030793948319721514,0.13609467455621302,1.45629100896899,snacks,alcohol,snacks × alcohol
+Original Baked Whole Grain Wheat Crackers,Sauvignon Blanc,0.008970411032266703,0.22558922558922562,1.6062210923984042,snacks,alcohol,snacks × alcohol
+Original Baked Whole Grain Wheat Crackers,Beer,0.004150488686571161,0.10437710437710439,1.3235867446393763,snacks,alcohol,snacks × alcohol
+Original Restaurant Style Tortilla Chips,Chardonnay,0.0048199223456955416,0.12413793103448277,1.3283470012844583,snacks,alcohol,snacks × alcohol
+Original Restaurant Style Tortilla Chips,Beer,0.0040166019547462845,0.10344827586206896,1.311808442128681,snacks,alcohol,snacks × alcohol
+Kids Organic Chocolate Chip ZBars,Pinot Noir,0.003213281563797028,0.18604651162790697,2.5828650471167975,snacks,alcohol,snacks × alcohol
+Hint of Lime Flavored Tortilla Chips,Cabernet Sauvignon,0.00348105502744678,0.12206572769953052,1.3118113959536597,snacks,alcohol,snacks × alcohol
+Pretzel Crisps Original Deli Style Pretzel Crackers,Sauvignon Blanc,0.01004150488686571,0.20435967302452313,1.4550642495902413,snacks,alcohol,snacks × alcohol
+Pretzel Crisps Original Deli Style Pretzel Crackers,Pinot Noir,0.004953809077520418,0.1008174386920981,1.3996383821399268,snacks,alcohol,snacks × alcohol
+Original Black Box Tablewater Cracker,Malbec,0.003213281563797028,0.1,2.1039436619718312,snacks,alcohol,snacks × alcohol
+Original Black Box Tablewater Cracker,Pinot Noir,0.004686035613870665,0.14583333333333334,2.024589529120198,snacks,alcohol,snacks × alcohol
+Original Black Box Tablewater Cracker,Sauvignon Blanc,0.006426563127594056,0.2,1.4240228789323164,snacks,alcohol,snacks × alcohol
+Lightly Salted Baked Snap Pea Crisps,Sauvignon Blanc,0.006292676395769179,0.18431372549019606,1.3123348099964482,snacks,alcohol,snacks × alcohol
+Lightly Salted Baked Snap Pea Crisps,Cabernet Sauvignon,0.0042843754183960366,0.12549019607843134,1.3486133446184227,snacks,alcohol,snacks × alcohol
+Barbecue Potato Chips,Beer,0.0037488284910965324,0.16568047337278108,2.1009634221074736,snacks,alcohol,snacks × alcohol
+Corn Chips,Sauvignon Blanc,0.0040166019547462845,0.2112676056338028,1.5042495199989256,snacks,alcohol,snacks × alcohol
+Classic Potato Chips,Beer,0.003347168295621904,0.1179245283018868,1.4953791203510909,snacks,alcohol,snacks × alcohol
+Organic Tortilla Chips,Cabernet Sauvignon,0.0036149417592716564,0.13989637305699482,1.5034331084355315,snacks,alcohol,snacks × alcohol
+Classic Mix Variety,Vodka,0.0030793948319721514,0.11165048543689321,1.869770124951021,snacks,alcohol,snacks × alcohol
+Cabernet Sauvignon Wine,Pretzel Crisps Original Deli Style Pretzel Crackers,0.0036149417592716564,0.11946902654867257,2.4313737310409684,alcohol,snacks,snacks × alcohol
+Sea Salt & Vinegar Potato Chips,Beer,0.004686035613870665,0.10736196319018404,1.3614371868717905,snacks,alcohol,snacks × alcohol
+Vodka,Scoops! Tortilla Chips,0.006024902932119427,0.1008968609865471,1.4922745637792483,alcohol,snacks,snacks × alcohol
+Almond Nut & Rice Cracker Snacks,Sauvignon Blanc,0.0037488284910965324,0.23931623931623933,1.7039590004318317,snacks,alcohol,snacks × alcohol
+Scoops! Tortilla Chips,Beer,0.007765430445842817,0.11485148514851486,1.4564104288187734,snacks,alcohol,snacks × alcohol
+Thin & Light Tortilla Chips,Beer,0.003213281563797028,0.1218274111675127,1.5448708557048427,snacks,alcohol,snacks × alcohol
+Thin & Light Tortilla Chips,India Pale Ale,0.0030793948319721514,0.11675126903553298,2.4088818464817567,snacks,alcohol,snacks × alcohol
+Oreo Chocolate Sandwich Cookies,Beer,0.0036149417592716564,0.12053571428571429,1.5284910865874364,snacks,alcohol,snacks × alcohol
+Oreo Chocolate Sandwich Cookies,Chardonnay,0.0037488284910965324,0.125,1.3375716332378222,snacks,alcohol,snacks × alcohol
+Prosecco Sparkling Wine,Original Baked Whole Grain Wheat Crackers,0.003213281563797028,0.11822660098522168,2.9731800766283527,alcohol,snacks,snacks × alcohol
+Premium Belgian Lager,Organic Tortilla Chips,0.0040166019547462845,0.2654867256637168,10.274198725296895,alcohol,snacks,snacks × alcohol
+Organic Tortilla Chips,Premium Belgian Lager,0.0040166019547462845,0.15544041450777202,10.274198725296895,snacks,alcohol,snacks × alcohol
+Organic Summer Strawberry Bunny Fruit Snacks,Sauvignon Blanc,0.0036149417592716564,0.33333333333333337,2.373371464887194,snacks,alcohol,snacks × alcohol
+Chocolate Chip Cookies,Chardonnay,0.003213281563797028,0.14201183431952663,1.5196080093589461,snacks,alcohol,snacks × alcohol
+Thick & Crispy Tortilla Chips,Beer,0.0036149417592716564,0.1323529411764706,1.67834315389993,snacks,alcohol,snacks × alcohol
+Premium Lager Beer,Scoops! Tortilla Chips,0.0030793948319721514,0.1216931216931217,1.7998533186652002,alcohol,snacks,snacks × alcohol
+Boomchickapop Sea Salt Popcorn,Sauvignon Blanc,0.0038827152229214085,0.27102803738317754,1.9297506303288399,snacks,alcohol,snacks × alcohol
+Tiny Twists Pretzels,Beer,0.003347168295621904,0.1524390243902439,1.9330510580148246,snacks,alcohol,snacks × alcohol
+Goldfish Cheddar Baked Snack Crackers Multi Packs,Vodka,0.0036149417592716564,0.14361702127659576,2.4051020894952777,snacks,alcohol,snacks × alcohol
+Salt & Pepper Krinkle Chips,Sauvignon Blanc,0.0037488284910965324,0.1931034482758621,1.374918641727754,snacks,alcohol,snacks × alcohol
+Organic Ground Flaxseed,Organic Whole Grain Oatmeal Cereal Baby Food,0.0030234315948601664,0.12631578947368421,3.075750726509525,personal care,babies,personal care × babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Spinach Peas & Pear Stage 2 Baby Food,0.0045351473922902496,0.12,1.9845,produce,babies,personal care × babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.014109347442680775,0.3733333333333333,9.748421052631578,produce,babies,personal care × babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.014109347442680775,0.3684210526315789,9.748421052631578,babies,produce,personal care × babies
+Organic Sweet Potato Puffs,Lavender Hand Soap,0.004031242126480222,0.163265306122449,1.8892128279883385,babies,personal care,personal care × babies
+Pear & Mango Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.009322247417485512,0.2642857142857143,6.515217391304349,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Pear & Mango Stage 2 Baby Food,0.009322247417485512,0.22981366459627328,6.515217391304348,produce,babies,personal care × babies
+Pear & Mango Stage 2 Baby Food,Lemon Verbena Hand Soap,0.004031242126480222,0.11428571428571431,1.821686746987952,babies,personal care,personal care × babies
+"Pear & Mango Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.0030234315948601664,0.375,9.244565217391305,babies,produce,personal care × babies
+"Broccoli & Apple Stage 2 Baby Food, Pear & Mango Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.004031242126480222,0.5161290322580646,12.723702664796637,babies,produce,personal care × babies
+"Apple and Carrot Stage 2 Baby Food, Pear & Mango Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.003779289493575208,0.4411764705882353,10.875959079283888,babies,produce,personal care × babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Pear & Mango Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.004283194759385236,0.5,12.32608695652174,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food","Baby Food Stage 2 Blueberry Pear & Purple Carrot, Pear & Mango Stage 2 Baby Food",0.004283194759385236,0.10559006211180126,12.32608695652174,produce,babies,personal care × babies
+Baby Food Stage 2 Pumpkin Banana,"Peach,  Apricot & Banana Stage 2 Baby Food",0.00781053162005543,0.25203252032520324,6.213149522799576,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Baby Food Stage 2 Pumpkin Banana,0.00781053162005543,0.19254658385093168,6.213149522799576,produce,babies,personal care × babies
+"Apple and Carrot Stage 2 Baby Food, Baby Food Stage 2 Pumpkin Banana","Peach,  Apricot & Banana Stage 2 Baby Food",0.003779289493575208,0.39473684210526316,9.731121281464532,babies,produce,personal care × babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Baby Food Stage 2 Pumpkin Banana","Peach,  Apricot & Banana Stage 2 Baby Food",0.003527336860670194,0.3414634146341463,8.41781548250265,babies,produce,personal care × babies
+"Baby Food Stage 2 Pumpkin Banana, Broccoli & Apple Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.003527336860670194,0.4666666666666666,11.504347826086956,babies,produce,personal care × babies
+"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Stage 4 Green Bean Pear & Pea Baby Food,0.005291005291005291,0.21,8.6821875,bakery,babies,personal care × babies
+Organic Stage 4 Green Bean Pear & Pea Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.005291005291005291,0.21874999999999997,8.6821875,babies,bakery,personal care × babies
+Organic Apple Raisin & Quinoa Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.0030234315948601664,0.24000000000000002,5.916521739130435,babies,produce,personal care × babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Organic Stage 2 Peaches & Bananas Baby Food,0.00655076845553036,0.1733333333333333,7.092371134020618,produce,babies,personal care × babies
+Organic Stage 2 Peaches & Bananas Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.00655076845553036,0.26804123711340205,7.092371134020618,babies,produce,personal care × babies
+"Organic Stage 2 Peaches & Bananas Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Pears, Peas and Broccoli Puree Stage 1",0.003527336860670194,0.5833333333333333,15.434999999999997,babies,produce,personal care × babies
+Stage 2 Sweet Potato Corn & Apple Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.0045351473922902496,0.24657534246575344,6.078618225134009,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Stage 2 Sweet Potato Corn & Apple Baby Food,0.0045351473922902496,0.11180124223602485,6.078618225134009,produce,babies,personal care × babies
+Broccoli & Apple Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.007558578987150416,0.14705882352941177,3.6253196930946294,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.007558578987150416,0.1863354037267081,3.6253196930946294,produce,babies,personal care × babies
+Spinach Peas & Pear Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.007558578987150416,0.125,3.081521739130435,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.007558578987150416,0.1863354037267081,3.081521739130435,produce,babies,personal care × babies
+Baby Food Stage 2 Blueberry Pear & Purple Carrot,"Peach,  Apricot & Banana Stage 2 Baby Food",0.012597631645250693,0.2008032128514056,4.950235725510738,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.012597631645250693,0.31055900621118016,4.950235725510739,produce,babies,personal care × babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Broccoli & Apple Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.004283194759385236,0.2931034482758621,7.225637181409296,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food","Baby Food Stage 2 Blueberry Pear & Purple Carrot, Broccoli & Apple Stage 2 Baby Food",0.004283194759385236,0.10559006211180126,7.225637181409296,produce,babies,personal care × babies
+"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.00327538422776518,0.18840579710144928,4.644612476370511,babies,produce,personal care × babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.004283194759385236,0.23287671232876714,5.740917212626564,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food","Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",0.004283194759385236,0.10559006211180126,5.740917212626565,produce,babies,personal care × babies
+Apple and Carrot Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.007558578987150416,0.2097902097902098,5.171784737002128,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.007558578987150416,0.1863354037267081,5.171784737002128,produce,babies,personal care × babies
+"Apple and Carrot Stage 2 Baby Food, Broccoli & Apple Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.003527336860670194,0.3043478260869565,7.502835538752363,babies,produce,personal care × babies
+"Apple and Carrot Stage 2 Baby Food, Baby Food Stage 2 Blueberry Pear & Purple Carrot","Peach,  Apricot & Banana Stage 2 Baby Food",0.0045351473922902496,0.3,7.395652173913043,babies,produce,personal care × babies
+"Peach,  Apricot & Banana Stage 2 Baby Food","Apple and Carrot Stage 2 Baby Food, Baby Food Stage 2 Blueberry Pear & Purple Carrot",0.0045351473922902496,0.11180124223602485,7.395652173913043,produce,babies,personal care × babies
+Baby Food Stage 2 Raspberry Spinach & Greek Yogurt,"Peach,  Apricot & Banana Stage 2 Baby Food",0.0030234315948601664,0.2033898305084746,5.014001473839352,babies,produce,personal care × babies
+Organic Mixed Berry Yogurt & Fruit Snack,Lavender Hand Soap,0.006046863189720333,0.14285714285714288,1.6530612244897962,babies,personal care,personal care × babies
+Simply White Natural Clean Mint Fluoride Toothpaste,Blueberry Beet & Brown Rice Cakes,0.00327538422776518,0.1326530612244898,5.915730337078652,personal care,babies,personal care × babies
+Blueberry Beet & Brown Rice Cakes,Simply White Natural Clean Mint Fluoride Toothpaste,0.00327538422776518,0.14606741573033707,5.915730337078652,babies,personal care,personal care × babies
+"Blueberry Beet & Brown Rice Cakes, Organic Whole Grain Oatmeal Cereal Baby Food",Simply White Natural Clean Mint Fluoride Toothpaste,0.0030234315948601664,0.8571428571428572,34.714285714285715,babies,personal care,personal care × babies
+Simply White Natural Clean Mint Fluoride Toothpaste,"Blueberry Beet & Brown Rice Cakes, Organic Whole Grain Oatmeal Cereal Baby Food",0.0030234315948601664,0.12244897959183675,34.71428571428572,personal care,babies,personal care × babies
+"Honest Face, Hand, & Baby Wipes, Simply White Natural Clean Mint Fluoride Toothpaste",Blueberry Beet & Brown Rice Cakes,0.0030234315948601664,0.8571428571428572,38.2247191011236,personal care,babies,personal care × babies
+"Blueberry Beet & Brown Rice Cakes, Honest Face, Hand, & Baby Wipes",Simply White Natural Clean Mint Fluoride Toothpaste,0.0030234315948601664,0.8571428571428572,34.714285714285715,babies,personal care,personal care × babies
+Simply White Natural Clean Mint Fluoride Toothpaste,"Blueberry Beet & Brown Rice Cakes, Honest Face, Hand, & Baby Wipes",0.0030234315948601664,0.12244897959183675,34.71428571428572,personal care,babies,personal care × babies
+Blueberry Beet & Brown Rice Cakes,"Honest Face, Hand, & Baby Wipes, Simply White Natural Clean Mint Fluoride Toothpaste",0.0030234315948601664,0.1348314606741573,38.2247191011236,babies,personal care,personal care × babies
+Organic Stage 4 Spinach Mango & Pear Baby Food,"Banana, Peach and Mango Fruit Pouch",0.004787100025195263,0.15702479338842976,10.563244151841996,babies,produce,personal care × babies
+"Banana, Peach and Mango Fruit Pouch",Organic Stage 4 Spinach Mango & Pear Baby Food,0.004787100025195263,0.3220338983050848,10.563244151841996,produce,babies,personal care × babies
+"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods","Banana, Peach and Mango Fruit Pouch",0.003527336860670194,0.13999999999999999,9.417966101694914,bakery,produce,personal care × babies
+"Banana, Peach and Mango Fruit Pouch","Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.003527336860670194,0.23728813559322032,9.417966101694914,produce,bakery,personal care × babies
+"Banana, Peach and Mango Fruit Pouch",Lemon Verbena Hand Soap,0.0030234315948601664,0.2033898305084746,3.2419848887073717,produce,personal care,personal care × babies
+"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",Mighty 4 Purple Carrot Blackberry Quinoa & Greek Yogurt Tots Snack,0.007306626354245402,0.43939393939393945,30.59569377990431,produce,babies,personal care × babies
+Mighty 4 Purple Carrot Blackberry Quinoa & Greek Yogurt Tots Snack,"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",0.007306626354245402,0.5087719298245614,30.59569377990431,babies,produce,personal care × babies
+"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack","Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack",0.006802721088435374,0.40909090909090906,31.83689839572192,produce,dairy eggs,personal care × babies
+"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack","Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",0.006802721088435374,0.5294117647058822,31.83689839572192,dairy eggs,produce,personal care × babies
+Mighty 4 Purple Carrot Blackberry Quinoa & Greek Yogurt Tots Snack,"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack",0.005039052658100277,0.3508771929824561,27.30650154798761,babies,dairy eggs,personal care × babies
+"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack",Mighty 4 Purple Carrot Blackberry Quinoa & Greek Yogurt Tots Snack,0.005039052658100277,0.392156862745098,27.30650154798761,dairy eggs,babies,personal care × babies
+Honeysuckle Hand Soap,Free & Clear Unscented Baby Wipes,0.0030234315948601664,0.14814814814814817,1.6065573770491803,personal care,babies,personal care × babies
+Little Yums Pumpkin and Banana Teething Wafers,"Little Yums Spinach, Apple, and Kale Teething Wafers",0.003527336860670194,0.25,11.148876404494382,babies,bakery,personal care × babies
+"Little Yums Spinach, Apple, and Kale Teething Wafers",Little Yums Pumpkin and Banana Teething Wafers,0.003527336860670194,0.15730337078651685,11.148876404494382,bakery,babies,personal care × babies
+"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,0.005794910556815319,0.45098039215686275,35.09688581314879,produce,babies,personal care × babies
+Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",0.005794910556815319,0.45098039215686275,35.09688581314879,babies,produce,personal care × babies
+"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",Organic Apple & Butternut Squash Baby Food,0.00327538422776518,0.2549019607843137,17.74922600619195,produce,babies,personal care × babies
+Organic Apple & Butternut Squash Baby Food,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",0.00327538422776518,0.22807017543859648,17.749226006191947,babies,produce,personal care × babies
+"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",Pear Kiwi & Kale Baby Food,0.003779289493575208,0.29411764705882354,29.183823529411768,produce,babies,personal care × babies
+Pear Kiwi & Kale Baby Food,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",0.003779289493575208,0.375,29.183823529411764,babies,produce,personal care × babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples & Strawberries Organic Pureed Baby Food,0.005291005291005291,0.13999999999999999,6.694698795180722,produce,babies,personal care × babies
+Stage 1 Apples & Strawberries Organic Pureed Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.005291005291005291,0.25301204819277107,6.694698795180722,babies,produce,personal care × babies
+"Stage 1 Apples & Strawberries Organic Pureed Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Pears, Peas and Broccoli Puree Stage 1",0.00327538422776518,0.5652173913043478,14.955652173913041,babies,produce,personal care × babies
+Fluoride-Free Antiplaque & Whitening Peppermint Toothpaste,Free & Clear Unscented Baby Wipes,0.006046863189720333,0.15584415584415587,1.6900149031296574,personal care,babies,personal care × babies
+Sweet Orange Vanilla Honest Shampoo + Body Wash,Organic Mixed Berry Yogurt & Fruit Snack,0.003527336860670194,0.10294117647058822,2.4319852941176467,personal care,babies,personal care × babies
+"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Stage 4 Spinach Mango & Pear Baby Food,0.006802721088435374,0.26999999999999996,8.856446280991735,bakery,babies,personal care × babies
+Organic Stage 4 Spinach Mango & Pear Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.006802721088435374,0.2231404958677686,8.856446280991737,babies,bakery,personal care × babies
+Apples + Strawberries Organic Nibbly Fingers,Lemon Verbena Hand Soap,0.0030234315948601664,0.13953488372093023,2.2241524236480803,babies,personal care,personal care × babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Apples, Carrots and Parsnips Puree",0.00781053162005543,0.20394736842105263,12.848684210526317,babies,produce,personal care × babies
+"Organic Apples, Carrots and Parsnips Puree",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.00781053162005543,0.4920634920634921,12.848684210526317,produce,babies,personal care × babies
+"Organic Apples, Carrots and Parsnips Puree",Organic Stage 2 Peaches & Bananas Baby Food,0.003527336860670194,0.2222222222222222,9.092783505154639,produce,babies,personal care × babies
+Organic Stage 2 Peaches & Bananas Baby Food,"Organic Apples, Carrots and Parsnips Puree",0.003527336860670194,0.14432989690721648,9.092783505154639,babies,produce,personal care × babies
+Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Apples, Carrots and Parsnips Puree",0.004283194759385236,0.20481927710843376,12.903614457831328,babies,produce,personal care × babies
+"Organic Apples, Carrots and Parsnips Puree",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.004283194759385236,0.2698412698412699,12.903614457831328,produce,babies,personal care × babies
+"Organic Apples, Carrots and Parsnips Puree, Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.0045351473922902496,0.6428571428571429,16.78618421052632,produce,babies,personal care × babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Apples, Carrots and Parsnips Puree, Organic Pears, Peas and Broccoli Puree Stage 1",0.0045351473922902496,0.11842105263157895,16.78618421052632,babies,produce,personal care × babies
+"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Apples, Carrots and Parsnips Puree",0.00327538422776518,0.2708333333333333,17.0625,babies,produce,personal care × babies
+"Organic Apples, Carrots and Parsnips Puree","Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00327538422776518,0.20634920634920637,17.0625,produce,babies,personal care × babies
+Premium Epsom Salt,Free & Clear Unscented Baby Wipes,0.005794910556815319,0.14838709677419357,1.6091485986250662,personal care,babies,personal care × babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.007558578987150416,0.19999999999999998,9.563855421686746,produce,babies,personal care × babies
+Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.007558578987150416,0.3614457831325301,9.563855421686746,babies,produce,personal care × babies
+"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Pears, Peas and Broccoli Puree Stage 1",0.006046863189720333,0.5,13.229999999999999,babies,produce,personal care × babies
+"Organic Pears, Peas and Broccoli Puree Stage 1","Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.006046863189720333,0.16,13.23,produce,babies,personal care × babies
+Simply White Natural Clean Mint Fluoride Toothpaste,Organic Whole Grain Oatmeal Cereal Baby Food,0.004787100025195263,0.19387755102040818,4.720858895705522,personal care,babies,personal care × babies
+Organic Whole Grain Oatmeal Cereal Baby Food,Simply White Natural Clean Mint Fluoride Toothpaste,0.004787100025195263,0.1165644171779141,4.720858895705521,babies,personal care,personal care × babies
+Simply White Natural Clean Mint Fluoride Toothpaste,Free & Clear Unscented Baby Wipes,0.003527336860670194,0.14285714285714285,1.5491803278688523,personal care,babies,personal care × babies
+Simply White Natural Clean Mint Fluoride Toothpaste,Kale & Spinach Superfood Puffs,0.0030234315948601664,0.12244897959183675,4.542056074766355,personal care,babies,personal care × babies
+Kale & Spinach Superfood Puffs,Simply White Natural Clean Mint Fluoride Toothpaste,0.0030234315948601664,0.11214953271028037,4.542056074766355,babies,personal care,personal care × babies
+"Honest Face, Hand, & Baby Wipes, Simply White Natural Clean Mint Fluoride Toothpaste",Organic Whole Grain Oatmeal Cereal Baby Food,0.00327538422776518,0.9285714285714286,22.61042944785276,personal care,babies,personal care × babies
+"Honest Face, Hand, & Baby Wipes, Organic Whole Grain Oatmeal Cereal Baby Food",Simply White Natural Clean Mint Fluoride Toothpaste,0.00327538422776518,0.6842105263157895,27.710526315789476,babies,personal care,personal care × babies
+Simply White Natural Clean Mint Fluoride Toothpaste,"Honest Face, Hand, & Baby Wipes, Organic Whole Grain Oatmeal Cereal Baby Food",0.00327538422776518,0.1326530612244898,27.710526315789476,personal care,babies,personal care × babies
+Cotton Swabs,Baby Wipes Sensitive,0.0030234315948601664,0.13043478260869565,4.622282608695652,personal care,babies,personal care × babies
+Baby Wipes Sensitive,Cotton Swabs,0.0030234315948601664,0.10714285714285715,4.622282608695652,babies,personal care,personal care × babies
+"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Apple & Butternut Squash Baby Food,0.0045351473922902496,0.18,12.533684210526316,bakery,babies,personal care × babies
+Organic Apple & Butternut Squash Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.0045351473922902496,0.3157894736842105,12.533684210526316,babies,bakery,personal care × babies
+Organic Stage 3 Pear Carrot Apricot Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.00327538422776518,0.16455696202531644,4.056686846450193,babies,produce,personal care × babies
+"Happy Baby Spinach, Mango, and Pear Baby Food",Organic Stage 2 Broccoli Pears & Peas Baby Food,0.004031242126480222,0.186046511627907,10.701718907987868,produce,babies,personal care × babies
+Organic Stage 2 Broccoli Pears & Peas Baby Food,"Happy Baby Spinach, Mango, and Pear Baby Food",0.004031242126480222,0.23188405797101452,10.701718907987868,babies,produce,personal care × babies
+"Kale, Apple & Mango Pouch",Organic Stage 4 Spinach Mango & Pear Baby Food,0.0045351473922902496,0.4186046511627907,13.730924466653855,produce,babies,personal care × babies
+Organic Stage 4 Spinach Mango & Pear Baby Food,"Kale, Apple & Mango Pouch",0.0045351473922902496,0.1487603305785124,13.730924466653853,babies,produce,personal care × babies
+Hand Soap Lemongrass,Organic Mixed Berry Yogurt & Fruit Snack,0.0045351473922902496,0.21686746987951808,5.123493975903615,personal care,babies,personal care × babies
+Organic Mixed Berry Yogurt & Fruit Snack,Hand Soap Lemongrass,0.0045351473922902496,0.10714285714285715,5.123493975903615,babies,personal care,personal care × babies
+"Happy Baby Spinach, Mango, and Pear Baby Food",Organic Baby Food Banana Beet & Blueberry,0.004031242126480222,0.186046511627907,10.40026203734032,produce,babies,personal care × babies
+Organic Baby Food Banana Beet & Blueberry,"Happy Baby Spinach, Mango, and Pear Baby Food",0.004031242126480222,0.22535211267605634,10.40026203734032,babies,produce,personal care × babies
+White Beauty Bar,Baby Wipes Sensitive,0.004283194759385236,0.265625,9.4130859375,personal care,babies,personal care × babies
+Baby Wipes Sensitive,White Beauty Bar,0.004283194759385236,0.1517857142857143,9.4130859375,babies,personal care,personal care × babies
+Organic Banana Puffs,Lavender Hand Soap,0.0030234315948601664,0.21818181818181817,2.5246753246753246,babies,personal care,personal care × babies
+Hand Soap Lavender & Coconut,Free & Clear Unscented Baby Wipes,0.0030234315948601664,0.16438356164383564,1.782618459465529,personal care,babies,personal care × babies
+Organic Whole Wheat Bread,Organic Whole Milk,0.003766666666666667,0.1538671023965142,1.6736813168583848,bakery,dairy eggs,dairy eggs × bakery
+Organic Whole Grain Wheat English Muffins,Organic Whole String Cheese,0.0031,0.10643167772945754,2.0216223451207584,bakery,dairy eggs,dairy eggs × bakery
+Sourdough Bread,Organic Whole Milk,0.0043,0.13290747990933444,1.4456941251921802,bakery,dairy eggs,dairy eggs × bakery
+Total 2% with Strawberry Lowfat Greek Strained Yogurt,100% Whole Wheat Bread,0.003353333333333333,0.1466472303206997,1.320432471823336,dairy eggs,bakery,dairy eggs × bakery
+2% Reduced Fat Milk,100% Whole Wheat Bread,0.0047866666666666665,0.1493655086332432,1.3449082354875128,dairy eggs,bakery,dairy eggs × bakery
+Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,100% Whole Wheat Bread,0.00448,0.16625432953983174,1.4969775755432355,dairy eggs,bakery,dairy eggs × bakery
+Organic Large Brown Grade AA Cage Free Eggs,100% Whole Wheat Bread,0.005246666666666667,0.15473849783720015,1.3932873927354597,dairy eggs,bakery,dairy eggs × bakery
+Fat Free Milk,100% Whole Wheat Bread,0.0041333333333333335,0.18908203720646538,1.7025214947457714,dairy eggs,bakery,dairy eggs × bakery
+Organic Fat Free Milk,100% Whole Wheat Bread,0.0031266666666666665,0.14799621331650364,1.3325789061453597,dairy eggs,bakery,dairy eggs × bakery
+Everything Bagels,Whipped Cream Cheese,0.0032533333333333333,0.22457432121491025,6.68641289841932,bakery,dairy eggs,dairy eggs × bakery
+Organic 2% Reduced Fat Milk,100% Whole Wheat Bread,0.0037066666666666667,0.18866644044791314,1.698779402556394,dairy eggs,bakery,dairy eggs × bakery
+Chicken & Maple Breakfast Sausage,Sparkling Water Grapefruit,0.003933333333333333,0.12510602205258692,1.324246934435681,frozen,beverages,frozen × beverages
+Original No Pulp 100% Florida Orange Juice,Blueberries,0.0035733333333333333,0.11900532859680284,1.3933962445960835,beverages,frozen,frozen × beverages
+Total 2% with Strawberry Lowfat Greek Strained Yogurt,Banana,0.007693333333333333,0.3635790800252048,1.4630163909054033,dairy eggs,produce,produce × dairy eggs
+Total 0% Raspberry Yogurt,Banana,0.0030066666666666666,0.36636880584890336,1.4742420494496742,dairy eggs,produce,produce × dairy eggs
+Organic Whole String Cheese,Bag of Organic Bananas,0.01102,0.25041660354491746,1.3973620970848415,dairy eggs,produce,produce × dairy eggs
+Organic Whole String Cheese,Organic Hass Avocado,0.007613333333333333,0.1730040902893501,1.5037731670280183,dairy eggs,produce,produce × dairy eggs
+Organic Whole String Cheese,Organic Raspberries,0.0047,0.1068019996970156,1.5396732296542377,dairy eggs,produce,produce × dairy eggs
+Organic Whole String Cheese,Organic Strawberries,0.011766666666666667,0.2673837297379185,1.7432763706996905,dairy eggs,produce,produce × dairy eggs
+Organic Reduced Fat 2% Milk,Organic Hass Avocado,0.00492,0.15874381587438158,1.3798210802084507,dairy eggs,produce,produce × dairy eggs
+Organic Reduced Fat 2% Milk,Organic Strawberries,0.00672,0.21682082168208217,1.4136186053076163,dairy eggs,produce,produce × dairy eggs
+Organic Reduced Fat 2% Milk,Bag of Organic Bananas,0.007393333333333333,0.2385459238545924,1.3311219291763277,dairy eggs,produce,produce × dairy eggs
+Organic Reduced Fat 2% Milk,Organic Raspberries,0.0041,0.13228651322865134,1.9070616995961271,dairy eggs,produce,produce × dairy eggs
+Unsweetened Almondmilk,Bag of Organic Bananas,0.008253333333333333,0.23630463828974993,1.3186152205447152,dairy eggs,produce,produce × dairy eggs
+Unsweetened Almondmilk,Organic Hass Avocado,0.006073333333333333,0.17388814659286123,1.5114574948675426,dairy eggs,produce,produce × dairy eggs
+Unsweetened Almondmilk,Organic Raspberries,0.003673333333333333,0.10517274288986447,1.5161856255146249,dairy eggs,produce,produce × dairy eggs
+Organic Coconut Milk,Organic Garlic,0.00354,0.15752002373183033,2.5027013621199607,dairy eggs,produce,produce × dairy eggs
+Organic Coconut Milk,Organic Baby Spinach,0.004826666666666667,0.21477306437258972,1.59256313489982,dairy eggs,produce,produce × dairy eggs
+Organic Coconut Milk,Limes,0.00426,0.18955799466033815,2.4465409739331205,dairy eggs,produce,produce × dairy eggs
+Grated Parmesan,Organic Baby Spinach,0.00702,0.19867924528301886,1.4732259030329145,dairy eggs,produce,produce × dairy eggs
+Grated Parmesan,Organic Garlic,0.004513333333333334,0.1277358490566038,2.0294860034414333,dairy eggs,produce,produce × dairy eggs
+Grated Parmesan,Large Lemon,0.0041,0.1160377358490566,1.4335085140305133,dairy eggs,produce,produce × dairy eggs
+Grated Parmesan,Organic Yellow Onion,0.003693333333333333,0.10452830188679245,1.7124557976211083,dairy eggs,produce,produce × dairy eggs
+Whipped Cream Cheese,Organic Strawberries,0.00542,0.23954036535061876,1.5617444604943198,dairy eggs,produce,produce × dairy eggs
+"YoKids Squeezers Organic Low-Fat Yogurt, Strawberry",Banana,0.004833333333333334,0.32613585245164195,1.3123475029574883,dairy eggs,produce,produce × dairy eggs
+"YoKids Squeezers Organic Low-Fat Yogurt, Strawberry",Organic Strawberries,0.004513333333333334,0.30454340980656774,1.98554837531991,dairy eggs,produce,produce × dairy eggs
+Organic Mexican Blend Finely Shredded Cheese,Bag of Organic Bananas,0.0036133333333333334,0.25797239409804856,1.4395245383247381,dairy eggs,produce,produce × dairy eggs
+Whole Milk,Banana,0.00798,0.38242811501597446,1.5388635687527474,dairy eggs,produce,produce × dairy eggs
+Organic Reduced Fat Milk,Banana,0.008333333333333333,0.32620041753653445,1.312607308272666,dairy eggs,produce,produce × dairy eggs
+Organic Reduced Fat Milk,Organic Strawberries,0.006286666666666667,0.24608559498956162,1.6044177532244206,dairy eggs,produce,produce × dairy eggs
+Organic D'Anjou Pears,Organic Whole Milk,0.0035933333333333334,0.14297082228116711,1.4887624673498832,produce,dairy eggs,produce × dairy eggs
+Organic Shredded Mozzarella,Organic Strawberries,0.0033133333333333335,0.24021266312228132,1.5661276771566133,dairy eggs,produce,produce × dairy eggs
+Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,Organic Strawberries,0.0061,0.24452164617851418,1.5942211903671548,dairy eggs,produce,produce × dairy eggs
+Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,Bag of Organic Bananas,0.005973333333333333,0.23944414751469803,1.336134151527276,dairy eggs,produce,produce × dairy eggs
+Shredded Mozzarella,Organic Baby Spinach,0.0035266666666666667,0.20098784194528876,1.4903443715355833,dairy eggs,produce,produce × dairy eggs
+Organic Broccoli,Organic Whole Milk,0.003426666666666667,0.15627850410459107,1.627336037187689,produce,dairy eggs,produce × dairy eggs
+Large Alfresco Eggs,Organic Hass Avocado,0.004653333333333333,0.15856428895956381,1.378260609835694,dairy eggs,produce,produce × dairy eggs
+Large Alfresco Eggs,Bag of Organic Bananas,0.007353333333333333,0.2505679236710586,1.3982064860183325,dairy eggs,produce,produce × dairy eggs
+Large Alfresco Eggs,Organic Baby Spinach,0.005393333333333333,0.1837800999545661,1.3627472931526479,dairy eggs,produce,produce × dairy eggs
+Large Alfresco Eggs,Organic Yellow Onion,0.00312,0.10631531122217174,1.7417318352256184,dairy eggs,produce,produce × dairy eggs
+Organic Strawberries,Organic Whole Milk,0.020773333333333335,0.1354370409005955,1.4103128174307062,produce,dairy eggs,produce × dairy eggs
+Organic Whole Milk,Organic Strawberries,0.020773333333333335,0.2163137799375217,1.4103128174307062,dairy eggs,produce,produce × dairy eggs
+"Organic Baby Spinach, Organic Strawberries",Organic Whole Milk,0.003766666666666667,0.14675324675324675,1.5281490463718856,produce,dairy eggs,produce × dairy eggs
+"Banana, Organic Avocado",Organic Whole Milk,0.004286666666666667,0.125,1.3016313779937523,produce,dairy eggs,produce × dairy eggs
+"Bag of Organic Bananas, Organic Strawberries",Organic Whole Milk,0.004826666666666667,0.13434774540731118,1.398969927878978,produce,dairy eggs,produce × dairy eggs
+"Organic Hass Avocado, Organic Strawberries",Organic Whole Milk,0.0034333333333333334,0.13057809330628803,1.3597163482084835,produce,dairy eggs,produce × dairy eggs
+"Banana, Organic Strawberries",Organic Whole Milk,0.0058133333333333335,0.15365638766519826,1.6000318049135536,produce,dairy eggs,produce × dairy eggs
+Organic Large Brown Grade AA Cage Free Eggs,Organic Strawberries,0.005213333333333334,0.22445464982778418,1.4633892934397197,dairy eggs,produce,produce × dairy eggs
+Organic Large Brown Grade AA Cage Free Eggs,Bag of Organic Bananas,0.005733333333333333,0.2468427095292767,1.3774192340088356,dairy eggs,produce,produce × dairy eggs
+Organic Large Brown Grade AA Cage Free Eggs,Organic Hass Avocado,0.0046,0.19804822043628015,1.7214598751487524,dairy eggs,produce,produce × dairy eggs
+Organic Large Brown Grade AA Cage Free Eggs,Organic Raspberries,0.003766666666666667,0.1621699196326062,2.3378652517915364,dairy eggs,produce,produce × dairy eggs
+Shredded Parmesan,Organic Baby Spinach,0.005993333333333333,0.20492363802142693,1.5195286817546116,dairy eggs,produce,produce × dairy eggs
+Shredded Parmesan,Organic Avocado,0.00402,0.13745156143150217,1.3108935792678869,dairy eggs,produce,produce × dairy eggs
+Shredded Parmesan,Large Lemon,0.0032,0.10941417825393207,1.3516823207123876,dairy eggs,produce,produce × dairy eggs
+Shredded Parmesan,Organic Garlic,0.00326,0.1114656940961933,1.770983382526109,dairy eggs,produce,produce × dairy eggs
+Total 0% Greek Yogurt,Banana,0.006886666666666667,0.33003194888178916,1.3280251182302325,dairy eggs,produce,produce × dairy eggs
+Organic Unsalted Butter,Bag of Organic Bananas,0.0037533333333333333,0.2435121107266436,1.3588339946057268,dairy eggs,produce,produce × dairy eggs
+Organic Unsalted Butter,Organic Strawberries,0.00334,0.21669550173010382,1.4128015499419992,dairy eggs,produce,produce × dairy eggs
+Unsalted Butter,Limes,0.00314,0.11644004944375773,1.5028400805854123,dairy eggs,produce,produce × dairy eggs
+Unsalted Butter,Large Lemon,0.003833333333333333,0.14215080346106304,1.756104473658331,dairy eggs,produce,produce × dairy eggs
+Unsalted Butter,Organic Garlic,0.0030733333333333333,0.11396786155747837,1.810738188075602,dairy eggs,produce,produce × dairy eggs
+Fat Free Milk,Banana,0.006386666666666666,0.3328700486448922,1.3394454300703875,dairy eggs,produce,produce × dairy eggs
+Organic Grade A Free Range Large Brown Eggs,Organic Strawberries,0.0065,0.20600042256496934,1.3430722556067893,dairy eggs,produce,produce × dairy eggs
+Organic Grade A Free Range Large Brown Eggs,Organic Hass Avocado,0.006373333333333333,0.20198605535601097,1.7556880282437066,dairy eggs,produce,produce × dairy eggs
+Organic Fat Free Milk,Organic Strawberries,0.003926666666666667,0.22101313320825516,1.440951448743351,dairy eggs,produce,produce × dairy eggs
+Total 0% Nonfat Plain Greek Yogurt,Banana,0.004086666666666666,0.3241671073506081,1.3044254125222312,dairy eggs,produce,produce × dairy eggs
+Total 0% Nonfat Greek Yogurt,Banana,0.006393333333333333,0.32563667232597626,1.3103388375914489,dairy eggs,produce,produce × dairy eggs
+Organic Egg Whites,Organic Baby Spinach,0.0039,0.268102658111824,1.9880072527941863,dairy eggs,produce,produce × dairy eggs
+Organic Kiwi,Organic Whole Milk,0.004073333333333333,0.1570290413775379,1.6351514201062607,produce,dairy eggs,produce × dairy eggs
+Organic Unsweetened Almond Milk,Bag of Organic Bananas,0.010793333333333334,0.2522985818918498,1.4078638177068363,dairy eggs,produce,produce × dairy eggs
+Organic Unsweetened Almond Milk,Organic Hass Avocado,0.007166666666666667,0.16752376499922084,1.4561374949228212,dairy eggs,produce,produce × dairy eggs
+Organic Unsweetened Almond Milk,Organic Baby Spinach,0.00976,0.22814399251986908,1.6917098659340728,dairy eggs,produce,produce × dairy eggs
+Vanilla Almond Breeze Almond Milk,Banana,0.007893333333333334,0.3444864707593832,1.3861890874777338,dairy eggs,produce,produce × dairy eggs
+Organic Large Grade AA Brown Eggs,Organic Hass Avocado,0.0032,0.1845444059976932,1.604083032952076,dairy eggs,produce,produce × dairy eggs
+Organic Large Grade AA Brown Eggs,Bag of Organic Bananas,0.00462,0.2664359861591695,1.4867526477391255,dairy eggs,produce,produce × dairy eggs
+Total 2% All Natural Greek Strained Yogurt with Honey,Banana,0.005646666666666667,0.3536534446764092,1.4230763393368935,dairy eggs,produce,produce × dairy eggs
+2% Reduced Fat Organic Milk,Banana,0.0038133333333333335,0.3244469653998866,1.3055515414325989,dairy eggs,produce,produce × dairy eggs
+Total 2% Lowfat Greek Strained Yogurt with Peach,Banana,0.004913333333333333,0.3548387096774193,1.4278457615047588,dairy eggs,produce,produce × dairy eggs
+Feta Cheese Crumbles,Large Lemon,0.0035933333333333334,0.12399355877616748,1.5317932644066152,dairy eggs,produce,produce × dairy eggs
+Feta Cheese Crumbles,Organic Baby Spinach,0.007006666666666666,0.24177593742811135,1.7927920616054527,dairy eggs,produce,produce × dairy eggs
+Feta Cheese Crumbles,Organic Avocado,0.00482,0.1663216011042098,1.5862309362685318,dairy eggs,produce,produce × dairy eggs
+Feta Cheese Crumbles,Cucumber Kirby,0.0037866666666666665,0.13066482631700022,2.31101567592855,dairy eggs,produce,produce × dairy eggs
+Feta Cheese Crumbles,Organic Grape Tomatoes,0.00332,0.11456176673567979,2.356268340923073,dairy eggs,produce,produce × dairy eggs
+Feta Cheese Crumbles,Organic Garlic,0.003013333333333333,0.1039797561536692,1.6520456967535622,dairy eggs,produce,produce × dairy eggs
+Feta Cheese Crumbles,Limes,0.0034933333333333335,0.12054290315159881,1.5557937939029274,dairy eggs,produce,produce × dairy eggs
+Total 2% Lowfat Greek Strained Yogurt With Blueberry,Banana,0.005266666666666667,0.3691588785046729,1.485469103621561,dairy eggs,produce,produce × dairy eggs
+Organic Sour Cream,Organic Hass Avocado,0.00332,0.15799492385786804,1.373311617238234,dairy eggs,produce,produce × dairy eggs
+Total 2% Greek Strained Yogurt with Cherry 5.3 oz,Banana,0.0044666666666666665,0.38003403289846854,1.5292299523773447,dairy eggs,produce,produce × dairy eggs
+Unsweetened Original Almond Breeze Almond Milk,Banana,0.008786666666666667,0.34775725593667545,1.3993504946884492,dairy eggs,produce,produce × dairy eggs
+Organic American Cheese Singles,Organic Strawberries,0.0033333333333333335,0.2598752598752599,1.6943229878423518,dairy eggs,produce,produce × dairy eggs
+Organic American Cheese Singles,Bag of Organic Bananas,0.0030933333333333334,0.24116424116424115,1.3457325313283053,dairy eggs,produce,produce × dairy eggs
+Grade A Large White Eggs,Banana,0.0037733333333333334,0.41617647058823526,1.6746645542354612,dairy eggs,produce,produce × dairy eggs
+Organic Whole Grassmilk Milk,Bag of Organic Bananas,0.0032133333333333332,0.2977146386658431,1.6612922063865356,dairy eggs,produce,produce × dairy eggs
+2% Reduced Fat Milk,Banana,0.00844,0.40279987273305756,1.6208380746830118,dairy eggs,produce,produce × dairy eggs
+Organic Milk,Bag of Organic Bananas,0.004913333333333333,0.28499613302397525,1.5903210428777312,dairy eggs,produce,produce × dairy eggs
+Organic Milk,Organic Strawberries,0.0036266666666666665,0.21036349574632637,1.3715184231733368,dairy eggs,produce,produce × dairy eggs
+Organic Milk,Organic Hass Avocado,0.0032266666666666667,0.18716163959783452,1.6268323543880847,dairy eggs,produce,produce × dairy eggs
+Grated Parmesan,Organic Old Fashioned Rolled Oats,0.0034,0.10883482714468629,1.6901567524280923,dairy eggs,breakfast,breakfast × dairy eggs
+"YoKids Squeezers Organic Low-Fat Yogurt, Strawberry",Honey Nut Cheerios,0.00322,0.16262626262626262,1.9363342906762495,dairy eggs,breakfast,breakfast × dairy eggs
+Organic Quick Oats,Organic Whole Milk,0.00474,0.1509233708342178,1.6111668653571043,breakfast,dairy eggs,breakfast × dairy eggs
+Organic Old Fashioned Rolled Oats,Organic Whole Milk,0.00816,0.12672119267004867,1.3527990107826704,breakfast,dairy eggs,breakfast × dairy eggs
+Organic Unsweetened Almond Milk,Organic Old Fashioned Rolled Oats,0.005613333333333333,0.11917905166312809,1.8507979862790365,dairy eggs,breakfast,breakfast × dairy eggs
+2% Reduced Fat Milk,Honey Nut Cheerios,0.00462,0.12970241437394722,1.5443214919901638,dairy eggs,breakfast,breakfast × dairy eggs
+Whipped Cream Cheese,Honey Nut Cheerios,0.003033333333333333,0.11904761904761904,1.4174585535118953,dairy eggs,breakfast,breakfast × dairy eggs
+Organic Cinnamon Crunch Cereal,Organic Whole Milk,0.003766666666666667,0.12917238225880204,1.3789664321984418,breakfast,dairy eggs,breakfast × dairy eggs
+Organic Honey Nut O's Cereal,Organic Whole Milk,0.0030066666666666666,0.16015625,1.7097315137712619,breakfast,dairy eggs,breakfast × dairy eggs
+Organic Sticks Low Moisture Part Skim Mozzarella String Cheese,Honey Nut Cheerios,0.003913333333333333,0.1278867102396514,1.5227025350014056,dairy eggs,breakfast,breakfast × dairy eggs
+Cherrios Honey Nut,Reduced Fat 2% Milk,0.0033,0.310929648241206,21.814521625903133,breakfast,dairy eggs,breakfast × dairy eggs
+Reduced Fat 2% Milk,Cherrios Honey Nut,0.0033,0.2315247895229186,21.814521625903133,dairy eggs,breakfast,breakfast × dairy eggs
