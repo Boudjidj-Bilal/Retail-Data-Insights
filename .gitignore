@@ -17,3 +17,5 @@ notebooks/price_integration/final/*.csv
 notebooks/price_integration/final/*.xlsx
 
 notebooks/products_segmentation/csv/*.csv
+
+merge_reqs.py
