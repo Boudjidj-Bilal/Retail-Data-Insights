@@ -9,7 +9,6 @@
     "departments": 21
   },
   "output_files": {
-    "baskets.csv": 3214874,
     "rfm_customer_segments.csv": 206209,
     "aisle_performance.csv": 134,
     "department_performance.csv": 21

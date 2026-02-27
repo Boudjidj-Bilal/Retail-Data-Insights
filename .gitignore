@@ -17,5 +17,11 @@ notebooks/price_integration/final/*.csv
 notebooks/price_integration/final/*.xlsx
 
 notebooks/products_segmentation/csv/*.csv
+data/processed/basket_size.csv
+data/processed/rules_by_department.csv
+
+# large datasets for training and testing
+data/processed/train*.csv
+data/processed/test*.csv
 
 merge_reqs.py
