@@ -95,11 +95,20 @@ def plot_sales_by_department_barplot(df):
     return fig
 
 def plot_sales_by_department_boxplot(df):
+    
+    # Order by descending median
+    order = (
+        df.groupby('department')['nb_sales']
+        .median()
+        .sort_values(ascending=False)
+        .index.tolist()
+    )
 
     fig = px.box(df,
                  x='department',
                  y='nb_sales',
-                 log_y=True)            
+                 log_y=True,
+                 category_orders={'department': order})
     
     return fig
 
@@ -122,10 +131,17 @@ def plot_sales_by_aisle_barplot(df):
 
 def plot_sales_by_aisle_boxplot(df):
 
+    order = (
+        df.groupby('aisle')['nb_sales']
+        .median()
+        .sort_values(ascending=False)
+        .index.tolist()
+    )
     fig = px.box(df,
                  x='aisle',
                  y='nb_sales',
-                 log_y=True)
+                 log_y=True,
+                 category_orders={'aisle': order})
     
     return fig
 
@@ -206,29 +222,6 @@ def plot_departments_per_basket(df):
     fig.update_layout(yaxis_title='Number of orders')
     return fig
 
-def plot_basket_size_by_segment(df):
-
-    fig = px.box(
-        df, x='segment', y='basket_size',
-        title='Basket size by customer segment',
-        labels={'segment': 'Customer segment', 'basket_size': 'Basket size'},
-        category_orders={'segment': ['Casual', 'Regular', 'Heavy']},
-        color='segment'
-    )
-
-    fig.update_traces(showlegend=False)
-    
-    return fig
-
-def plot_basket_size_vs_nb_orders(df):
-
-    fig = px.scatter(
-        df, x='nb_orders', y='avg_basket_size',
-        title='Average basket size vs number of orders per user',
-        labels={'nb_orders': 'Number of orders', 'avg_basket_size': 'Average basket size'},
-        opacity=0.4
-    )
-    return fig
 
 def plot_days_since_prior_order_distribution(df):
 
@@ -282,8 +275,29 @@ def plot_department_aisle_treemap(products_enriched, top_n_per_dept=4):
     
     return fig
 
+def plot_basket_size_vs_diversity(df):
+    
+    correlation = df['basket_size'].corr(df['nb_departments'])
+    
+    fig = px.scatter(
+        df.sample(10000),
+        x='basket_size',
+        y='nb_departments',
+        opacity=0.3,
+        title=f'Basket Size vs Department Diversity (Correlation: {correlation:.2f})',
+        labels={'basket_size': 'Number of Products', 'nb_departments': 'Number of Departments'}
+    )
+
+    fig.add_hline(y=df['nb_departments'].median(),
+                  line_dash="dash", line_color="red",
+                  annotation_text="Median diversity")
+
+    fig.update_layout(height=500)
+    
+    return fig
+
 def quick_info(df, name="Dataset"):
-    print(f"\n{name}: {df.shape[0]:,} rows × {df.shape[1]} columns")
+    print(f"\n{name}: {df.shape[0]:,} rows x {df.shape[1]} columns")
     print(f"Missing: {df.isnull().sum().sum()}")
     print(f"Duplicates: {df.duplicated().sum()}")
     print(df.dtypes)
