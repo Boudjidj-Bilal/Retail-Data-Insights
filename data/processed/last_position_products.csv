@@ -1,4 +1,4 @@
-product_name,last_position_count,total_count,last_position_rate,general_rate,impulse_ratio,department_id
+product_name,last_position_count,total_count,last_position_rate,general_rate,last_position_ratio,department_id
 Drinking Water,1984,5403,0.0006171314956667042,0.00016658193690056286,3.704672350130532,7
 Variety Pack,1194,3847,0.00037139869245264356,0.00011860831228141131,3.1313040823939824,17
 Popcorn,2059,6829,0.0006404605592629758,0.0002105474823420218,3.041881822279812,19
