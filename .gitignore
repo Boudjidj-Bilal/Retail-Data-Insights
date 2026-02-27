@@ -23,3 +23,5 @@ data/processed/rules_by_department.csv
 # large datasets for training and testing
 data/processed/train*.csv
 data/processed/test*.csv
+
+merge_reqs.py
