@@ -1,0 +1,9 @@
+segment,num_customers,net_impact_eur,roi,roi_improvement_factor,segment_weighted_margin
+Sleeping,26772,2307562.07,41.5,1.43,0.389
+Loyal,34570,4183694.4,146.6,1.42,0.389
+New,21555,404440.82,N/A,1.0,0.389
+Premium,45125,15592633.66,N/A,1.0,0.389
+Lost,50282,1063787.09,4.05,1.58,0.389
+High_Check,6301,676166.59,N/A,1.0,0.389
+Frugal,7652,176894.46,17.3,1.46,0.389
+Promising,13952,397547.75,2.8,1.67,0.389
