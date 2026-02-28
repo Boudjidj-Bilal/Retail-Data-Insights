@@ -153,32 +153,3 @@ def temporal_split_instacart(
     
     # Return results
     return {'train': train_data, 'test': test_data}
-
-# Usage example (to be run in a separate script)
-
-if __name__ == "__main__":
-    import sys
-    import os
-    
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.dirname(script_dir)
-    sys.path.insert(0, project_root)
-    
-    from scripts.load_data import load_instacart_data
-    
-    data = load_instacart_data()
-    
-    splits = temporal_split_instacart(
-        order_products_prior=data['order_products_prior'],
-        order_products_train=data['order_products_train'],
-        orders=data['orders'],
-        products=data['products'],
-        departments=data['departments'],
-        train_ratio=0.7,
-        save_path='data/processed/',
-        visualize=False
-    )
-    
-    print("\nTemporal split completed!")
-    for split_name, split_data in splits.items():
-        print(f"  - {split_name.capitalize()}: {len(split_data):,} rows")

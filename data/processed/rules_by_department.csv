@@ -1,435 +1,450 @@
 antecedent,consequent,support,confidence,lift,department
-"Banana, Organic Baby Spinach",Organic Strawberries,0.004533333333333334,0.19127988748241914,1.5456544266747223,produce
-"Banana, Organic Strawberries",Organic Baby Spinach,0.004533333333333334,0.16634050880626225,1.480951823417577,produce
-"Organic Baby Spinach, Organic Strawberries",Bag of Organic Bananas,0.00476,0.2670157068062827,1.6730307444002679,produce
-"Bag of Organic Bananas, Organic Baby Spinach",Organic Strawberries,0.00476,0.2222914072229141,1.7962458160554389,produce
-"Bag of Organic Bananas, Organic Strawberries",Organic Baby Spinach,0.00476,0.1824220746039857,1.6241281570867674,produce
-Organic Raspberries,Bag of Organic Bananas,0.014566666666666667,0.2664309230581637,1.6693666858280933,produce
-Organic Raspberries,Organic Strawberries,0.01372,0.2509450067064992,2.027783817592786,produce
-Organic Raspberries,Organic Hass Avocado,0.009413333333333333,0.1721741251066943,1.8807252232744063,produce
-"Bag of Organic Bananas, Organic Strawberries",Organic Raspberries,0.004253333333333333,0.16300459887583033,2.9814278540878614,produce
-"Organic Raspberries, Organic Strawberries",Bag of Organic Bananas,0.004253333333333333,0.31000971817298345,1.942416780532478,produce
-"Bag of Organic Bananas, Organic Raspberries",Organic Strawberries,0.004253333333333333,0.29199084668192216,2.3594584389532036,produce
-"Bag of Organic Bananas, Organic Hass Avocado",Organic Raspberries,0.0038466666666666666,0.16509298998569383,3.019625472241687,produce
-"Organic Hass Avocado, Organic Raspberries",Bag of Organic Bananas,0.0038466666666666666,0.4086402266288952,2.560402422486812,produce
-"Bag of Organic Bananas, Organic Raspberries",Organic Hass Avocado,0.0038466666666666666,0.2640732265446224,2.8845750059491233,produce
-"Organic Hass Avocado, Organic Strawberries",Organic Raspberries,0.003086666666666667,0.1717359050445104,3.141127393814969,produce
-"Organic Hass Avocado, Organic Raspberries",Organic Strawberries,0.003086666666666667,0.3279036827195468,2.649655357858752,produce
-"Organic Raspberries, Organic Strawberries",Organic Hass Avocado,0.003086666666666667,0.22497570456754132,2.4574975011018934,produce
-Organic Yellow Onion,Organic Baby Spinach,0.008633333333333333,0.17684009285811825,1.5744310261584602,produce
-Organic Yellow Onion,Organic Garlic,0.009333333333333334,0.19117847876553326,3.7842137522868815,produce
-Organic Garlic,Organic Yellow Onion,0.009333333333333334,0.18474531538664557,3.7842137522868815,produce
-Organic Yellow Onion,Organic Hass Avocado,0.00808,0.16550594018844736,1.8078860346830108,produce
-Honeycrisp Apple,Banana,0.013393333333333333,0.35183887915936957,1.5813930984300313,produce
-Fresh Cauliflower,Organic Baby Spinach,0.005606666666666667,0.17230075804138498,1.5340167204539261,produce
-Granny Smith Apples,Banana,0.0054266666666666664,0.3180930050801094,1.4297171594407578,produce
-Red Onion,Limes,0.0036333333333333335,0.15134684809775065,2.292439383486075,produce
-Red Onion,Organic Avocado,0.0037066666666666667,0.15440155512357678,1.7752746641527302,produce
-Organic Avocado,Banana,0.02578,0.2964126935459145,1.3322717176126562,produce
-Organic Avocado,Organic Baby Spinach,0.01506,0.17315652307220605,1.5416357111129455,produce
-"Organic Avocado, Organic Strawberries",Banana,0.0044466666666666665,0.36952908587257616,1.6609044101784802,produce
-"Banana, Organic Avocado",Organic Strawberries,0.0044466666666666665,0.1724851305921903,1.3937816941673515,produce
-"Banana, Organic Strawberries",Organic Avocado,0.0044466666666666665,0.16316046966731898,1.8759827111833396,produce
-"Organic Avocado, Organic Baby Spinach",Banana,0.00508,0.3373173970783533,1.5161240991745721,produce
-"Banana, Organic Baby Spinach",Organic Avocado,0.00508,0.21434599156118145,2.4645024324833065,produce
-"Banana, Organic Avocado",Organic Baby Spinach,0.00508,0.19705197827773469,1.754380148484105,produce
-Organic Zucchini,Organic Baby Spinach,0.009,0.1999703747592949,1.7803630231418706,produce
-Large Lemon,Organic Avocado,0.011366666666666667,0.16048569277108435,1.8452287226477582,produce
-"Banana, Large Lemon",Organic Baby Spinach,0.00302,0.16371521503433323,1.4575784814310293,produce
-"Large Lemon, Organic Avocado",Banana,0.0034866666666666666,0.3067448680351906,1.378711239783016,produce
-"Banana, Large Lemon",Organic Avocado,0.0034866666666666666,0.18901337188290568,2.1732336181539056,produce
-Organic Peeled Whole Baby Carrots,Organic Strawberries,0.004886666666666667,0.18528816986855412,1.4972378107139535,produce
-Organic Peeled Whole Baby Carrots,Organic Baby Spinach,0.00408,0.1547017189079879,1.3773301184827982,produce
-Organic Hass Avocado,Organic Baby Spinach,0.014946666666666667,0.16326827847363823,1.4535993453849556,produce
-Organic Hass Avocado,Bag of Organic Bananas,0.0233,0.2545150014564521,1.594705522910101,produce
-Organic Hass Avocado,Organic Strawberries,0.017973333333333334,0.19632974075152929,1.5864602226326237,produce
-"Organic Hass Avocado, Organic Strawberries",Organic Baby Spinach,0.0036533333333333335,0.2032640949554896,1.8096874550880484,produce
-"Organic Baby Spinach, Organic Hass Avocado",Organic Strawberries,0.0036533333333333335,0.24442462087421946,1.975095250289981,produce
-"Organic Baby Spinach, Organic Strawberries",Organic Hass Avocado,0.0036533333333333335,0.2049364248317128,2.2386006207949984,produce
-"Organic Baby Spinach, Organic Hass Avocado",Bag of Organic Bananas,0.00464,0.31043710972346117,1.9450946724527642,produce
-"Bag of Organic Bananas, Organic Hass Avocado",Organic Baby Spinach,0.00464,0.19914163090128753,1.772984605602631,produce
-"Bag of Organic Bananas, Organic Baby Spinach",Organic Hass Avocado,0.00464,0.21668742216687423,2.366961354866817,produce
-"Banana, Organic Hass Avocado",Organic Strawberries,0.0032733333333333334,0.23708353452438435,1.9157749382458467,produce
-"Organic Hass Avocado, Organic Strawberries",Bag of Organic Bananas,0.0059,0.3282640949554896,2.0567925749090827,produce
-"Bag of Organic Bananas, Organic Hass Avocado",Organic Strawberries,0.0059,0.25321888412017163,2.04615808964207,produce
-"Bag of Organic Bananas, Organic Strawberries",Organic Hass Avocado,0.0059,0.2261113949923352,2.46990309123582,produce
-Organic Cilantro,Organic Hass Avocado,0.004986666666666667,0.16218560277536861,1.771616692128262,produce
-Organic Cilantro,Limes,0.007753333333333333,0.2521682567215959,3.8195737158678567,produce
-Organic Cilantro,Organic Garlic,0.004633333333333333,0.15069384215091067,2.9828551494637896,produce
-Organic Cilantro,Organic Baby Spinach,0.005486666666666667,0.1784475281873374,1.5887422381351264,produce
-Large Grapefruit,Banana,0.00304,0.2988204456094365,1.343093723711248,produce
-Organic Strawberries,Bag of Organic Bananas,0.026093333333333333,0.21084953940634593,1.3211124022954006,produce
-Bag of Organic Bananas,Organic Strawberries,0.026093333333333333,0.1634920634920635,1.3211124022954006,produce
-Organic Italian Parsley Bunch,Organic Baby Spinach,0.00468,0.17593984962406017,1.5664160401002507,produce
-Organic Italian Parsley Bunch,Organic Garlic,0.00508,0.19097744360902258,3.780234434066163,produce
-Organic Baby Arugula,Organic Baby Spinach,0.005906666666666667,0.17143962848297212,1.5263499686874298,produce
-Organic Baby Arugula,Organic Hass Avocado,0.0054266666666666664,0.15750773993808048,1.7205185690876836,produce
-Organic Baby Carrots,Organic Baby Spinach,0.006053333333333333,0.1769290724863601,1.5752232237033486,produce
-Organic Baby Carrots,Organic Strawberries,0.00614,0.1794621979734996,1.4501605180210602,produce
-Michigan Organic Kale,Organic Baby Spinach,0.006326666666666667,0.18998998998998998,1.6915063211359507,produce
-Limes,Organic Avocado,0.0103,0.1560133292941533,1.793806484295799,produce
-Large Lemon,Limes,0.01288,0.18185240963855423,2.754504841541264,produce
-Limes,Large Lemon,0.01288,0.1950923962435626,2.754504841541264,produce
-"Limes, Organic Avocado",Banana,0.0032266666666666667,0.3132686084142395,1.4080331783818034,produce
-"Banana, Limes",Organic Avocado,0.0032266666666666667,0.21723518850987433,2.4977217749870575,produce
-"Banana, Large Lemon",Limes,0.003533333333333333,0.19154318756776292,2.9012903297146764,produce
-"Banana, Limes",Large Lemon,0.003533333333333333,0.2378815080789946,3.358643280482793,produce
-Organic Garlic,Limes,0.00762,0.1508313539192399,2.284631231736442,produce
-Organic Garlic,Organic Hass Avocado,0.008006666666666667,0.1584850884138295,1.7311945282605903,produce
-Organic Garlic,Organic Baby Spinach,0.010166666666666666,0.20124043283188173,1.7916705202268672,produce
-Carrots,Organic Baby Spinach,0.005806666666666667,0.17447916666666669,1.553411384140551,produce
-Organic Ginger Root,Organic Garlic,0.005486666666666667,0.23301245753114383,4.612281423815198,produce
-Organic Ginger Root,Limes,0.003766666666666667,0.1599660249150623,2.422993409801004,produce
-Organic Ginger Root,Organic Baby Spinach,0.004926666666666667,0.20922989807474518,1.8628017990985146,produce
-Organic Blueberries,Organic Strawberries,0.01178,0.24534851430158292,1.9825608546699043,produce
-Organic Blueberries,Bag of Organic Bananas,0.01016,0.21160788669813943,1.3258639517427284,produce
-"Organic Blueberries, Organic Strawberries",Bag of Organic Bananas,0.00302,0.2563667232597623,1.6063077898481346,produce
-"Bag of Organic Bananas, Organic Blueberries",Organic Strawberries,0.00302,0.29724409448818895,2.401907782859901,produce
-Seedless Red Grapes,Organic Strawberries,0.00606,0.16675839295542105,1.3475062728714733,produce
-Seedless Red Grapes,Banana,0.010666666666666666,0.2935241240139424,1.319288604623239,produce
-Organic Tomato Cluster,Bag of Organic Bananas,0.006413333333333333,0.21530886302596242,1.3490530264784613,produce
-Organic Tomato Cluster,Organic Strawberries,0.005926666666666667,0.19897045658012535,1.6077987656638906,produce
-Organic Tomato Cluster,Organic Hass Avocado,0.005493333333333334,0.1844225604297225,2.0145196667971437,produce
-Organic Tomato Cluster,Organic Baby Spinach,0.004946666666666667,0.16606982990152194,1.4785419328839204,produce
-Organic Gala Apples,Bag of Organic Bananas,0.007306666666666667,0.24903431038400364,1.560365353283231,produce
-Organic Gala Apples,Organic Strawberries,0.00562,0.19154737559645535,1.5478158885669504,produce
-"Clementines, Bag",Banana,0.005493333333333334,0.3062058714232627,1.3762886379255508,produce
-Cucumber Kirby,Banana,0.015806666666666667,0.32753142699267856,1.4721395753723605,produce
-Cucumber Kirby,Organic Baby Spinach,0.007813333333333334,0.16190081502970025,1.4414246352359352,produce
-Cucumber Kirby,Organic Avocado,0.008093333333333333,0.16770272137035502,1.9282085087807186,produce
-"Cucumber Kirby, Organic Avocado",Banana,0.00328,0.4052718286655684,1.8215555778574073,produce
-"Banana, Cucumber Kirby",Organic Avocado,0.00328,0.2075073808519612,2.3858736108994463,produce
-Green Beans,Banana,0.004506666666666667,0.3132530120481928,1.4079630781538643,produce
-Organic Lemon,Organic Hass Avocado,0.00926,0.22943508424182357,2.506209047208967,produce
-Organic Lemon,Organic Baby Spinach,0.00632,0.1565906838453915,1.3941478262588274,produce
-Organic Lemon,Bag of Organic Bananas,0.009193333333333333,0.22778328377931945,1.427213557514533,produce
-Organic Lemon,Organic Strawberries,0.007073333333333333,0.17525602907168814,1.4161721898805806,produce
-"Organic Hass Avocado, Organic Lemon",Bag of Organic Bananas,0.0031266666666666665,0.33765298776097913,2.1156202240662854,produce
-"Bag of Organic Bananas, Organic Lemon",Organic Hass Avocado,0.0031266666666666665,0.3401015228426396,3.7150617846195706,produce
-Asparagus,Organic Baby Spinach,0.0054533333333333335,0.17202944269190326,1.5316011635675149,produce
-Organic Small Bunch Celery,Organic Baby Spinach,0.00592,0.19598322666078127,1.744864909729178,produce
-Organic Small Bunch Celery,Organic Hass Avocado,0.004946666666666667,0.1637607592143015,1.7888227411990405,produce
-Organic Small Bunch Celery,Organic Yellow Onion,0.004853333333333334,0.16067093356874862,3.291088356590508,produce
-Organic Small Bunch Celery,Bag of Organic Bananas,0.006366666666666666,0.21077024939306996,1.3206155977009397,produce
-Organic Small Bunch Celery,Organic Strawberries,0.00498,0.1648642683734275,1.332200627916507,produce
-Green Bell Pepper,Organic Baby Spinach,0.004246666666666667,0.16065573770491803,1.4303395450936434,produce
-Organic Red Bell Pepper,Organic Hass Avocado,0.00498,0.1911952905042232,2.0885008429677745,produce
-Organic Red Bell Pepper,Organic Baby Spinach,0.004706666666666666,0.1807013053493729,1.6088079179965535,produce
-Organic Red Bell Pepper,Organic Strawberries,0.005513333333333334,0.211671359099053,1.7104295569066394,produce
-Organic D'Anjou Pears,Organic Hass Avocado,0.0033666666666666667,0.17288599794590895,1.8885012883692356,produce
-Organic D'Anjou Pears,Bag of Organic Bananas,0.005313333333333333,0.27285176309483056,1.7095975131255048,produce
-Organic D'Anjou Pears,Organic Strawberries,0.004246666666666667,0.21807600136939406,1.7621828478914565,produce
-Organic Blackberries,Organic Strawberries,0.006006666666666667,0.2119002822201317,1.7122793908861582,produce
-Bartlett Pears,Banana,0.006066666666666666,0.3839662447257383,1.7257944059227743,produce
-Organic Granny Smith Apple,Bag of Organic Bananas,0.00552,0.224877783813145,1.4090086705084273,produce
-Organic Granny Smith Apple,Organic Baby Spinach,0.00408,0.16621401412275938,1.4798256243123165,produce
-Organic Granny Smith Apple,Organic Strawberries,0.004026666666666666,0.16404128191200432,1.3255504113990544,produce
-Organic Kiwi,Bag of Organic Bananas,0.005386666666666666,0.255050505050505,1.5980608085871244,produce
-Organic Kiwi,Organic Baby Spinach,0.00346,0.16382575757575757,1.458562656479323,produce
-Organic Kiwi,Organic Strawberries,0.00576,0.27272727272727276,2.2037973877654964,produce
-Organic Kiwi,Organic Hass Avocado,0.003933333333333333,0.18623737373737373,2.0343435814598063,produce
-Jalapeno Peppers,Organic Avocado,0.0036,0.16646115906288533,1.913933302118105,produce
-Jalapeno Peppers,Limes,0.005533333333333334,0.2558569667077682,3.8754463300176947,produce
-Organic Carrot Bunch,Bag of Organic Bananas,0.00352,0.23280423280423282,1.458673137871133,produce
-Organic Cucumber,Bag of Organic Bananas,0.008646666666666667,0.24261129816685376,1.5201209158324172,produce
-Organic Cucumber,Organic Hass Avocado,0.00766,0.21492704826038161,2.3477321030481533,produce
-Organic Cucumber,Organic Baby Spinach,0.006526666666666667,0.1831275720164609,1.6304092950183484,produce
-Organic Cucumber,Organic Strawberries,0.00768,0.2154882154882155,1.7412720100863182,produce
-Apple Honeycrisp Organic,Bag of Organic Bananas,0.008006666666666667,0.25104515050167225,1.5729646021408037,produce
-Apple Honeycrisp Organic,Organic Hass Avocado,0.005033333333333333,0.15781772575250835,1.7239046652254773,produce
-Apple Honeycrisp Organic,Organic Strawberries,0.0059,0.1849916387959866,1.4948416645691962,produce
-Organic Grape Tomatoes,Organic Hass Avocado,0.006046666666666666,0.15506924260557362,1.6938819101977893,produce
-Organic Grape Tomatoes,Organic Avocado,0.006333333333333333,0.1624209266541289,1.8674796104644593,produce
-Organic Grape Tomatoes,Organic Baby Spinach,0.00734,0.18823730552231152,1.6759019366302663,produce
-Organic Grape Tomatoes,Organic Strawberries,0.007706666666666666,0.1976406223286032,1.59705291974845,produce
-Organic Large Extra Fancy Fuji Apple,Organic Hass Avocado,0.00512,0.16845799517438034,1.8401324844273996,produce
-Organic Large Extra Fancy Fuji Apple,Bag of Organic Bananas,0.00854,0.28098267163851726,1.760543055379181,produce
-Organic Large Extra Fancy Fuji Apple,Organic Strawberries,0.006266666666666667,0.20618556701030927,1.6661011178983132,produce
-Organic Red Onion,Organic Baby Spinach,0.0054266666666666664,0.17788461538461536,1.5837305500767036,produce
-Organic Red Onion,Limes,0.00494,0.16193181818181818,2.4527691333204813,produce
-Organic Red Onion,Organic Hass Avocado,0.004673333333333333,0.15319055944055943,1.6733603201342786,produce
-Organic Red Onion,Organic Garlic,0.004666666666666667,0.15297202797202797,3.0279498806814718,produce
-Broccoli Crown,Banana,0.006626666666666667,0.3239895697522816,1.456220161892615,produce
-Broccoli Crown,Large Lemon,0.00334,0.16329856584093871,2.3056085162030127,produce
-Broccoli Crown,Organic Baby Spinach,0.003513333333333333,0.17177314211212516,1.5293192851862996,produce
-Broccoli Crown,Organic Avocado,0.003853333333333333,0.18839634941329855,2.166139231334875,produce
-Organic Bartlett Pear,Organic Strawberries,0.003993333333333333,0.2675301473872264,2.1618015465217884,produce
-Organic Bartlett Pear,Bag of Organic Bananas,0.003986666666666667,0.26708351942831626,1.6734556355157661,produce
-Raspberries,Strawberries,0.00514,0.19357268390660304,2.9580177858588486,produce
-Gala Apples,Banana,0.004013333333333333,0.3609112709832134,1.622170336723759,produce
-Bunched Cilantro,Limes,0.00648,0.2755102040816326,4.173132445950206,produce
-Bunched Cilantro,Organic Avocado,0.00372,0.15816326530612246,1.8185259693330038,produce
-Hass Avocados,Bag of Organic Bananas,0.004713333333333333,0.21047930931824946,1.3187926649013124,produce
-Organic Fuji Apple,Banana,0.015393333333333334,0.37368506230781684,1.6795840753355264,produce
-Organic Garnet Sweet Potato (Yam),Organic Hass Avocado,0.003946666666666667,0.18775769108785284,2.050950601746135,produce
-Organic Garnet Sweet Potato (Yam),Organic Baby Spinach,0.004906666666666667,0.23342848081192516,2.0782450214736925,produce
-Organic Garnet Sweet Potato (Yam),Bag of Organic Bananas,0.00468,0.2226450999048525,1.395019422962735,produce
-Organic Lacinato (Dinosaur) Kale,Organic Hass Avocado,0.00322,0.17829457364341086,1.9475812734133142,produce
-Organic Lacinato (Dinosaur) Kale,Organic Baby Spinach,0.00364,0.20155038759689922,1.7944300890037324,produce
-Grape White/Green Seedless,Organic Strawberries,0.0034733333333333335,0.20115830115830116,1.6254778416067,produce
-Organic Broccoli,Bag of Organic Bananas,0.004053333333333333,0.22427148653633344,1.4052098153905606,produce
-Organic Broccoli,Organic Baby Spinach,0.0036666666666666666,0.20287716709701217,1.806242584553171,produce
-Organic Broccoli,Organic Strawberries,0.00384,0.21246772408705275,1.7168646562009326,produce
-Organic Navel Orange,Organic Hass Avocado,0.003266666666666667,0.1878114220007666,2.0515375254962853,produce
-Organic Navel Orange,Bag of Organic Bananas,0.0054533333333333335,0.3135300881563818,1.9644742365688082,produce
-Organic Yellow Peaches,Organic Strawberries,0.00378,0.3434282253179891,2.775102828082657,produce
-Small Hass Avocado,Banana,0.00628,0.293640897755611,1.3198134618806114,produce
-Orange Bell Pepper,Yellow Bell Pepper,0.0030933333333333334,0.1676300578034682,13.86136089885349,produce
-Yellow Bell Pepper,Orange Bell Pepper,0.0030933333333333334,0.2557883131201764,13.861360898853492,produce
-Clementines,Bag of Organic Bananas,0.0030533333333333332,0.2543031649083842,1.593378226243009,produce
-Total 2% Greek Strained Yogurt with Cherry 5.3 oz,Total 2% with Strawberry Lowfat Greek Strained Yogurt,0.0032733333333333334,0.27866061293984107,14.319661507699951,dairy eggs
-Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,0.0032733333333333334,0.16820829051044878,14.319661507699951,dairy eggs
-Total 2% Greek Strained Yogurt with Cherry 5.3 oz,Total 2% Lowfat Greek Strained Yogurt with Peach,0.003246666666666667,0.2763904653802497,21.52573717914717,dairy eggs
-Total 2% Lowfat Greek Strained Yogurt with Peach,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,0.003246666666666667,0.2528556593977155,21.525737179147175,dairy eggs
-Total 2% Greek Strained Yogurt with Cherry 5.3 oz,Total 2% Lowfat Greek Strained Yogurt With Blueberry,0.0031,0.2639046538024971,20.321200241465384,dairy eggs
-Total 2% Lowfat Greek Strained Yogurt With Blueberry,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,0.0031,0.23870636550308005,20.321200241465384,dairy eggs
-Icelandic Style Skyr Blueberry Non-fat Yogurt,Non Fat Raspberry Yogurt,0.00436,0.3531317494600432,34.218192777135975,dairy eggs
-Non Fat Raspberry Yogurt,Icelandic Style Skyr Blueberry Non-fat Yogurt,0.00436,0.4224806201550388,34.21819277713597,dairy eggs
-Vanilla Skyr Nonfat Yogurt,Non Fat Raspberry Yogurt,0.003266666666666667,0.2587117212249208,25.06896523497295,dairy eggs
-Non Fat Raspberry Yogurt,Vanilla Skyr Nonfat Yogurt,0.003266666666666667,0.3165374677002584,25.06896523497295,dairy eggs
-Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2% All Natural Greek Strained Yogurt with Honey,0.003353333333333333,0.17231928742720107,11.041389625835182,dairy eggs
-Total 2% All Natural Greek Strained Yogurt with Honey,Total 2% with Strawberry Lowfat Greek Strained Yogurt,0.003353333333333333,0.21486544211875266,11.041389625835182,dairy eggs
-Total 2% Lowfat Greek Strained Yogurt With Blueberry,Total 2% with Strawberry Lowfat Greek Strained Yogurt,0.00524,0.4034907597535934,20.734365866063378,dairy eggs
-Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2% Lowfat Greek Strained Yogurt With Blueberry,0.00524,0.2692702980472764,20.734365866063378,dairy eggs
-Icelandic Style Skyr Blueberry Non-fat Yogurt,Vanilla Skyr Nonfat Yogurt,0.00448,0.3628509719222462,28.736877396165223,dairy eggs
-Vanilla Skyr Nonfat Yogurt,Icelandic Style Skyr Blueberry Non-fat Yogurt,0.00448,0.35480464625131997,28.736877396165223,dairy eggs
-Total 2% Lowfat Greek Strained Yogurt With Blueberry,Total 2% Lowfat Greek Strained Yogurt with Peach,0.0036866666666666667,0.28388090349075973,22.109104633236736,dairy eggs
-Total 2% Lowfat Greek Strained Yogurt with Peach,Total 2% Lowfat Greek Strained Yogurt With Blueberry,0.0036866666666666667,0.2871235721703011,22.109104633236736,dairy eggs
-Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2% Lowfat Greek Strained Yogurt with Peach,0.00502,0.2579650565262076,20.09073648958003,dairy eggs
-Total 2% Lowfat Greek Strained Yogurt with Peach,Total 2% with Strawberry Lowfat Greek Strained Yogurt,0.00502,0.3909657320872274,20.090736489580028,dairy eggs
-Apple Pie Fruit & Nut Food Bar,Cherry Pie Fruit & Nut Bar,0.0034,0.2868391451068616,31.847425437475383,snacks
-Cherry Pie Fruit & Nut Bar,Apple Pie Fruit & Nut Food Bar,0.0034,0.3774981495188749,31.847425437475383,snacks
-Organic Summer Strawberry Bunny Fruit Snacks,Organic Bunny Fruit Snacks Berry Patch,0.0035,0.18191268191268192,8.82500073961911,snacks
-Organic Bunny Fruit Snacks Berry Patch,Organic Summer Strawberry Bunny Fruit Snacks,0.0035,0.16979301423027165,8.825000739619108,snacks
-Grapefruit Sparkling Water,Lemon Sparkling Water,0.0034666666666666665,0.19439252336448598,18.099862510659776,beverages
-Lemon Sparkling Water,Grapefruit Sparkling Water,0.0034666666666666665,0.3227808814400993,18.099862510659776,beverages
-Zero Calorie Cola,Soda,0.0038066666666666665,0.43721286370597245,11.170487064536854,beverages
-Lime Sparkling Water,Sparkling Water Grapefruit,0.012846666666666666,0.2594238018309101,3.2218554623809004,beverages
-Sparkling Water Grapefruit,Lime Sparkling Water,0.012846666666666666,0.15954628249710218,3.2218554623809,beverages
-Peach Pear Flavored Sparkling Water,Lime Sparkling Water,0.0038466666666666666,0.1665704387990762,3.363700298850489,beverages
-Peach Pear Flavored Sparkling Water,Sparkling Water Grapefruit,0.00626,0.27107390300230944,3.3665412692785575,beverages
-Lime Sparkling Water,Sparkling Lemon Water,0.008086666666666667,0.16330102315562736,4.775814676027316,beverages
-Sparkling Lemon Water,Lime Sparkling Water,0.008086666666666667,0.2364983427568727,4.775814676027316,beverages
-Sparkling Lemon Water,Sparkling Water Grapefruit,0.008226666666666667,0.24059270813023984,2.987986936540485,beverages
-"Lime Sparkling Water, Sparkling Lemon Water",Sparkling Water Grapefruit,0.0037066666666666667,0.45836768342951356,5.692594180694407,beverages
-"Lime Sparkling Water, Sparkling Water Grapefruit",Sparkling Lemon Water,0.0037066666666666667,0.2885313959522574,8.438235405115737,beverages
-"Sparkling Lemon Water, Sparkling Water Grapefruit",Lime Sparkling Water,0.0037066666666666667,0.4505672609400324,9.098692668417456,beverages
-Pure Sparkling Water,Sparkling Water Grapefruit,0.004933333333333333,0.16945271353331803,2.104479800463463,beverages
-Sparkling Water Berry,Sparkling Water Grapefruit,0.0054466666666666665,0.29719898144779916,3.690995795427213,beverages
-Sparkling Water Berry,Lime Sparkling Water,0.0036,0.19643506729719895,3.9667824575363277,beverages
-Sparkling Water Berry,Sparkling Lemon Water,0.0033466666666666666,0.18261185885776646,5.3405690833817445,beverages
-Frozen Organic Wild Blueberries,Organic Whole Strawberries,0.01034,0.23503561145628124,4.990140370621682,frozen
-Organic Whole Strawberries,Frozen Organic Wild Blueberries,0.01034,0.2195329087048832,4.990140370621682,frozen
-Mango Chunks,Pineapple Chunks,0.005826666666666667,0.20013739409205403,4.99427867473101,frozen
-Organic Sliced Peaches,Organic Whole Strawberries,0.0033466666666666666,0.233271375464684,4.95268313088501,frozen
-Organic Frozen Mango Chunks,Organic Whole Strawberries,0.00334,0.2020976200080678,4.290819957708446,frozen
-100% Recycled Paper Towels,Sustainably Soft Bath Tissue,0.01058,0.10296836982968371,1.4445618662974709,household
-Sustainably Soft Bath Tissue,100% Recycled Paper Towels,0.01058,0.1484287317620651,1.4445618662974709,household
-100% Recycled Bath Tissue Rolls,100% Recycled Paper Towels,0.00423,0.223928004235045,2.1793479730904624,household
-Vegan Nutritional Shake Sweet Vanilla Bean,Vegan Smooth Chocolate Nutritional Shake,0.0037114865049259066,0.3670715249662618,27.009240741644035,personal care
+Organic Cucumber,Organic Baby Spinach,0.006806666666666667,0.18953035084462597,1.663519755804207,produce
+Organic Cucumber,Organic Hass Avocado,0.0071,0.1976981622424355,2.1642624679875437,produce
+Organic Cucumber,Bag of Organic Bananas,0.00828,0.2305550399108966,1.4499101117991988,produce
+Organic Cucumber,Organic Strawberries,0.00726,0.20215333209578615,1.6421879130445667,produce
+Organic Baby Carrots,Organic Baby Spinach,0.0057666666666666665,0.16363980325387817,1.436276798600452,produce
+Organic Baby Carrots,Organic Strawberries,0.006226666666666667,0.17669315172152858,1.4353627272260647,produce
+Apple Honeycrisp Organic,Bag of Organic Bananas,0.007846666666666667,0.2481028667790894,1.5602645487532874,produce
+Apple Honeycrisp Organic,Organic Strawberries,0.005806666666666667,0.18360033726812816,1.491473089099335,produce
+Apple Honeycrisp Organic,Organic Hass Avocado,0.005093333333333333,0.16104553119730186,1.7630148649536765,produce
+Organic Granny Smith Apple,Organic Strawberries,0.00406,0.16940194714881782,1.3761327956849538,produce
+Organic Granny Smith Apple,Organic Baby Spinach,0.00388,0.1618915159944367,1.4209319718645703,produce
+Organic Granny Smith Apple,Bag of Organic Bananas,0.005173333333333334,0.21585535465924896,1.3574670132017166,produce
+Large Lemon,Limes,0.01274,0.1808631459398069,2.7293231278642893,produce
+Limes,Large Lemon,0.01274,0.19225352112676056,2.7293231278642893,produce
+Limes,Organic Avocado,0.010713333333333333,0.16167002012072434,1.848925207236097,produce
+"Banana, Large Lemon",Limes,0.0032866666666666665,0.1834077380952381,2.767722405863754,produce
+"Banana, Limes",Large Lemon,0.0032866666666666665,0.22429481346678795,3.1841966704541163,produce
+"Banana, Limes",Organic Avocado,0.003586666666666667,0.24476797088262056,2.799267736535002,produce
+"Limes, Organic Avocado",Banana,0.003586666666666667,0.33478531425015556,1.5128120842754431,produce
+Organic Baby Arugula,Organic Baby Spinach,0.006146666666666667,0.17356927710843376,1.5234284123033976,produce
+Organic Baby Arugula,Organic Hass Avocado,0.005393333333333333,0.15229668674698796,1.6672385791890376,produce
+Red Onion,Limes,0.0036533333333333335,0.15367358384744811,2.3190178649011286,produce
+Organic Ginger Root,Limes,0.003513333333333333,0.15044247787610618,2.270258720464379,produce
+Organic Ginger Root,Organic Baby Spinach,0.004913333333333333,0.21039109334855835,1.8466157988463285,produce
+Organic Ginger Root,Organic Garlic,0.00474,0.20296888381387385,4.0762260773973855,produce
+Organic Ginger Root,Organic Hass Avocado,0.0035466666666666667,0.15186982586354553,1.6625656020677146,produce
+Organic Hass Avocado,Organic Strawberries,0.01774,0.1942052255145234,1.5776216532455192,produce
+Organic Hass Avocado,Bag of Organic Bananas,0.023906666666666666,0.2617136184498613,1.6458595827385205,produce
+Bag of Organic Bananas,Organic Hass Avocado,0.023906666666666666,0.15034378668455475,1.6458595827385207,produce
+Organic Hass Avocado,Organic Baby Spinach,0.01512,0.16552328127280688,1.452808203096608,produce
+"Bag of Organic Bananas, Organic Hass Avocado",Organic Strawberries,0.00604,0.2526491912994981,2.0523898562103824,produce
+"Organic Hass Avocado, Organic Strawberries",Bag of Organic Bananas,0.00604,0.34047350620067646,2.141163253819448,produce
+"Bag of Organic Bananas, Organic Strawberries",Organic Hass Avocado,0.00604,0.22936708860759494,2.510951926079349,produce
+"Banana, Organic Hass Avocado",Organic Strawberries,0.0032066666666666667,0.23647984267453295,1.9210385270067665,produce
+"Bag of Organic Bananas, Organic Hass Avocado",Organic Baby Spinach,0.004986666666666667,0.20858895705521474,1.830798335768415,produce
+"Organic Baby Spinach, Organic Hass Avocado",Bag of Organic Bananas,0.004986666666666667,0.3298059964726632,2.0740776232978146,produce
+"Bag of Organic Bananas, Organic Baby Spinach",Organic Hass Avocado,0.004986666666666667,0.2259818731117825,2.4738929329125217,produce
+"Organic Baby Spinach, Organic Hass Avocado",Organic Strawberries,0.003426666666666667,0.22663139329805998,1.8410348765073923,produce
+"Organic Baby Spinach, Organic Strawberries",Organic Hass Avocado,0.003426666666666667,0.19366993217784478,2.120164196954949,produce
+"Organic Hass Avocado, Organic Strawberries",Organic Baby Spinach,0.003426666666666667,0.19316046599022926,1.6953815037176354,produce
+Organic Lemon,Organic Hass Avocado,0.008986666666666667,0.2251169004676019,2.4644238118625226,produce
+Organic Lemon,Bag of Organic Bananas,0.00926,0.2319639278557114,1.4587702992770715,produce
+Organic Lemon,Organic Baby Spinach,0.0062,0.155310621242485,1.3631710465987565,produce
+Organic Lemon,Organic Strawberries,0.006826666666666667,0.17100868403473615,1.3891850855786851,produce
+Organic Garlic,Organic Baby Spinach,0.009613333333333333,0.1930646672914714,1.6945406725407086,produce
+Organic Garlic,Limes,0.007573333333333333,0.1520953273530593,2.2952011169978768,produce
+Organic Garlic,Organic Hass Avocado,0.007673333333333333,0.15410362833043245,1.6870197233662871,produce
+Organic Yellow Onion,Organic Garlic,0.00972,0.19991772932949403,4.0149497120664215,produce
+Organic Garlic,Organic Yellow Onion,0.00972,0.19520685500066942,4.014949712066422,produce
+Organic Yellow Onion,Organic Baby Spinach,0.008393333333333333,0.1726312902783491,1.515195643168658,produce
+Organic Yellow Onion,Organic Hass Avocado,0.0084,0.17276840806252572,1.8913487964807223,produce
+Green Bell Pepper,Organic Baby Spinach,0.00438,0.16837519220912353,1.4778396039419854,produce
+Large Lemon,Organic Avocado,0.011446666666666667,0.16250236607987886,1.8584442598339301,produce
+Large Lemon,Organic Baby Spinach,0.01058,0.15019875070982397,1.3183038388808423,produce
+"Banana, Large Lemon",Organic Avocado,0.00392,0.21875,2.501715462031107,produce
+"Large Lemon, Organic Avocado",Banana,0.00392,0.3424577751892836,1.5474820388128496,produce
+"Banana, Large Lemon",Organic Baby Spinach,0.0032066666666666667,0.1789434523809524,1.5705978851458666,produce
+"Large Lemon, Organic Baby Spinach",Banana,0.0032066666666666667,0.30308758664146185,1.3695778881222858,produce
+Organic Red Onion,Organic Baby Spinach,0.005673333333333333,0.18637757336837496,1.635847630500658,produce
+Organic Red Onion,Limes,0.004853333333333334,0.15943933420937365,2.406026170161574,produce
+Organic Red Onion,Organic Hass Avocado,0.004926666666666667,0.16184844502847132,1.7718046091279154,produce
+"Banana, Organic Baby Spinach",Organic Strawberries,0.004426666666666666,0.18500975202006129,1.5029224372060217,produce
+"Banana, Organic Strawberries",Organic Baby Spinach,0.004426666666666666,0.1655860349127182,1.4533589957230972,produce
+"Bag of Organic Bananas, Organic Baby Spinach",Organic Strawberries,0.004593333333333333,0.2081570996978852,1.690959380161537,produce
+"Organic Baby Spinach, Organic Strawberries",Bag of Organic Bananas,0.004593333333333333,0.2596081386586285,1.6326186818209907,produce
+"Bag of Organic Bananas, Organic Strawberries",Organic Baby Spinach,0.004593333333333333,0.17443037974683542,1.5309863640740382,produce
+Organic Avocado,Organic Baby Spinach,0.01546,0.17680695333943275,1.5518456992928562,produce
+Organic Avocado,Banana,0.026213333333333335,0.29978652028057334,1.3546611851810815,produce
+"Banana, Organic Baby Spinach",Organic Avocado,0.005226666666666667,0.21844524937308443,2.498230207834909,produce
+"Banana, Organic Avocado",Organic Baby Spinach,0.005226666666666667,0.19938962360122076,1.75005521007508,produce
+"Organic Avocado, Organic Baby Spinach",Banana,0.005226666666666667,0.33807675722294095,1.5276853015044778,produce
+"Banana, Organic Avocado",Organic Strawberries,0.004266666666666667,0.16276703967446593,1.3222342784278305,produce
+"Banana, Organic Strawberries",Organic Avocado,0.004266666666666667,0.1596009975062344,1.8252630089917017,produce
+"Organic Avocado, Organic Strawberries",Banana,0.004266666666666667,0.3591470258136925,1.6228966372060214,produce
+Fresh Cauliflower,Organic Baby Spinach,0.00574,0.173344070867727,1.5214517630286162,produce
+Organic Italian Parsley Bunch,Organic Garlic,0.005553333333333334,0.20396669931439768,4.0962652158467865,produce
+Organic Italian Parsley Bunch,Organic Baby Spinach,0.00474,0.17409402546523017,1.5280341614853439,produce
+Seedless Red Grapes,Banana,0.01064,0.29419354838709677,1.3293879276416483,produce
+Seedless Red Grapes,Organic Strawberries,0.006386666666666666,0.17658986175115207,1.4345236535430712,produce
+Carrots,Organic Baby Spinach,0.005626666666666667,0.16836225812886496,1.4777260807097568,produce
+Michigan Organic Kale,Organic Baby Spinach,0.006653333333333333,0.20052240305404861,1.7599976862555466,produce
+Bag of Organic Bananas,Organic Strawberries,0.026333333333333334,0.16560456146235117,1.34528482097767,produce
+Organic Strawberries,Bag of Organic Bananas,0.026333333333333334,0.21391822366639587,1.3452848209776698,produce
+Cucumber Kirby,Banana,0.0155,0.32309616453585327,1.4599917059912033,produce
+Cucumber Kirby,Organic Avocado,0.007506666666666667,0.1564758198999444,1.789522185497992,produce
+Cucumber Kirby,Organic Baby Spinach,0.00746,0.15550305725403002,1.3648600695204507,produce
+"Banana, Cucumber Kirby",Organic Avocado,0.0031466666666666665,0.20301075268817204,2.321714920953477,produce
+"Cucumber Kirby, Organic Avocado",Banana,0.0031466666666666665,0.4191829484902309,1.8941841323553137,produce
+Organic Red Bell Pepper,Organic Strawberries,0.005353333333333333,0.2059502436522185,1.673032036167494,produce
+Organic Red Bell Pepper,Organic Hass Avocado,0.00488,0.1877404462682739,2.055252294573134,produce
+Organic Red Bell Pepper,Organic Baby Spinach,0.00444,0.1708130289817902,1.4992366499279421,produce
+Raspberries,Strawberries,0.005086666666666666,0.19306680161943318,2.923187669618954,produce
+Organic Large Extra Fancy Fuji Apple,Organic Strawberries,0.006506666666666667,0.2104809143843002,1.709836834965883,produce
+Organic Large Extra Fancy Fuji Apple,Organic Baby Spinach,0.00476,0.15397886564589175,1.3514821443466216,produce
+Organic Large Extra Fancy Fuji Apple,Bag of Organic Bananas,0.008793333333333334,0.28445115376320895,1.7888509585980774,produce
+Organic Large Extra Fancy Fuji Apple,Organic Hass Avocado,0.0051333333333333335,0.1660556394220401,1.817862057605168,produce
+Red Vine Tomato,Organic Avocado,0.004266666666666667,0.16330696606277112,1.8676459979731372,produce
+Organic Raspberries,Organic Hass Avocado,0.009686666666666666,0.1755042879574828,1.9212993135033147,produce
+Organic Raspberries,Bag of Organic Bananas,0.01524,0.2761203043845875,1.7364600728529316,produce
+Organic Raspberries,Organic Strawberries,0.014113333333333334,0.25570721101582317,2.077231608576955,produce
+"Organic Hass Avocado, Organic Raspberries",Organic Strawberries,0.0031666666666666666,0.3269098417068135,2.655644530518387,produce
+"Organic Hass Avocado, Organic Strawberries",Organic Raspberries,0.0031666666666666666,0.1785043216835776,3.234164543125576,produce
+"Organic Raspberries, Organic Strawberries",Organic Hass Avocado,0.0031666666666666666,0.22437411431270665,2.4562923038173987,produce
+"Bag of Organic Bananas, Organic Hass Avocado",Organic Raspberries,0.004173333333333334,0.17456776352481876,3.16284146983003,produce
+"Organic Hass Avocado, Organic Raspberries",Bag of Organic Bananas,0.004173333333333334,0.4308327598072953,2.7094127943608206,produce
+"Bag of Organic Bananas, Organic Raspberries",Organic Hass Avocado,0.004173333333333334,0.27384076990376205,2.9978189669803172,produce
+"Bag of Organic Bananas, Organic Raspberries",Organic Strawberries,0.004613333333333333,0.30271216097987746,2.4590752313556252,produce
+"Organic Raspberries, Organic Strawberries",Bag of Organic Bananas,0.004613333333333333,0.32687765706188,2.055661938591397,produce
+"Bag of Organic Bananas, Organic Strawberries",Organic Raspberries,0.004613333333333333,0.1751898734177215,3.1741129378739252,produce
+Bunched Cilantro,Organic Avocado,0.00388,0.16449971735443755,1.8812867949958547,produce
+Bunched Cilantro,Limes,0.006406666666666666,0.2716223855285472,4.098929359082705,produce
+Organic Garnet Sweet Potato (Yam),Bag of Organic Bananas,0.004526666666666667,0.21741914825488312,1.3673013683646011,produce
+Organic Garnet Sweet Potato (Yam),Organic Hass Avocado,0.00384,0.1844380403458213,2.0190998432253098,produce
+Organic Garnet Sweet Potato (Yam),Organic Baby Spinach,0.004526666666666667,0.21741914825488312,1.9083014767836435,produce
+Organic Russet Potato,Bag of Organic Bananas,0.003246666666666667,0.2266170311772918,1.4251448380259,produce
+Grape White/Green Seedless,Organic Strawberries,0.0038266666666666666,0.212987012987013,1.7301950689440537,produce
+Organic Blueberries,Bag of Organic Bananas,0.010233333333333334,0.2117241379310345,1.331486696698607,produce
+Organic Blueberries,Organic Strawberries,0.011466666666666667,0.23724137931034484,1.9272248522367574,produce
+Organic Zucchini,Organic Baby Spinach,0.008746666666666666,0.19359598642467168,1.6992040938385462,produce
+Organic Blackberries,Organic Strawberries,0.0058,0.20284448589414783,1.6478024849240278,produce
+Organic Fuji Apple,Banana,0.015326666666666667,0.36555891238670696,1.651870367766412,produce
+Organic D'Anjou Pears,Organic Baby Spinach,0.003033333333333333,0.15711325966850828,1.378992916926638,produce
+Organic D'Anjou Pears,Bag of Organic Bananas,0.005206666666666667,0.269682320441989,1.6959730029472726,produce
+Organic D'Anjou Pears,Organic Hass Avocado,0.0035,0.18128453038674033,1.9845774016939899,produce
+Organic D'Anjou Pears,Organic Strawberries,0.004253333333333333,0.2203038674033149,1.7896333663957342,produce
+Organic Navel Orange,Bag of Organic Bananas,0.0054733333333333335,0.32424960505529227,2.0391346955514775,produce
+Organic Navel Orange,Organic Hass Avocado,0.0030533333333333332,0.18088467614533965,1.980200074573124,produce
+Organic Navel Orange,Organic Strawberries,0.003086666666666667,0.18285939968404424,1.485454099789149,produce
+Honeycrisp Apple,Banana,0.01324,0.3566810344827586,1.6117534319148605,produce
+Organic Tomato Cluster,Organic Strawberries,0.005566666666666667,0.18684269411501453,1.517812299878266,produce
+Organic Tomato Cluster,Bag of Organic Bananas,0.006233333333333333,0.20921906466771087,1.3157328400199828,produce
+Organic Tomato Cluster,Organic Baby Spinach,0.005086666666666666,0.17073170731707316,1.4985228845851946,produce
+Organic Tomato Cluster,Organic Hass Avocado,0.005686666666666666,0.19087044081449986,2.0895173056615803,produce
+Green Beans,Banana,0.004246666666666667,0.2990610328638498,1.3513828868678255,produce
+Gala Apples,Banana,0.00376,0.3503105590062112,1.5829668278635844,produce
+Organic Bartlett Pear,Bag of Organic Bananas,0.00422,0.27799736495388666,1.748264495349782,produce
+Organic Bartlett Pear,Organic Strawberries,0.003946666666666667,0.25999121651295565,2.112032628050005,produce
+Organic Kiwi,Organic Strawberries,0.005573333333333333,0.26190476190476186,2.127577269738114,produce
+Organic Kiwi,Organic Baby Spinach,0.0032733333333333334,0.1538220551378446,1.350105808699631,produce
+Organic Kiwi,Bag of Organic Bananas,0.005666666666666667,0.26629072681704263,1.6746440140263454,produce
+Organic Kiwi,Organic Hass Avocado,0.00374,0.1757518796992481,1.9240097763017963,produce
+Red Raspberries,Banana,0.003106666666666667,0.2889026658400496,1.30547973718956,produce
+Bartlett Pears,Banana,0.005893333333333334,0.37142857142857144,1.6783939061390485,produce
+Organic Gala Apples,Organic Baby Spinach,0.00442,0.1505449591280654,1.3213425318437573,produce
+Organic Gala Apples,Bag of Organic Bananas,0.0067,0.2282016348773842,1.4351100633744605,produce
+Organic Gala Apples,Organic Hass Avocado,0.0044533333333333334,0.1516802906448683,1.660490701848653,produce
+Organic Gala Apples,Organic Strawberries,0.005613333333333333,0.19118982742960944,1.5531261367149427,produce
+Organic Small Bunch Celery,Bag of Organic Bananas,0.006313333333333333,0.2092355280600972,1.3158363746861723,produce
+Organic Small Bunch Celery,Organic Hass Avocado,0.005006666666666667,0.16593018117543085,1.8164886276685612,produce
+Organic Small Bunch Celery,Organic Baby Spinach,0.005953333333333333,0.1973044631020769,1.731753625822793,produce
+Organic Small Bunch Celery,Organic Strawberries,0.00486,0.16106937693327442,1.3084433544538945,produce
+Organic Peeled Whole Baby Carrots,Organic Strawberries,0.004726666666666666,0.1800863601727203,1.4629273775200675,produce
+Organic Peeled Whole Baby Carrots,Organic Baby Spinach,0.0041266666666666665,0.15722631445262888,1.379985205845192,produce
+Roma Tomato,Organic Avocado,0.003086666666666667,0.15032467532467533,1.7191751523864973,produce
+Clementines,Bag of Organic Bananas,0.0032266666666666667,0.25366876310272535,1.5952672507717927,produce
+Organic Grape Tomatoes,Organic Avocado,0.006313333333333333,0.1622130866735183,1.8551359409139787,produce
+Organic Grape Tomatoes,Organic Strawberries,0.00742,0.19064748201438847,1.5487204062907267,produce
+Organic Grape Tomatoes,Organic Baby Spinach,0.0075,0.19270298047276463,1.6913661246878113,produce
+Orange Bell Pepper,Yellow Bell Pepper,0.003,0.1592920353982301,13.700576439067953,produce
+Yellow Bell Pepper,Orange Bell Pepper,0.003,0.2580275229357798,13.700576439067953,produce
+Organic Cilantro,Limes,0.007666666666666666,0.24897163888287507,3.7571172869649154,produce
+Organic Cilantro,Organic Baby Spinach,0.00538,0.17471314137259147,1.5334681805669235,produce
+Organic Cilantro,Organic Avocado,0.0048066666666666666,0.1560943927256982,1.7851600265976462,produce
+Organic Cilantro,Organic Hass Avocado,0.0051533333333333336,0.16735224074474997,1.83205635029284,produce
+Organic Yellow Peaches,Organic Strawberries,0.0035666666666666668,0.3194029850746269,2.5946627544648813,produce
+Broccoli Crown,Large Lemon,0.0030666666666666668,0.1523683338853925,2.1630938938868893,produce
+Broccoli Crown,Banana,0.006213333333333334,0.3087114938721431,1.3949909348040808,produce
+Broccoli Crown,Organic Avocado,0.00388,0.1927790659158662,2.2047011198063378,produce
+Broccoli Crown,Organic Baby Spinach,0.0035,0.17389864193441537,1.5263192680024755,produce
+Organic Lacinato (Dinosaur) Kale,Organic Baby Spinach,0.0036266666666666665,0.19243013795542976,1.6889713688305714,produce
+Organic Lacinato (Dinosaur) Kale,Organic Hass Avocado,0.0033133333333333335,0.17580474000707463,1.924588454317705,produce
+Granny Smith Apples,Banana,0.00528,0.3099804305283757,1.400724945903189,produce
+"Clementines, Bag",Banana,0.0061266666666666665,0.31173677069199457,1.4086614129778336,produce
+Asparagus,Organic Avocado,0.0051066666666666665,0.16092436974789914,1.8403976412156808,produce
+Asparagus,Organic Baby Spinach,0.005326666666666667,0.16785714285714284,1.4732926523447294,produce
+Organic Carrot Bunch,Bag of Organic Bananas,0.003513333333333333,0.23611111111111108,1.484851025770026,produce
+Organic Romaine Lettuce,Organic Hass Avocado,0.0030733333333333333,0.18242975860704394,1.9971145665637564,produce
+Organic Broccoli,Bag of Organic Bananas,0.004026666666666666,0.22579439252336447,1.419971443841383,produce
+Organic Broccoli,Organic Baby Spinach,0.003746666666666667,0.21009345794392525,1.8440034342649965,produce
+Organic Broccoli,Organic Strawberries,0.0036466666666666665,0.20448598130841122,1.6611371349180442,produce
+Organic Broccoli,Organic Hass Avocado,0.003246666666666667,0.18205607476635516,1.993023734852815,produce
+Jalapeno Peppers,Organic Avocado,0.0032733333333333334,0.15656887755102042,1.7905864312788244,produce
+Jalapeno Peppers,Limes,0.00536,0.25637755102040816,3.868876524452839,produce
+Hass Avocados,Bag of Organic Bananas,0.00508,0.2184633027522936,1.373867827135839,produce
+Total 2% Lowfat Greek Strained Yogurt with Peach,Total 2% Lowfat Greek Strained Yogurt With Blueberry,0.0038733333333333332,0.29642857142857143,21.936006765804496,dairy eggs
+Total 2% Lowfat Greek Strained Yogurt With Blueberry,Total 2% Lowfat Greek Strained Yogurt with Peach,0.0038733333333333332,0.28663048840651206,21.936006765804493,dairy eggs
+Total 2% Lowfat Greek Strained Yogurt with Peach,Total 2% with Strawberry Lowfat Greek Strained Yogurt,0.005,0.3826530612244898,19.3519754496539,dairy eggs
+Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2% Lowfat Greek Strained Yogurt with Peach,0.005,0.2528658125421443,19.3519754496539,dairy eggs
+Icelandic Style Skyr Blueberry Non-fat Yogurt,Vanilla Skyr Nonfat Yogurt,0.004553333333333334,0.3636847710330139,28.848606903729287,dairy eggs
+Vanilla Skyr Nonfat Yogurt,Icelandic Style Skyr Blueberry Non-fat Yogurt,0.004553333333333334,0.36118455843469066,28.848606903729287,dairy eggs
+Total 2% Greek Strained Yogurt with Cherry 5.3 oz,Total 2% Lowfat Greek Strained Yogurt With Blueberry,0.0033266666666666666,0.2840068298235629,21.016785630752064,dairy eggs
+Total 2% Lowfat Greek Strained Yogurt With Blueberry,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,0.0033266666666666666,0.24617661568820917,21.016785630752064,dairy eggs
+Total 2% Greek Strained Yogurt with Cherry 5.3 oz,Total 2% Lowfat Greek Strained Yogurt with Peach,0.0031866666666666666,0.27205463858850315,20.820508055242588,dairy eggs
+Total 2% Lowfat Greek Strained Yogurt with Peach,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,0.0031866666666666666,0.24387755102040815,20.820508055242588,dairy eggs
+Total 2% Greek Strained Yogurt with Cherry 5.3 oz,Total 2% with Strawberry Lowfat Greek Strained Yogurt,0.00354,0.3022196926579397,15.284205630037407,dairy eggs
+Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2% Greek Strained Yogurt with Cherry 5.3 oz,0.00354,0.17902899527983818,15.284205630037409,dairy eggs
+Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2% Lowfat Greek Strained Yogurt With Blueberry,0.0058,0.29332434254888734,21.706290765827873,dairy eggs
+Total 2% Lowfat Greek Strained Yogurt With Blueberry,Total 2% with Strawberry Lowfat Greek Strained Yogurt,0.0058,0.42920572274296986,21.706290765827877,dairy eggs
+Vanilla Skyr Nonfat Yogurt,Non Fat Raspberry Yogurt,0.003513333333333333,0.2786885245901639,26.987268359279916,dairy eggs
+Non Fat Raspberry Yogurt,Vanilla Skyr Nonfat Yogurt,0.003513333333333333,0.34021949644932215,26.987268359279916,dairy eggs
+Icelandic Style Skyr Blueberry Non-fat Yogurt,Non Fat Raspberry Yogurt,0.00438,0.34984025559105436,33.87736497008274,dairy eggs
+Non Fat Raspberry Yogurt,Icelandic Style Skyr Blueberry Non-fat Yogurt,0.00438,0.4241446094254358,33.87736497008273,dairy eggs
+Total 2% with Strawberry Lowfat Greek Strained Yogurt,Total 2% All Natural Greek Strained Yogurt with Honey,0.0036533333333333335,0.18476062036412677,11.605566605786857,dairy eggs
+Total 2% All Natural Greek Strained Yogurt with Honey,Total 2% with Strawberry Lowfat Greek Strained Yogurt,0.0036533333333333335,0.22948073701842547,11.605566605786859,dairy eggs
+Organic Summer Strawberry Bunny Fruit Snacks,Organic Bunny Fruit Snacks Berry Patch,0.0034933333333333335,0.18207088255733148,8.916301790270884,snacks
+Organic Bunny Fruit Snacks Berry Patch,Organic Summer Strawberry Bunny Fruit Snacks,0.0034933333333333335,0.17107411034933073,8.916301790270886,snacks
+Apple Pie Fruit & Nut Food Bar,Cherry Pie Fruit & Nut Bar,0.003193333333333333,0.2724687144482366,32.00493905030188,snacks
+Cherry Pie Fruit & Nut Bar,Apple Pie Fruit & Nut Food Bar,0.003193333333333333,0.375097885669538,32.00493905030188,snacks
+Sparkling Lemon Water,Sparkling Water Grapefruit,0.008466666666666667,0.25183422565932984,3.0932798762610116,beverages
+Lime Sparkling Water,Sparkling Lemon Water,0.008053333333333332,0.15892645704512562,4.727140304733065,beverages
+Sparkling Lemon Water,Lime Sparkling Water,0.008053333333333332,0.2395399563751735,4.727140304733065,beverages
+"Lime Sparkling Water, Sparkling Water Grapefruit",Sparkling Lemon Water,0.00382,0.3044633368756642,9.056018348473058,beverages
+"Sparkling Lemon Water, Sparkling Water Grapefruit",Lime Sparkling Water,0.00382,0.4511811023622047,8.903718636275583,beverages
+"Lime Sparkling Water, Sparkling Lemon Water",Sparkling Water Grapefruit,0.00382,0.4743377483443709,5.82629071828166,beverages
+Peach Pear Flavored Sparkling Water,Sparkling Water Grapefruit,0.006593333333333333,0.2907113462669018,3.57080756141789,beverages
+Peach Pear Flavored Sparkling Water,Lime Sparkling Water,0.00376,0.1657848324514991,3.2716385827818533,beverages
+Zero Calorie Cola,Soda,0.0037933333333333335,0.4330289193302892,11.01481056461648,beverages
+Sparkling Water Berry,Sparkling Water Grapefruit,0.005146666666666667,0.29488158899923606,3.6220306542651004,beverages
+Sparkling Water Berry,Lime Sparkling Water,0.003426666666666667,0.19633307868601985,3.8744851733854726,beverages
+Sparkling Water Berry,Sparkling Lemon Water,0.003246666666666667,0.18601986249045072,5.533011971756417,beverages
+Sparkling Water Grapefruit,Lime Sparkling Water,0.012546666666666666,0.1541107107762856,3.0412585997162007,beverages
+Lime Sparkling Water,Sparkling Water Grapefruit,0.012546666666666666,0.2475990001315616,3.0412585997162003,beverages
+Grapefruit Sparkling Water,Lemon Sparkling Water,0.0034333333333333334,0.19559437903532093,17.781307185029178,beverages
+Lemon Sparkling Water,Grapefruit Sparkling Water,0.0034333333333333334,0.31212121212121213,17.781307185029174,beverages
+Pure Sparkling Water,Sparkling Water Grapefruit,0.005173333333333334,0.17696693272519956,2.1736848926285566,beverages
+Organic Whole Strawberries,Frozen Organic Wild Blueberries,0.010586666666666666,0.22685714285714284,5.049498653890997,frozen
+Frozen Organic Wild Blueberries,Organic Whole Strawberries,0.010586666666666666,0.23564327051491318,5.049498653890996,frozen
+Mango Chunks,Pineapple Chunks,0.005373333333333333,0.18955785512699908,4.757978291340338,frozen
+Organic Frozen Mango Chunks,Organic Whole Strawberries,0.0033333333333333335,0.1953125,4.185267857142857,frozen
+Organic Frozen Mango Chunks,Frozen Organic Wild Blueberries,0.003246666666666667,0.190234375,4.234330946728002,frozen
+Organic Sliced Peaches,Organic Whole Strawberries,0.00336,0.23573433115060805,5.051449953227315,frozen
+Sustainably Soft Bath Tissue,100% Recycled Paper Towels,0.01024,0.14483734087694486,1.3968303681834782,household
+100% Recycled Bath Tissue Rolls,100% Recycled Paper Towels,0.00406,0.2198159177043855,2.1199336262357553,household
 Vegan Smooth Chocolate Nutritional Shake,Vegan Nutritional Shake Sweet Vanilla Bean,0.0037114865049259066,0.2730923694779116,27.009240741644035,personal care
-Moroccan Argan Oil + Argan Stem Cell Triple Moisture Conditioner,Hair Shampoos,0.003274841033758153,0.3582089552238806,53.684461129933155,personal care
+Vegan Nutritional Shake Sweet Vanilla Bean,Vegan Smooth Chocolate Nutritional Shake,0.0037114865049259066,0.3670715249662618,27.009240741644035,personal care
 Hair Shampoos,Moroccan Argan Oil + Argan Stem Cell Triple Moisture Conditioner,0.003274841033758153,0.49079754601226994,53.684461129933155,personal care
-Macaroni Shells & White Cheddar Cheese,Shells & Real Aged Cheddar Macaroni & Cheese,0.00314,0.1329944938585345,6.109071835486197,dry goods pasta
-Shells & Real Aged Cheddar Macaroni & Cheese,Macaroni Shells & White Cheddar Cheese,0.00314,0.1442351860358291,6.109071835486197,dry goods pasta
+Moroccan Argan Oil + Argan Stem Cell Triple Moisture Conditioner,Hair Shampoos,0.003274841033758153,0.3582089552238806,53.684461129933155,personal care
+Shells & Real Aged Cheddar Macaroni & Cheese,Macaroni Shells & White Cheddar Cheese,0.00321,0.14909428704133768,6.243479356839937,dry goods pasta
+Macaroni Shells & White Cheddar Cheese,Shells & Real Aged Cheddar Macaroni & Cheese,0.00321,0.13442211055276385,6.243479356839937,dry goods pasta
+Organic Pinto Beans,Organic Black Beans,0.00502,0.2065843621399177,2.2857309375959027,canned goods
 India Pale Ale,Beer,0.01555678012801492,0.2360128617363344,2.5029352309381276,alcohol
 Beer,India Pale Ale,0.01555678012801492,0.16498089458305237,2.5029352309381276,alcohol
 Cabernet Sauvignon Wine,Cabernet Sauvignon,0.00548938154380908,0.1838183108587651,1.7849177902733597,alcohol
 Amber Ale,Beer,0.005171463693781526,0.27758816837315126,2.943844675248825,alcohol
 Amber Ale,India Pale Ale,0.006082828197193845,0.3265073947667804,4.953463633403933,alcohol
 Variety Pack Hard Cider,India Pale Ale,0.005277436310457378,0.33155792276964047,5.030085502288481,alcohol
-Organic Atage 3 Nibbly Fingers Mangoes Carrots,Apples + Strawberries Organic Nibbly Fingers,0.00836,0.3539373412362405,12.088023949325153,babies
-Apples + Strawberries Organic Nibbly Fingers,Organic Atage 3 Nibbly Fingers Mangoes Carrots,0.00836,0.2855191256830601,12.088023949325153,babies
-Organic Stage 4 Spinach Mango & Pear Baby Food,Organic Stage 4 Green Bean Pear & Pea Baby Food,0.01004,0.25430597771023306,7.2783622698979125,babies
-Organic Stage 4 Green Bean Pear & Pea Baby Food,Organic Stage 4 Spinach Mango & Pear Baby Food,0.01004,0.28734974241556954,7.278362269897912,babies
-Sunny Days Strawberry Snack Bars,Organic Sunny Days Apple Snack Bars,0.00666,0.23802716225875625,9.934355686926388,babies
-Organic Sunny Days Apple Snack Bars,Sunny Days Strawberry Snack Bars,0.00666,0.27796327212020033,9.934355686926388,babies
-"Apples, Kale & Avocados Organic Baby Food","Pears, Kale & Spinach Organic Baby Food",0.00626,0.2983794089609152,16.81958336870999,babies
-"Pears, Kale & Spinach Organic Baby Food","Apples, Kale & Avocados Organic Baby Food",0.00626,0.3528748590755355,16.81958336870999,babies
-Gluten Free SpongeBob Spinach Littles,Kids Sensible Foods Broccoli Littles,0.01186,0.1751846381093058,3.028780050299201,babies
-Kids Sensible Foods Broccoli Littles,Gluten Free SpongeBob Spinach Littles,0.01186,0.20504840940525587,3.0287800502992006,babies
-Sweet Potatoes Stage 2,Organic Stage 2 Carrots Baby Food,0.00758,0.38673469387755105,17.006802721088437,babies
-Organic Stage 2 Carrots Baby Food,Sweet Potatoes Stage 2,0.00758,0.3333333333333333,17.006802721088434,babies
-Broccoli & Apple Stage 2 Baby Food,Spinach Peas & Pear Stage 2 Baby Food,0.02234,0.3512578616352201,4.635231744988388,babies
-Spinach Peas & Pear Stage 2 Baby Food,Broccoli & Apple Stage 2 Baby Food,0.02234,0.2948007389812615,4.635231744988388,babies
-Broccoli & Apple Stage 2 Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01934,0.3040880503144654,3.6593026511969367,babies
-Baby Food Stage 2 Blueberry Pear & Purple Carrot,Broccoli & Apple Stage 2 Baby Food,0.01934,0.23273164861612516,3.659302651196936,babies
-"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00882,0.39480752014324083,4.750993022180997,babies
-"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Broccoli & Apple Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.00882,0.4560496380558428,6.0180738724708736,babies
-"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.00882,0.3693467336683417,5.8073385796909065,babies
-Broccoli & Apple Stage 2 Baby Food,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",0.00882,0.13867924528301886,5.807338579690907,babies
-Broccoli & Apple Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.0084,0.13207547169811318,2.655317082792786,babies
-"Peach,  Apricot & Banana Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.0084,0.16887816646562123,2.6553170827927866,babies
-Spinach Peas & Pear Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.0107,0.14119820533122196,2.8387254791158414,babies
-"Peach,  Apricot & Banana Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.0107,0.21511861680739847,2.8387254791158414,babies
-Baby Food Stage 2 Blueberry Pear & Purple Carrot,"Peach,  Apricot & Banana Stage 2 Baby Food",0.01624,0.19542719614921783,3.928974590856812,babies
-"Peach,  Apricot & Banana Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01624,0.32649778850020106,3.928974590856812,babies
-"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.00522,0.2185929648241206,4.394711797831134,babies
-"Peach,  Apricot & Banana Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00522,0.48785046728971965,5.8706434090218975,babies
-"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Peach,  Apricot & Banana Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.00522,0.3214285714285714,4.241601628775025,babies
-Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.01326,0.2820076563164611,10.064513073392614,babies
-Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.01326,0.47323340471092074,10.064513073392614,babies
-Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,Stage 1 Apples & Strawberries Organic Pureed Baby Food,0.00512,0.18272662384011423,6.424986773562385,babies
-Stage 1 Apples & Strawberries Organic Pureed Baby Food,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.00512,0.180028129395218,6.4249867735623845,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.01108,0.2548298068077277,9.094568408555594,babies
-Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.01108,0.39543183440399715,9.094568408555594,babies
-Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,Organic Stage 2 Peaches & Bananas Baby Food,0.00528,0.18843683083511778,6.214935053928687,babies
-Organic Stage 2 Peaches & Bananas Baby Food,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.00528,0.1741424802110818,6.214935053928687,babies
-"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Pears, Peas and Broccoli Puree Stage 1",0.0066,0.497737556561086,11.44750590066895,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.0066,0.40640394088669946,14.504066412801551,babies
-"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.0066,0.5956678700361011,12.668393663039156,babies
-Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Organic Pears, Peas and Broccoli Puree Stage 1",0.0066,0.14036580178647384,12.668393663039156,babies
-Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.0066,0.23554603854389722,14.504066412801553,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1","Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.0066,0.1517939282428703,11.447505900668952,babies
-Baby Food Stage 2 Blueberry Pear & Purple Carrot,Apple and Carrot Stage 2 Baby Food,0.01444,0.17376654632972324,4.401381619293901,babies
-Apple and Carrot Stage 2 Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01444,0.3657548125633232,4.401381619293902,babies
-Spinach Peas & Pear Stage 2 Baby Food,Apple and Carrot Stage 2 Baby Food,0.01182,0.1559778305621536,3.950806245241986,babies
-Apple and Carrot Stage 2 Baby Food,Spinach Peas & Pear Stage 2 Baby Food,0.01182,0.2993920972644377,3.9508062452419863,babies
-Apple and Carrot Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.0078,0.19756838905775073,3.9720222970999344,babies
-"Peach,  Apricot & Banana Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.0078,0.15681544028950542,3.9720222970999344,babies
-Broccoli & Apple Stage 2 Baby Food,Apple and Carrot Stage 2 Baby Food,0.01138,0.17893081761006288,4.5321888958982495,babies
-Apple and Carrot Stage 2 Baby Food,Broccoli & Apple Stage 2 Baby Food,0.01138,0.28824721377912865,4.532188895898249,babies
-Baby Food Stage 2 Pumpkin Banana,Apple and Carrot Stage 2 Baby Food,0.01036,0.2571996027805362,6.514680921492812,babies
-Apple and Carrot Stage 2 Baby Food,Baby Food Stage 2 Pumpkin Banana,0.01036,0.2624113475177305,6.514680921492812,babies
-"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.00592,0.24790619765494137,6.279285654887066,babies
-"Apple and Carrot Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00592,0.5008460236886633,6.027027962559125,babies
-"Apple and Carrot Stage 2 Baby Food, Baby Food Stage 2 Blueberry Pear & Purple Carrot",Spinach Peas & Pear Stage 2 Baby Food,0.00592,0.4099722991689751,5.410032979268608,babies
-Apple and Carrot Stage 2 Baby Food,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",0.00592,0.14994934143870314,6.279285654887067,babies
-"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.00512,0.22918531781557747,5.805099235450291,babies
-"Apple and Carrot Stage 2 Baby Food, Broccoli & Apple Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.00512,0.4499121265377857,5.9370826938214,babies
-"Apple and Carrot Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.00512,0.43316412859560066,6.810756738924538,babies
-Apple and Carrot Stage 2 Baby Food,"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",0.00512,0.12968591691995948,5.805099235450291,babies
-"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Broccoli & Apple Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.00548,0.28335056876938985,7.177066078252023,babies
-"Apple and Carrot Stage 2 Baby Food, Broccoli & Apple Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00548,0.4815465729349736,5.794784271178985,babies
-"Apple and Carrot Stage 2 Baby Food, Baby Food Stage 2 Blueberry Pear & Purple Carrot",Broccoli & Apple Stage 2 Baby Food,0.00548,0.37950138504155123,5.967002909458352,babies
-Apple and Carrot Stage 2 Baby Food,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Broccoli & Apple Stage 2 Baby Food",0.00548,0.1388044579533941,7.177066078252023,babies
-"Happy Baby Spinach, Mango, and Pear Baby Food",Organic Stage 2 Broccoli Pears & Peas Baby Food,0.00594,0.1697142857142857,6.68693009118541,babies
-Organic Stage 2 Broccoli Pears & Peas Baby Food,"Happy Baby Spinach, Mango, and Pear Baby Food",0.00594,0.23404255319148937,6.68693009118541,babies
-Spinach Peas & Pear Stage 2 Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.02388,0.3151227236737925,3.7920905375907648,babies
-Baby Food Stage 2 Blueberry Pear & Purple Carrot,Spinach Peas & Pear Stage 2 Baby Food,0.02388,0.2873646209386282,3.792090537590765,babies
-"Peach,  Apricot & Banana Stage 2 Baby Food",Pear & Mango Stage 2 Baby Food,0.0112,0.22517088862082832,5.941184396327923,babies
-Pear & Mango Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.0112,0.29551451187335087,5.941184396327922,babies
-Pear & Mango Stage 2 Baby Food,Spinach Peas & Pear Stage 2 Baby Food,0.00852,0.22480211081794194,2.966509775903166,babies
-Apple and Carrot Stage 2 Baby Food,Pear & Mango Stage 2 Baby Food,0.00968,0.24518743667679835,6.469325505984124,babies
-Pear & Mango Stage 2 Baby Food,Apple and Carrot Stage 2 Baby Food,0.00968,0.25540897097625326,6.469325505984125,babies
-Baby Food Stage 2 Pumpkin Banana,Pear & Mango Stage 2 Baby Food,0.00688,0.17080436941410126,4.5067115940396105,babies
-Pear & Mango Stage 2 Baby Food,Baby Food Stage 2 Pumpkin Banana,0.00688,0.18153034300791554,4.5067115940396105,babies
-Pear & Mango Stage 2 Baby Food,Broccoli & Apple Stage 2 Baby Food,0.00658,0.17361477572559364,2.7297920711571324,babies
-Baby Food Stage 2 Blueberry Pear & Purple Carrot,Pear & Mango Stage 2 Baby Food,0.01128,0.13574007220216608,3.5815322480782603,babies
-Pear & Mango Stage 2 Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01128,0.29762532981530343,3.5815322480782608,babies
-Organic Stage 4 Green Bean Pear & Pea Baby Food,Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,0.0055,0.15741270749856898,6.670029978752923,babies
-Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,Organic Stage 4 Green Bean Pear & Pea Baby Food,0.0055,0.2330508474576271,6.670029978752923,babies
-Organic Stage 4 Spinach Mango & Pear Baby Food,"Banana, Peach and Mango Fruit Pouch",0.005,0.12664640324214793,6.845751526602591,babies
-"Banana, Peach and Mango Fruit Pouch",Organic Stage 4 Spinach Mango & Pear Baby Food,0.005,0.2702702702702703,6.845751526602591,babies
-"Happy Baby Spinach, Mango, and Pear Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00596,0.17028571428571426,2.0491662368918684,babies
-"Happy Baby Spinach, Mango, and Pear Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.005,0.14285714285714285,1.8851562794555667,babies
-Organic Mixed Berry Yogurt & Fruit Snack,Organic Strawberry Yogurt & Fruit Snack,0.01028,0.20659163987138263,5.54459580975262,babies
-Organic Strawberry Yogurt & Fruit Snack,Organic Mixed Berry Yogurt & Fruit Snack,0.01028,0.27589908749329034,5.54459580975262,babies
-Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.01624,0.3453849425776266,7.943535937847898,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.01624,0.3735050597976081,7.943535937847897,babies
-Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Organic Stage 2 Peaches & Bananas Baby Food,0.00842,0.17907273500638027,5.906092843218347,babies
-Organic Stage 2 Peaches & Bananas Baby Food,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.00842,0.27770448548812665,5.906092843218347,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1",Organic Stage 2 Peaches & Bananas Baby Food,0.0076,0.17479300827966882,5.764940906321531,babies
-Organic Stage 2 Peaches & Bananas Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.0076,0.25065963060686014,5.764940906321531,babies
-Organic Stage 3 Pear Carrot Apricot Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.0054,0.20626432391138275,2.4821218280551474,babies
-Organic Mixed Berry Yogurt & Fruit Snack,Banana & Mango Organic Yogurt & Fruit Snacks ,0.00802,0.16117363344051447,6.0546068159472,babies
-Banana & Mango Organic Yogurt & Fruit Snacks ,Organic Mixed Berry Yogurt & Fruit Snack,0.00802,0.30127723516153265,6.0546068159472,babies
-Organic Strawberry Yogurt & Fruit Snack,Banana & Mango Organic Yogurt & Fruit Snacks ,0.00724,0.19431025228126678,7.299408425291764,babies
-Banana & Mango Organic Yogurt & Fruit Snacks ,Organic Strawberry Yogurt & Fruit Snack,0.00724,0.27197595792637114,7.299408425291764,babies
-Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Apples, Carrots and Parsnips Puree",0.0113,0.24032326669502338,11.095257003463685,babies
-"Organic Apples, Carrots and Parsnips Puree",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.0113,0.5216989843028624,11.095257003463685,babies
-Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Apples, Carrots and Parsnips Puree",0.00684,0.24411134903640255,11.270145384875464,babies
-"Organic Apples, Carrots and Parsnips Puree",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.00684,0.3157894736842105,11.270145384875464,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1","Organic Apples, Carrots and Parsnips Puree",0.0091,0.20929162833486661,9.662586719061247,babies
-"Organic Apples, Carrots and Parsnips Puree","Organic Pears, Peas and Broccoli Puree Stage 1",0.0091,0.42012927054478305,9.662586719061249,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Apples, Carrots and Parsnips Puree",0.00558,0.3435960591133005,15.863160623882756,babies
-"Organic Apples, Carrots and Parsnips Puree, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Pears, Peas and Broccoli Puree Stage 1",0.00558,0.4938053097345133,11.357067841180159,babies
-"Organic Apples, Carrots and Parsnips Puree, Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.00558,0.6131868131868131,13.04097858755451,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1","Organic Apples, Carrots and Parsnips Puree, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00558,0.1283348666053358,11.35706784118016,babies
-"Organic Apples, Carrots and Parsnips Puree","Organic Pears, Peas and Broccoli Puree Stage 1, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00558,0.25761772853185594,15.863160623882754,babies
-Baby Food Stage 2 Pumpkin Banana,"Peach,  Apricot & Banana Stage 2 Baby Food",0.01092,0.27110228401191655,5.450387696258877,babies
-"Peach,  Apricot & Banana Stage 2 Baby Food",Baby Food Stage 2 Pumpkin Banana,0.01092,0.2195416164053076,5.450387696258877,babies
-Broccoli & Apple Stage 2 Baby Food,Baby Food Stage 2 Pumpkin Banana,0.00996,0.15660377358490565,3.8878791853253634,babies
-Baby Food Stage 2 Pumpkin Banana,Broccoli & Apple Stage 2 Baby Food,0.00996,0.24726911618669312,3.8878791853253634,babies
-Baby Food Stage 2 Pumpkin Banana,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01334,0.33118172790466727,3.9853396859767423,babies
-Baby Food Stage 2 Blueberry Pear & Purple Carrot,Baby Food Stage 2 Pumpkin Banana,0.01334,0.16052948255114322,3.9853396859767427,babies
-Baby Food Stage 2 Pumpkin Banana,Spinach Peas & Pear Stage 2 Baby Food,0.01196,0.2969215491559086,3.918204660278551,babies
-Spinach Peas & Pear Stage 2 Baby Food,Baby Food Stage 2 Pumpkin Banana,0.01196,0.15782528371602006,3.918204660278551,babies
-"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Pumpkin Banana,0.00504,0.22560429722470907,5.600901122758417,babies
-"Baby Food Stage 2 Pumpkin Banana, Broccoli & Apple Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.00504,0.5060240963855421,6.677541519999236,babies
-"Baby Food Stage 2 Pumpkin Banana, Spinach Peas & Pear Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.00504,0.4214046822742475,6.6258597841862805,babies
-Baby Food Stage 2 Pumpkin Banana,"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",0.00504,0.12512413108242304,5.600901122758417,babies
-"Baby Food Stage 2 Pumpkin Banana, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00604,0.5050167224080268,6.07721687614954,babies
-"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Baby Food Stage 2 Pumpkin Banana",Spinach Peas & Pear Stage 2 Baby Food,0.00604,0.4527736131934033,5.974843140583311,babies
-"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Pumpkin Banana,0.00604,0.2529313232830821,6.279327787564103,babies
-Baby Food Stage 2 Pumpkin Banana,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",0.00604,0.14995034756703077,6.279327787564103,babies
-Stage 1 Apples & Strawberries Organic Pureed Baby Food,Organic Stage 2 Peaches & Bananas Baby Food,0.00952,0.3347398030942335,11.040230972764958,babies
-Organic Stage 2 Peaches & Bananas Baby Food,Stage 1 Apples & Strawberries Organic Pureed Baby Food,0.00952,0.3139841688654354,11.040230972764958,babies
-Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Stage 1 Apples & Strawberries Organic Pureed Baby Food,0.0095,0.20204168438962145,7.104137988383314,babies
-Stage 1 Apples & Strawberries Organic Pureed Baby Food,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.0095,0.3340365682137834,7.104137988383314,babies
-"Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples & Strawberries Organic Pureed Baby Food,0.00728,0.1674333026678933,5.88724692925082,babies
-Stage 1 Apples & Strawberries Organic Pureed Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.00728,0.2559774964838256,5.88724692925082,babies
-Stage 2 Sweet Potato Corn & Apple Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00982,0.36289726533628974,4.366994769389769,babies
-Stage 2 Sweet Potato Corn & Apple Baby Food,Spinach Peas & Pear Stage 2 Baby Food,0.0086,0.3178122690317812,4.193880562572991,babies
-Stage 2 Sweet Potato Corn & Apple Baby Food,Broccoli & Apple Stage 2 Baby Food,0.00696,0.2572062084257206,4.044122773989318,babies
-Stage 2 Sweet Potato Corn & Apple Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.00598,0.22099039172209903,4.442910971493748,babies
-"Peach,  Apricot & Banana Stage 2 Baby Food",Stage 2 Sweet Potato Corn & Apple Baby Food,0.00598,0.12022517088862084,4.442910971493748,babies
-Baby Food Stage 2 Pumpkin Banana,Stage 2 Sweet Potato Corn & Apple Baby Food,0.00698,0.17328699106256204,6.40380602596312,babies
-Stage 2 Sweet Potato Corn & Apple Baby Food,Baby Food Stage 2 Pumpkin Banana,0.00698,0.2579453067257945,6.403806025963121,babies
-Stage 2 Sweet Potato Corn & Apple Baby Food,Apple and Carrot Stage 2 Baby Food,0.00634,0.2342941611234294,5.934502561383724,babies
-Apple and Carrot Stage 2 Baby Food,Stage 2 Sweet Potato Corn & Apple Baby Food,0.00634,0.16058763931104356,5.934502561383724,babies
-"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Stage 4 Green Bean Pear & Pea Baby Food,0.0095,0.2718946765884373,7.7817594902243075,babies
-Organic Stage 4 Green Bean Pear & Pea Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.0095,0.2718946765884373,7.7817594902243075,babies
-"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Stage 4 Spinach Mango & Pear Baby Food,0.00938,0.2684602175157413,6.799904192394663,babies
-Organic Stage 4 Spinach Mango & Pear Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.00938,0.23758865248226949,6.799904192394662,babies
-"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack","Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack",0.01108,0.4937611408199643,24.63877948203415,babies
-"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack","Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",0.01108,0.5528942115768464,24.63877948203415,babies
-"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,0.00934,0.4879832810867293,20.677257673166494,babies
-Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",0.00934,0.39576271186440676,20.677257673166498,babies
-Organic Apple & Butternut Squash Baby Food,Organic Stage 4 Green Bean Pear & Pea Baby Food,0.00676,0.3506224066390042,10.034985879765433,babies
-Organic Stage 4 Green Bean Pear & Pea Baby Food,Organic Apple & Butternut Squash Baby Food,0.00676,0.1934745277618775,10.034985879765433,babies
-"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Apple & Butternut Squash Baby Food,0.00558,0.15970234688036636,8.28331674690697,babies
-Organic Apple & Butternut Squash Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.00558,0.2894190871369295,8.28331674690697,babies
-Pumpkin & Spinach Stage 2 Baby Food,Squash & Sweet Peas Stage 2,0.00672,0.35257082896117525,16.429209178060358,babies
-Squash & Sweet Peas Stage 2,Pumpkin & Spinach Stage 2 Baby Food,0.00672,0.3131407269338304,16.429209178060354,babies
-Grain Free Chicken Formula Cat Food,Grain Free Turkey & Salmon Formula Cat Food,0.021403560684519405,0.35956917978458985,6.826764286977649,pets
+Organic Stage 3 Pear Carrot Apricot Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00542,0.20330082520630158,2.4792783561744094,babies
+Organic Sunny Days Apple Snack Bars,Sunny Days Strawberry Snack Bars,0.00646,0.2734970364098222,9.93811905558947,babies
+Sunny Days Strawberry Snack Bars,Organic Sunny Days Apple Snack Bars,0.00646,0.23473837209302326,9.93811905558947,babies
+Organic Stage 4 Green Bean Pear & Pea Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.0093,0.26480637813211844,7.657789998036971,babies
+"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Stage 4 Green Bean Pear & Pea Baby Food,0.0093,0.2689415847310584,7.657789998036971,babies
+Organic Stage 4 Spinach Mango & Pear Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.00918,0.2385654885654886,6.898944145907709,babies
+"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Stage 4 Spinach Mango & Pear Baby Food,0.00918,0.26547137073452864,6.898944145907709,babies
+Squash & Sweet Peas Stage 2,Pumpkin & Spinach Stage 2 Baby Food,0.00674,0.3212583412774071,16.890554220683864,babies
+Pumpkin & Spinach Stage 2 Baby Food,Squash & Sweet Peas Stage 2,0.00674,0.35436382754994744,16.890554220683864,babies
+Gluten Free SpongeBob Spinach Littles,Kids Sensible Foods Broccoli Littles,0.01256,0.18155536282162474,3.0939905047993306,babies
+Kids Sensible Foods Broccoli Littles,Gluten Free SpongeBob Spinach Littles,0.01256,0.2140422631220177,3.0939905047993306,babies
+Baby Food Stage 2 Blueberry Pear & Purple Carrot,Spinach Peas & Pear Stage 2 Baby Food,0.023,0.28048780487804875,3.6848108890968048,babies
+Spinach Peas & Pear Stage 2 Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.023,0.302154492905938,3.6848108890968048,babies
+Broccoli & Apple Stage 2 Baby Food,Spinach Peas & Pear Stage 2 Baby Food,0.02236,0.3506900878293601,4.607068941531268,babies
+Spinach Peas & Pear Stage 2 Baby Food,Broccoli & Apple Stage 2 Baby Food,0.02236,0.2937467157120337,4.607068941531269,babies
+Baby Food Stage 2 Blueberry Pear & Purple Carrot,Broccoli & Apple Stage 2 Baby Food,0.0195,0.23780487804878048,3.729687547816507,babies
+Broccoli & Apple Stage 2 Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.0195,0.3058343789209536,3.7296875478165075,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Broccoli & Apple Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.00862,0.442051282051282,5.807294824635865,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.00862,0.37478260869565216,5.878020839015875,babies
+"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00862,0.385509838998211,4.701339499978183,babies
+Broccoli & Apple Stage 2 Baby Food,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",0.00862,0.1351944792973651,5.878020839015875,babies
+Baby Food Stage 2 Blueberry Pear & Purple Carrot,Apple and Carrot Stage 2 Baby Food,0.01394,0.16999999999999998,4.224652087475149,babies
+Apple and Carrot Stage 2 Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01394,0.34642147117296224,4.224652087475149,babies
+Apple and Carrot Stage 2 Baby Food,Spinach Peas & Pear Stage 2 Baby Food,0.01214,0.30168986083499005,3.9633455180634534,babies
+Spinach Peas & Pear Stage 2 Baby Food,Apple and Carrot Stage 2 Baby Food,0.01214,0.15948502364687336,3.9633455180634534,babies
+Broccoli & Apple Stage 2 Baby Food,Apple and Carrot Stage 2 Baby Food,0.01138,0.1784818067754078,4.435432573941545,babies
+Apple and Carrot Stage 2 Baby Food,Broccoli & Apple Stage 2 Baby Food,0.01138,0.2828031809145129,4.435432573941545,babies
+Baby Food Stage 2 Pumpkin Banana,Apple and Carrot Stage 2 Baby Food,0.01068,0.2593491986401166,6.445059608352798,babies
+Apple and Carrot Stage 2 Baby Food,Baby Food Stage 2 Pumpkin Banana,0.01068,0.2654075546719682,6.445059608352797,babies
+Apple and Carrot Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.00796,0.1978131212723658,3.942070969955476,babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.00796,0.15862893583100837,3.9420709699554766,babies
+"Apple and Carrot Stage 2 Baby Food, Baby Food Stage 2 Blueberry Pear & Purple Carrot",Spinach Peas & Pear Stage 2 Baby Food,0.00562,0.40315638450502156,5.296326648778528,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.00562,0.24434782608695652,6.072262079695739,babies
+"Apple and Carrot Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00562,0.46293245469522243,5.645517740185639,babies
+Apple and Carrot Stage 2 Baby Food,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",0.00562,0.139662027833002,6.072262079695739,babies
+"Apple and Carrot Stage 2 Baby Food, Broccoli & Apple Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.00546,0.4797891036906854,6.303062318584938,babies
+"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.00546,0.24418604651162787,6.068241712515603,babies
+"Apple and Carrot Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.00546,0.44975288303130145,7.053840699989045,babies
+Apple and Carrot Stage 2 Baby Food,"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",0.00546,0.1356858846918489,6.0682417125156025,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Broccoli & Apple Stage 2 Baby Food",Apple and Carrot Stage 2 Baby Food,0.00544,0.278974358974359,6.932762399959221,babies
+"Apple and Carrot Stage 2 Baby Food, Baby Food Stage 2 Blueberry Pear & Purple Carrot",Broccoli & Apple Stage 2 Baby Food,0.00544,0.39024390243902446,6.120512898980936,babies
+"Apple and Carrot Stage 2 Baby Food, Broccoli & Apple Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00544,0.47803163444639724,5.8296540786146,babies
+Apple and Carrot Stage 2 Baby Food,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Broccoli & Apple Stage 2 Baby Food",0.00544,0.13518886679920478,6.932762399959219,babies
+Organic Stage 4 Spinach Mango & Pear Baby Food,Organic Stage 4 Green Bean Pear & Pea Baby Food,0.01,0.2598752598752599,7.399637240183938,babies
+Organic Stage 4 Green Bean Pear & Pea Baby Food,Organic Stage 4 Spinach Mango & Pear Baby Food,0.01,0.2847380410022779,7.399637240183937,babies
+Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",0.0092,0.40069686411149824,21.427639792058727,babies
+"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,0.0092,0.4919786096256684,21.427639792058727,babies
+Broccoli & Apple Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.00828,0.12986198243412797,2.5879231254310078,babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.00828,0.16500597847748105,2.5879231254310078,babies
+Baby Food Stage 2 Blueberry Pear & Purple Carrot,"Peach,  Apricot & Banana Stage 2 Baby Food",0.01652,0.20146341463414633,4.014814958831134,babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01652,0.329214826624153,4.014814958831134,babies
+Spinach Peas & Pear Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.01116,0.14661061481870732,2.921694197263996,babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.01116,0.22239936229573534,2.921694197263996,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food","Peach,  Apricot & Banana Stage 2 Baby Food",0.0055,0.23913043478260868,4.7654530646195425,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Peach,  Apricot & Banana Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.0055,0.33292978208232443,4.373749107755182,babies
+"Peach,  Apricot & Banana Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.0055,0.492831541218638,6.010140746568756,babies
+Baby Food Stage 2 Pumpkin Banana,"Peach,  Apricot & Banana Stage 2 Baby Food",0.01122,0.27246236036911126,5.42970028635136,babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Baby Food Stage 2 Pumpkin Banana,0.01122,0.223595057791949,5.42970028635136,babies
+Broccoli & Apple Stage 2 Baby Food,Baby Food Stage 2 Pumpkin Banana,0.00996,0.1562107904642409,3.7933654799475693,babies
+Baby Food Stage 2 Pumpkin Banana,Broccoli & Apple Stage 2 Baby Food,0.00996,0.241864983001457,3.7933654799475693,babies
+Baby Food Stage 2 Blueberry Pear & Purple Carrot,Baby Food Stage 2 Pumpkin Banana,0.01356,0.16536585365853657,4.015683673106764,babies
+Baby Food Stage 2 Pumpkin Banana,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01356,0.32928606119475473,4.015683673106765,babies
+Baby Food Stage 2 Pumpkin Banana,Spinach Peas & Pear Stage 2 Baby Food,0.01234,0.2996600291403594,3.9366793108297347,babies
+Spinach Peas & Pear Stage 2 Baby Food,Baby Food Stage 2 Pumpkin Banana,0.01234,0.1621124540199685,3.936679310829735,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Baby Food Stage 2 Pumpkin Banana","Peach,  Apricot & Banana Stage 2 Baby Food",0.00506,0.3731563421828909,7.43635596219392,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Peach,  Apricot & Banana Stage 2 Baby Food",Baby Food Stage 2 Pumpkin Banana,0.00506,0.30629539951573853,7.437965019809095,babies
+"Baby Food Stage 2 Pumpkin Banana, Peach,  Apricot & Banana Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00506,0.45098039215686275,5.499760879961741,babies
+Baby Food Stage 2 Pumpkin Banana,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Peach,  Apricot & Banana Stage 2 Baby Food",0.00506,0.12287518212724624,7.437965019809094,babies
+"Baby Food Stage 2 Pumpkin Banana, Broccoli & Apple Stage 2 Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.0052,0.5220883534136546,6.8587539859912585,babies
+"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Pumpkin Banana,0.0052,0.2325581395348837,5.647356472435252,babies
+"Baby Food Stage 2 Pumpkin Banana, Spinach Peas & Pear Stage 2 Baby Food",Broccoli & Apple Stage 2 Baby Food,0.0052,0.4213938411669368,6.609062753559234,babies
+Baby Food Stage 2 Pumpkin Banana,"Broccoli & Apple Stage 2 Baby Food, Spinach Peas & Pear Stage 2 Baby Food",0.0052,0.12627489072365225,5.647356472435252,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Baby Food Stage 2 Pumpkin Banana",Spinach Peas & Pear Stage 2 Baby Food,0.0058,0.4277286135693215,5.6191357536694895,babies
+"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Pumpkin Banana,0.0058,0.25217391304347825,6.12369871402327,babies
+"Baby Food Stage 2 Pumpkin Banana, Spinach Peas & Pear Stage 2 Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.0058,0.47001620745542944,5.731904968968651,babies
+Baby Food Stage 2 Pumpkin Banana,"Baby Food Stage 2 Blueberry Pear & Purple Carrot, Spinach Peas & Pear Stage 2 Baby Food",0.0058,0.1408450704225352,6.123698714023269,babies
+Stage 2 Sweet Potato Corn & Apple Baby Food,Broccoli & Apple Stage 2 Baby Food,0.00734,0.2728624535315985,4.279524051624819,babies
+Baby Food Stage 2 Pumpkin Banana,Stage 2 Sweet Potato Corn & Apple Baby Food,0.00706,0.1714424477901894,6.373325196661316,babies
+Stage 2 Sweet Potato Corn & Apple Baby Food,Baby Food Stage 2 Pumpkin Banana,0.00706,0.26245353159851303,6.373325196661317,babies
+Stage 2 Sweet Potato Corn & Apple Baby Food,Apple and Carrot Stage 2 Baby Food,0.00694,0.25799256505576207,6.411346050093491,babies
+Apple and Carrot Stage 2 Baby Food,Stage 2 Sweet Potato Corn & Apple Baby Food,0.00694,0.17246520874751492,6.411346050093491,babies
+Stage 2 Sweet Potato Corn & Apple Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.0062,0.23048327137546468,4.59313015893712,babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Stage 2 Sweet Potato Corn & Apple Baby Food,0.0062,0.12355520127540852,4.59313015893712,babies
+Stage 2 Sweet Potato Corn & Apple Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00972,0.36133828996282524,4.406564511741771,babies
+Stage 2 Sweet Potato Corn & Apple Baby Food,Spinach Peas & Pear Stage 2 Baby Food,0.00906,0.33680297397769515,4.4246318178887964,babies
+Sweet Potatoes Stage 2,Organic Stage 2 Carrots Baby Food,0.0076,0.4012671594508976,17.676967376691522,babies
+Organic Stage 2 Carrots Baby Food,Sweet Potatoes Stage 2,0.0076,0.33480176211453744,17.676967376691525,babies
+"Happy Baby Spinach, Mango, and Pear Baby Food",Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.00604,0.16843279419966536,2.0540584658495775,babies
+"Happy Baby Spinach, Mango, and Pear Baby Food",Spinach Peas & Pear Stage 2 Baby Food,0.00538,0.15002788622420524,1.9709391253836739,babies
+"Happy Baby Spinach, Mango, and Pear Baby Food",Organic Stage 2 Broccoli Pears & Peas Baby Food,0.00644,0.1795872838817624,6.960747437277613,babies
+Organic Stage 2 Broccoli Pears & Peas Baby Food,"Happy Baby Spinach, Mango, and Pear Baby Food",0.00644,0.2496124031007752,6.960747437277613,babies
+Organic Apple & Butternut Squash Baby Food,Organic Stage 4 Green Bean Pear & Pea Baby Food,0.00664,0.3509513742071882,9.992920677881214,babies
+Organic Stage 4 Green Bean Pear & Pea Baby Food,Organic Apple & Butternut Squash Baby Food,0.00664,0.18906605922551253,9.992920677881212,babies
+Organic Apple & Butternut Squash Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",0.005,0.2642706131078224,7.642296503985611,babies
+"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Apple & Butternut Squash Baby Food,0.005,0.14459224985540775,7.642296503985611,babies
+Organic Strawberry Yogurt & Fruit Snack,Banana & Mango Organic Yogurt & Fruit Snacks ,0.00692,0.18702702702702703,7.165786476131303,babies
+Banana & Mango Organic Yogurt & Fruit Snacks ,Organic Strawberry Yogurt & Fruit Snack,0.00692,0.26513409961685824,7.165786476131304,babies
+Organic Mixed Berry Yogurt & Fruit Snack,Banana & Mango Organic Yogurt & Fruit Snacks ,0.00784,0.15806451612903225,6.056111729081695,babies
+Banana & Mango Organic Yogurt & Fruit Snacks ,Organic Mixed Berry Yogurt & Fruit Snack,0.00784,0.30038314176245207,6.056111729081695,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.01732,0.3866071428571428,8.01756828820288,babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.01732,0.359187059311489,8.01756828820288,babies
+Organic Stage 2 Peaches & Bananas Baby Food,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.00838,0.2817753866845999,5.843537674919118,babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Organic Stage 2 Peaches & Bananas Baby Food,0.00838,0.17378681045209457,5.843537674919118,babies
+Organic Stage 2 Peaches & Bananas Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.0078,0.26227303295225285,5.854308771255644,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Organic Stage 2 Peaches & Bananas Baby Food,0.0078,0.17410714285714285,5.854308771255644,babies
+Stage 1 Apples & Strawberries Organic Pureed Baby Food,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.00966,0.34206798866855526,7.093902709841461,babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Stage 1 Apples & Strawberries Organic Pureed Baby Food,0.00966,0.20033181252592286,7.093902709841461,babies
+Organic Stage 2 Peaches & Bananas Baby Food,Stage 1 Apples & Strawberries Organic Pureed Baby Food,0.00932,0.3133826496301278,11.097119321180163,babies
+Stage 1 Apples & Strawberries Organic Pureed Baby Food,Organic Stage 2 Peaches & Bananas Baby Food,0.00932,0.330028328611898,11.097119321180163,babies
+Stage 1 Apples & Strawberries Organic Pureed Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.0071,0.2514164305949009,5.6119738972076085,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples & Strawberries Organic Pureed Baby Food,0.0071,0.15848214285714288,5.6119738972076085,babies
+"Organic Apples, Carrots and Parsnips Puree",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.0117,0.5232558139534883,10.851427083232856,babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Apples, Carrots and Parsnips Puree",0.0117,0.2426379095810867,10.851427083232856,babies
+"Organic Apples, Carrots and Parsnips Puree","Organic Pears, Peas and Broccoli Puree Stage 1",0.0093,0.4159212880143112,9.283957321748018,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1","Organic Apples, Carrots and Parsnips Puree",0.0093,0.2075892857142857,9.283957321748018,babies
+"Organic Apples, Carrots and Parsnips Puree",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.00752,0.3363148479427549,11.677598886901212,babies
+Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Apples, Carrots and Parsnips Puree",0.00752,0.2611111111111111,11.677598886901212,babies
+"Organic Apples, Carrots and Parsnips Puree, Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.00586,0.6301075268817204,13.067348131101626,babies
+"Organic Apples, Carrots and Parsnips Puree, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Pears, Peas and Broccoli Puree Stage 1",0.00586,0.5008547008547009,11.17979242979243,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Apples, Carrots and Parsnips Puree",0.00586,0.33833718244803695,15.13135878569038,babies
+"Organic Apples, Carrots and Parsnips Puree","Organic Pears, Peas and Broccoli Puree Stage 1, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00586,0.2620751341681574,15.131358785690383,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1","Organic Apples, Carrots and Parsnips Puree, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00586,0.13080357142857144,11.17979242979243,babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Apples, Carrots and Parsnips Puree, Organic Pears, Peas and Broccoli Puree Stage 1",0.00586,0.12152633761924513,13.067348131101628,babies
+"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Organic Apples, Carrots and Parsnips Puree",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.00534,0.7101063829787234,14.726387038131966,babies
+"Organic Apples, Carrots and Parsnips Puree, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.00534,0.4564102564102564,15.847578347578347,babies
+"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Apples, Carrots and Parsnips Puree",0.00534,0.38142857142857145,17.05852287247636,babies
+"Organic Apples, Carrots and Parsnips Puree","Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00534,0.23881932021466903,17.05852287247636,babies
+Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Apples, Carrots and Parsnips Puree, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00534,0.18541666666666667,15.847578347578347,babies
+Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,Organic Stage 4 Green Bean Pear & Pea Baby Food,0.00512,0.2229965156794425,6.349559102489821,babies
+Organic Stage 4 Green Bean Pear & Pea Baby Food,Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,0.00512,0.1457858769931663,6.349559102489821,babies
+"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack","Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",0.01068,0.5388496468213925,24.404422410389152,babies
+"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack","Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack",0.01068,0.4836956521739131,24.404422410389156,babies
+Baby Food Stage 2 Blueberry Pear & Purple Carrot,Pear & Mango Stage 2 Baby Food,0.01076,0.13121951219512196,3.512299576957226,babies
+Pear & Mango Stage 2 Baby Food,Baby Food Stage 2 Blueberry Pear & Purple Carrot,0.01076,0.2880085653104925,3.5122995769572256,babies
+"Peach,  Apricot & Banana Stage 2 Baby Food",Pear & Mango Stage 2 Baby Food,0.01112,0.22160223196492626,5.931537258161838,babies
+Pear & Mango Stage 2 Baby Food,"Peach,  Apricot & Banana Stage 2 Baby Food",0.01112,0.29764453961456105,5.931537258161838,babies
+Pear & Mango Stage 2 Baby Food,Spinach Peas & Pear Stage 2 Baby Food,0.00852,0.22805139186295503,2.995945768036719,babies
+Apple and Carrot Stage 2 Baby Food,Pear & Mango Stage 2 Baby Food,0.00964,0.23956262425447317,6.412275809809239,babies
+Pear & Mango Stage 2 Baby Food,Apple and Carrot Stage 2 Baby Food,0.00964,0.2580299785867238,6.412275809809239,babies
+Pear & Mango Stage 2 Baby Food,Broccoli & Apple Stage 2 Baby Food,0.00642,0.17184154175588867,2.6951308305503243,babies
+Baby Food Stage 2 Pumpkin Banana,Pear & Mango Stage 2 Baby Food,0.00758,0.18406993686255463,4.926925504886366,babies
+Pear & Mango Stage 2 Baby Food,Baby Food Stage 2 Pumpkin Banana,0.00758,0.20289079229122056,4.926925504886366,babies
+Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.014,0.48611111111111116,10.081109728558921,babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.014,0.2903359601824969,10.081109728558921,babies
+Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1",0.01164,0.4041666666666667,9.021577380952381,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.01164,0.25982142857142854,9.02157738095238,babies
+Organic Stage 2 Peaches & Bananas Baby Food,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.00526,0.17686617350369874,6.141186579989539,babies
+Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,Organic Stage 2 Peaches & Bananas Baby Food,0.00526,0.18263888888888888,6.141186579989538,babies
+"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,0.00708,0.6082474226804124,12.614007106603328,babies
+"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food","Organic Pears, Peas and Broccoli Puree Stage 1",0.00708,0.5057142857142858,11.288265306122451,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,0.00708,0.4087759815242495,14.193610469591997,babies
+Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Pears, Peas and Broccoli Puree Stage 1, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00708,0.24583333333333335,14.193610469591995,babies
+"Organic Pears, Peas and Broccoli Puree Stage 1","Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food",0.00708,0.1580357142857143,11.288265306122451,babies
+Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food, Organic Pears, Peas and Broccoli Puree Stage 1",0.00708,0.14682704272086272,12.614007106603328,babies
+Organic Strawberry Yogurt & Fruit Snack,Organic Mixed Berry Yogurt & Fruit Snack,0.01022,0.2762162162162162,5.568875326939843,babies
+Organic Mixed Berry Yogurt & Fruit Snack,Organic Strawberry Yogurt & Fruit Snack,0.01022,0.2060483870967742,5.568875326939843,babies
+"Pears, Kale & Spinach Organic Baby Food","Apples, Kale & Avocados Organic Baby Food",0.00628,0.34056399132321036,16.20190253678451,babies
+"Apples, Kale & Avocados Organic Baby Food","Pears, Kale & Spinach Organic Baby Food",0.00628,0.2987630827783064,16.20190253678451,babies
+Organic Stage 4 Spinach Mango & Pear Baby Food,"Banana, Peach and Mango Fruit Pouch",0.00522,0.13565488565488565,7.169919960617635,babies
+"Banana, Peach and Mango Fruit Pouch",Organic Stage 4 Spinach Mango & Pear Baby Food,0.00522,0.2758985200845666,7.169919960617635,babies
+Organic Atage 3 Nibbly Fingers Mangoes Carrots,Apples + Strawberries Organic Nibbly Fingers,0.00838,0.35538592027141647,12.212574579773761,babies
+Apples + Strawberries Organic Nibbly Fingers,Organic Atage 3 Nibbly Fingers Mangoes Carrots,0.00838,0.28797250859106527,12.21257457977376,babies
 Grain Free Turkey & Salmon Formula Cat Food,Grain Free Chicken Formula Cat Food,0.021403560684519405,0.40636704119850187,6.8267642869776495,pets
+Grain Free Chicken Formula Cat Food,Grain Free Turkey & Salmon Formula Cat Food,0.021403560684519405,0.35956917978458985,6.826764286977649,pets
 Classic Tender Beef & Chicken Feast Cat Food,Fancy Feast Wet Classic Chicken Feast Cat Food,0.006312570893130147,0.46043165467625896,12.415123220572477,pets
 Fancy Feast Wet Classic Chicken Feast Cat Food,Classic Tender Beef & Chicken Feast Cat Food,0.006312570893130147,0.1702127659574468,12.415123220572479,pets
 Classic Tender Beef & Chicken Feast Cat Food,Classic Tender Liver & Chicken Feast Cat Food,0.006361887853232727,0.46402877697841727,18.558405346728534,pets
 Classic Tender Liver & Chicken Feast Cat Food,Classic Tender Beef & Chicken Feast Cat Food,0.006361887853232727,0.2544378698224852,18.558405346728534,pets
 Classic Tender Beef & Chicken Feast Cat Food,Classic Tender Beef Feast Cat Food,0.005227597770873403,0.38129496402877694,15.494024019261545,pets
 Classic Tender Beef Feast Cat Food,Classic Tender Beef & Chicken Feast Cat Food,0.005227597770873403,0.2124248496993988,15.494024019261545,pets
-"Food for Cats, Chicken & Herring Formula",Grain Free Turkey & Salmon Formula Cat Food,0.010257927701336489,0.6303030303030303,11.966905005107252,pets
 Grain Free Turkey & Salmon Formula Cat Food,"Food for Cats, Chicken & Herring Formula",0.010257927701336489,0.19475655430711608,11.966905005107252,pets
-"Food for Cats, Chicken & Herring Formula",Grain Free Turkey Formula Cat Food,0.00616462001282241,0.37878787878787884,12.570674006844222,pets
+"Food for Cats, Chicken & Herring Formula",Grain Free Turkey & Salmon Formula Cat Food,0.010257927701336489,0.6303030303030303,11.966905005107252,pets
 Grain Free Turkey Formula Cat Food,"Food for Cats, Chicken & Herring Formula",0.00616462001282241,0.20458265139116202,12.57067400684422,pets
+"Food for Cats, Chicken & Herring Formula",Grain Free Turkey Formula Cat Food,0.00616462001282241,0.37878787878787884,12.570674006844222,pets
 "Food for Cats, Chicken & Herring Formula",Grain Free Chicken Formula Cat Food,0.00680574049415594,0.4181818181818182,7.025246667168789,pets
-"Food for Cats, Chicken & Herring Formula, Grain Free Chicken Formula Cat Food",Grain Free Turkey & Salmon Formula Cat Food,0.005227597770873403,0.7681159420289855,14.583414753297507,pets
-"Food for Cats, Chicken & Herring Formula, Grain Free Turkey & Salmon Formula Cat Food",Grain Free Chicken Formula Cat Food,0.005227597770873403,0.5096153846153846,8.561285131604103,pets
 "Grain Free Chicken Formula Cat Food, Grain Free Turkey & Salmon Formula Cat Food","Food for Cats, Chicken & Herring Formula",0.005227597770873403,0.24423963133640553,15.007415165479681,pets
+"Food for Cats, Chicken & Herring Formula, Grain Free Turkey & Salmon Formula Cat Food",Grain Free Chicken Formula Cat Food,0.005227597770873403,0.5096153846153846,8.561285131604103,pets
+"Food for Cats, Chicken & Herring Formula, Grain Free Chicken Formula Cat Food",Grain Free Turkey & Salmon Formula Cat Food,0.005227597770873403,0.7681159420289855,14.583414753297507,pets
 "Food for Cats, Chicken & Herring Formula","Grain Free Chicken Formula Cat Food, Grain Free Turkey & Salmon Formula Cat Food",0.005227597770873403,0.3212121212121212,15.007415165479683,pets
-Classic Ocean Whitefish & Tuna Feast Cat Food,Fancy Feast Wet Classic Chicken Feast Cat Food,0.006608472653745623,0.324455205811138,8.748641234351656,pets
 Fancy Feast Wet Classic Chicken Feast Cat Food,Classic Ocean Whitefish & Tuna Feast Cat Food,0.006608472653745623,0.17819148936170212,8.748641234351656,pets
-Classic Ocean Whitefish & Tuna Feast Cat Food,Classic Tender Liver & Chicken Feast Cat Food,0.005030329930463086,0.2469733656174334,9.877473243835695,pets
+Classic Ocean Whitefish & Tuna Feast Cat Food,Fancy Feast Wet Classic Chicken Feast Cat Food,0.006608472653745623,0.324455205811138,8.748641234351656,pets
 Classic Tender Liver & Chicken Feast Cat Food,Classic Ocean Whitefish & Tuna Feast Cat Food,0.005030329930463086,0.2011834319526627,9.877473243835695,pets
-Grain Free Turkey Formula Cat Food,Grain Free Turkey & Salmon Formula Cat Food,0.012625141786260294,0.4189852700490998,7.954835506353555,pets
+Classic Ocean Whitefish & Tuna Feast Cat Food,Classic Tender Liver & Chicken Feast Cat Food,0.005030329930463086,0.2469733656174334,9.877473243835695,pets
 Grain Free Turkey & Salmon Formula Cat Food,Grain Free Turkey Formula Cat Food,0.012625141786260294,0.23970037453183518,7.954835506353555,pets
-Grain Free Turkey Formula Cat Food,Grain Free Chicken Formula Cat Food,0.016718449474774376,0.5548281505728314,9.320837124412016,pets
+Grain Free Turkey Formula Cat Food,Grain Free Turkey & Salmon Formula Cat Food,0.012625141786260294,0.4189852700490998,7.954835506353555,pets
 Grain Free Chicken Formula Cat Food,Grain Free Turkey Formula Cat Food,0.016718449474774376,0.28086164043082024,9.320837124412016,pets
+Grain Free Turkey Formula Cat Food,Grain Free Chicken Formula Cat Food,0.016718449474774376,0.5548281505728314,9.320837124412016,pets
 "Grain Free Chicken Formula Cat Food, Grain Free Turkey & Salmon Formula Cat Food",Grain Free Turkey Formula Cat Food,0.009666124180105538,0.45161290322580644,14.987487461063301,pets
 "Grain Free Chicken Formula Cat Food, Grain Free Turkey Formula Cat Food",Grain Free Turkey & Salmon Formula Cat Food,0.009666124180105538,0.5781710914454277,10.977130356965297,pets
 "Grain Free Turkey & Salmon Formula Cat Food, Grain Free Turkey Formula Cat Food",Grain Free Chicken Formula Cat Food,0.009666124180105538,0.765625,12.862119407622204,pets
 Grain Free Chicken Formula Cat Food,"Grain Free Turkey & Salmon Formula Cat Food, Grain Free Turkey Formula Cat Food",0.009666124180105538,0.1623860811930406,12.862119407622204,pets
 Grain Free Turkey & Salmon Formula Cat Food,"Grain Free Chicken Formula Cat Food, Grain Free Turkey Formula Cat Food",0.009666124180105538,0.18352059925093633,10.977130356965297,pets
 Grain Free Turkey Formula Cat Food,"Grain Free Chicken Formula Cat Food, Grain Free Turkey & Salmon Formula Cat Food",0.009666124180105538,0.32078559738134205,14.987487461063301,pets
-Grain Free Chicken Formula Cat Food,Grain Free Turkey Canned Cat Food,0.010652463382157125,0.17895608947804476,10.767633906072147,pets
 Grain Free Turkey Canned Cat Food,Grain Free Chicken Formula Cat Food,0.010652463382157125,0.6409495548961425,10.767633906072147,pets
+Grain Free Chicken Formula Cat Food,Grain Free Turkey Canned Cat Food,0.010652463382157125,0.17895608947804476,10.767633906072147,pets
 Grain Free Turkey & Salmon Formula Cat Food,Grain Free Turkey Canned Cat Food,0.009764758100310697,0.1853932584269663,11.15495282232521,pets
 Grain Free Turkey Canned Cat Food,Grain Free Turkey & Salmon Formula Cat Food,0.009764758100310697,0.5875370919881306,11.15495282232521,pets
+"Grain Free Turkey & Salmon Formula Cat Food, Grain Free Turkey Canned Cat Food",Grain Free Chicken Formula Cat Food,0.007003008334566257,0.7171717171717171,12.048128342245988,pets
 "Grain Free Chicken Formula Cat Food, Grain Free Turkey & Salmon Formula Cat Food",Grain Free Turkey Canned Cat Food,0.007003008334566257,0.3271889400921659,19.686676968097473,pets
 "Grain Free Chicken Formula Cat Food, Grain Free Turkey Canned Cat Food",Grain Free Turkey & Salmon Formula Cat Food,0.007003008334566257,0.6574074074074073,12.481507490636702,pets
-"Grain Free Turkey & Salmon Formula Cat Food, Grain Free Turkey Canned Cat Food",Grain Free Chicken Formula Cat Food,0.007003008334566257,0.7171717171717171,12.048128342245988,pets
 Grain Free Turkey & Salmon Formula Cat Food,"Grain Free Chicken Formula Cat Food, Grain Free Turkey Canned Cat Food",0.007003008334566257,0.13295880149812733,12.481507490636702,pets
 Grain Free Turkey Canned Cat Food,"Grain Free Chicken Formula Cat Food, Grain Free Turkey & Salmon Formula Cat Food",0.007003008334566257,0.42136498516320475,19.686676968097473,pets
 Fancy Feast Wet Classic Chicken Feast Cat Food,Classic Tender Liver & Chicken Feast Cat Food,0.010307244661439069,0.2779255319148936,11.115376746821099,pets
@@ -438,23 +453,23 @@ Classic Tender Beef Feast Cat Food,Classic Tender Liver & Chicken Feast Cat Food
 Classic Tender Liver & Chicken Feast Cat Food,Classic Tender Beef Feast Cat Food,0.00823593233713074,0.32938856015779094,13.384793255149354,pets
 Fancy Feast Wet Classic Chicken Feast Cat Food,Classic Tender Beef Feast Cat Food,0.006855057454258519,0.18484042553191488,7.511040698418112,pets
 Classic Tender Beef Feast Cat Food,Fancy Feast Wet Classic Chicken Feast Cat Food,0.006855057454258519,0.2785571142284569,7.511040698418113,pets
-Fancy Feast Wet Classic Turkey & Giblets Feast Cat Food,Classic Tender Liver & Chicken Feast Cat Food,0.008482517137643636,0.4673913043478261,18.692886544893234,pets
 Classic Tender Liver & Chicken Feast Cat Food,Fancy Feast Wet Classic Turkey & Giblets Feast Cat Food,0.008482517137643636,0.33925049309664695,18.692886544893234,pets
+Fancy Feast Wet Classic Turkey & Giblets Feast Cat Food,Classic Tender Liver & Chicken Feast Cat Food,0.008482517137643636,0.4673913043478261,18.692886544893234,pets
 Fancy Feast Wet Classic Chicken Feast Cat Food,Fancy Feast Wet Classic Turkey & Giblets Feast Cat Food,0.008334566257335897,0.22473404255319146,12.382967882747455,pets
 Fancy Feast Wet Classic Turkey & Giblets Feast Cat Food,Fancy Feast Wet Classic Chicken Feast Cat Food,0.008334566257335897,0.4592391304347826,12.382967882747456,pets
-Fancy Feast Wet Classic Turkey & Giblets Feast Cat Food,Classic Tender Beef Feast Cat Food,0.005424865611283721,0.29891304347826086,12.146412389997387,pets
 Classic Tender Beef Feast Cat Food,Fancy Feast Wet Classic Turkey & Giblets Feast Cat Food,0.005424865611283721,0.22044088176352708,12.146412389997387,pets
+Fancy Feast Wet Classic Turkey & Giblets Feast Cat Food,Classic Tender Beef Feast Cat Food,0.005424865611283721,0.29891304347826086,12.146412389997387,pets
 Liver & Chicken Dinner Classic Pate Cat Food,Purina Mixed Grill Classic Pate Cat Food,0.007644128815899788,0.4696969696969697,24.93205616373156,pets
 Purina Mixed Grill Classic Pate Cat Food,Liver & Chicken Dinner Classic Pate Cat Food,0.007644128815899788,0.40575916230366493,24.93205616373156,pets
 Purina Classic Pate Turkey & Giblets Dinner Cat Food,Purina Mixed Grill Classic Pate Cat Food,0.005079646890565666,0.35034013605442177,18.596457954909713,pets
 Purina Mixed Grill Classic Pate Cat Food,Purina Classic Pate Turkey & Giblets Dinner Cat Food,0.005079646890565666,0.2696335078534032,18.596457954909713,pets
-Liver & Chicken Dinner Classic Pate Cat Food,Purina Classic Pate Turkey & Giblets Dinner Cat Food,0.005030329930463086,0.3090909090909091,21.317810760667903,pets
 Purina Classic Pate Turkey & Giblets Dinner Cat Food,Liver & Chicken Dinner Classic Pate Cat Food,0.005030329930463086,0.3469387755102041,21.317810760667903,pets
+Liver & Chicken Dinner Classic Pate Cat Food,Purina Classic Pate Turkey & Giblets Dinner Cat Food,0.005030329930463086,0.3090909090909091,21.317810760667903,pets
 Fancy Feast Wet Classic Chicken Feast Cat Food,Chunky Chicken Feast Cat Food,0.005523499531488879,0.14893617021276595,9.069005175388154,pets
 Chunky Chicken Feast Cat Food,Fancy Feast Wet Classic Chicken Feast Cat Food,0.005523499531488879,0.33633633633633636,9.069005175388154,pets
 Savory Salmon,Classic Ocean Whitefish & Tuna Feast Cat Food,0.006657789613848202,0.38243626062322944,18.776416602075603,pets
 Classic Ocean Whitefish & Tuna Feast Cat Food,Savory Salmon,0.006657789613848202,0.3268765133171913,18.776416602075603,pets
-Savory Salmon,Fancy Feast Wet Classic Chicken Feast Cat Food,0.005819401292104355,0.3342776203966006,9.013493761678019,pets
 Fancy Feast Wet Classic Chicken Feast Cat Food,Savory Salmon,0.005819401292104355,0.15691489361702127,9.013493761678017,pets
+Savory Salmon,Fancy Feast Wet Classic Chicken Feast Cat Food,0.005819401292104355,0.3342776203966006,9.013493761678019,pets
 Classic Ocean Whitefish & Tuna Feast Cat Food,Classic Seafood Feast Cat Food,0.006707106573950782,0.3292978208232446,24.36924055778442,pets
 Classic Seafood Feast Cat Food,Classic Ocean Whitefish & Tuna Feast Cat Food,0.006707106573950782,0.4963503649635037,24.36924055778442,pets

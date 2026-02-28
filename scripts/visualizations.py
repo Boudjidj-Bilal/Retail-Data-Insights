@@ -295,9 +295,3 @@ def plot_basket_size_vs_diversity(df):
     fig.update_layout(height=500)
     
     return fig
-
-def quick_info(df, name="Dataset"):
-    print(f"\n{name}: {df.shape[0]:,} rows x {df.shape[1]} columns")
-    print(f"Missing: {df.isnull().sum().sum()}")
-    print(f"Duplicates: {df.duplicated().sum()}")
-    print(df.dtypes)
