@@ -1,0 +1,9 @@
+segment,n_customers,aov_corrected_eur,avg_discount_pct,n_redeemers,promo_cost_eur,margin_from_promo_eur,margin_from_bundle_eur,best_bundle,bundle_lift,consequent_dept,consequent_price_eur,consequent_margin_pct,total_gain_eur,net_impact_eur,roi,retention_bonus
+Lost,50282,29.52,15.0,21320,94400.0,83450.0,112614.0,Organic Yellow Onion + Organic Garlic,4.69,produce,9.75,38.0,245080.0,150679.0,1.6,True
+Premium,45125,45.35,0.0,0,0.0,0.0,147905.0,Lime Sparkling Water + Sparkling Water Grapefruit,8.54,beverages,2.88,53.0,147905.0,147905.0,0.0,False
+Sleeping,26772,40.16,1.8,2022,1446.0,10766.0,53019.0,Lime Sparkling Water + Sparkling Water Grapefruit,6.43,beverages,2.88,53.0,79732.0,78286.0,54.14,True
+Loyal,34570,41.74,0.5,4697,1005.0,25998.0,28234.0,Sparkling Water Grapefruit + Lime Sparkling Water,7.03,beverages,1.67,53.0,54232.0,53227.0,52.94,False
+New,21555,26.49,0.0,0,0.0,0.0,32589.0,Organic Cilantro + Limes,4.79,produce,4.9,38.0,32589.0,32589.0,0.0,False
+High_Check,6301,72.13,0.0,0,0.0,0.0,18828.0,"Limes, Organic Yellow Onion + Organic Garlic",3.42,produce,9.75,38.0,18828.0,18828.0,0.0,False
+Promising,13952,32.56,19.9,5916,38327.0,25542.0,18629.0,Organic Cilantro + Limes,4.5,produce,4.9,38.0,44171.0,5845.0,0.15,False
+Frugal,7652,17.7,4.1,2096,1534.0,4919.0,0.0,No rule — suggest popular produce bundle,1.0,produce,2.96,38.0,4919.0,3385.0,2.21,False

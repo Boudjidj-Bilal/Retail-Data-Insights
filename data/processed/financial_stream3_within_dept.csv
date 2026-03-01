@@ -1,0 +1,10 @@
+department,best_rule,lift,confidence,consequent_price_eur,consequent_price_raw,consequent_has_real_price,consequent_margin_pct,pct_of_customers,n_addressable,incr_margin_per_cust,total_margin_eur
+dairy eggs,Total 2% Lowfat Greek Strained Yogu + Total 2% Lowfat Greek Strained Yogu,21.94,0.287,22.95,22.95,True,60.0,0.677,139659,82.6324,11540353.0
+snacks,Cherry Pie Fruit & Nut Bar + Apple Pie Fruit & Nut Food Bar,32.0,0.375,18.97,18.97,True,28.0,0.433,89250,61.7733,5513268.0
+beverages,Zero Calorie Cola + Soda,11.01,0.433,4.43,4.43,True,53.0,0.453,93478,10.1821,951806.0
+produce,Yellow Bell Pepper + Orange Bell Pepper,13.7,0.258,3.49,3.49,True,38.0,0.749,154539,4.3461,671640.0
+babies,Organic 4 Months Butternut Squash C + Stage 1 Apples Sweet Potatoes Pumpk,14.73,0.71,8.01,8.01,True,37.0,0.055,11399,28.8878,329292.0
+frozen,Organic Sliced Peaches + Organic Whole Strawberries,5.05,0.236,8.43,8.43,True,30.0,0.367,75753,2.4154,182971.0
+dry goods pasta,Macaroni Shells & White Cheddar Che + Shells & Real Aged Cheddar Macaroni,6.24,0.134,3.2,3.2,True,25.0,0.186,38348,0.5639,21623.0
+canned goods,Organic Pinto Beans + Organic Black Beans,2.29,0.207,2.09,2.09,True,25.0,0.212,43700,0.1388,6065.0
+household,100% Recycled Bath Tissue Rolls + 100% Recycled Paper Towels,2.12,0.22,3.55,3.55,True,22.0,0.146,30197,0.1923,5806.0
