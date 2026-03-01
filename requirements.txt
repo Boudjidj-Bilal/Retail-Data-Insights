@@ -2,6 +2,7 @@ annotated-types==0.7.0
 antlr4-python3-runtime==4.13.2
 asttokens==3.0.1
 attrs==25.4.0
+argostranslate
 aws-sam-translator==1.103.0
 aws-xray-sdk==2.15.0
 beautifulsoup4==4.14.3
@@ -21,6 +22,7 @@ deep-translator==1.11.4
 docker==7.1.0
 et_xmlfile==2.0.0
 executing==2.2.1
+forex-python
 graphql-core==3.2.7
 idna==3.11
 ipykernel==7.1.0
