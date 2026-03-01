@@ -263,7 +263,6 @@ def evaluate_rules_from_csv(rules, filepath, groupby_column=None, k=10,
 
     Coverage = baskets_with_recs / total_baskets
     - Measures: What proportion of baskets receive recommendations?
-    - Range: [0, 1], higher is better
 
     Arguments:
         rules: DataFrame with columns [antecedent, consequent] and optional groupby_column
@@ -287,17 +286,6 @@ def evaluate_rules_from_csv(rules, filepath, groupby_column=None, k=10,
 
         chunksize: Number of rows per chunk for CSV reading
 
-    Returns:
-        Dictionary with metrics:
-        {
-            'precision@K': float,
-            'recall@K': float,
-            'coverage': float,
-            'avg_hits': float,
-            'n_baskets': int,
-            'n_baskets_with_recs': int
-        }
-        Returns None if no recommendations were generated.
     """
     print("    Building test baskets from CSV...")
 
