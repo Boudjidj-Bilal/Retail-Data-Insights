@@ -1,0 +1,46 @@
+{
+  "version": "Final \u2014 3 revenue streams",
+  "date": "2026-03-01 19:55:15",
+  "team": {
+    "department_analysis": "Guillaume Lopes da Silva",
+    "association_rules": "Antoine Guibert",
+    "financial_pipeline": "Your Name"
+  },
+  "scientific_sources": {
+    "discount_strategy": "Kobets & Yashyna (2025), DOI: 10.15276/mdt.9.3.2025.3",
+    "redemption_rates": "Wamsler et al. (2024), DOI: 10.1007/s00291-022-00685-w",
+    "margins": "Navee Commerce, NYU Stern via Forbes, Dairy Industries"
+  },
+  "price_methodology": {
+    "approach": "conservative_real_prices_only",
+    "real_price_coverage": "1,000 products (2.0% of catalog)",
+    "rules_filtered": {
+      "stream2_cross_dept": {
+        "original_count": 12,
+        "filtered_count": 9,
+        "pct_retained": 75.0
+      },
+      "stream3_within_dept": {
+        "original_count": 12,
+        "filtered_count": 9,
+        "pct_retained": 75.0
+      }
+    },
+    "rationale": "Using only rules with real consequent prices ensures revenue projections are based on actual transaction data, not imputed values. This is conservative but academically defensible.",
+    "limitation": "Revenue estimates may be understated because many valid associations are excluded due to missing prices. A/B testing is recommended to calibrate projections."
+  },
+  "validation": {
+    "net_impact_realistic": false,
+    "all_validations_passed": true,
+    "department_margins_sourced": true,
+    "transparency_note": "All department margins sourced from industry reports with direct quotes; bundle revenue uses only verified prices"
+  },
+  "output_files": {
+    "financial_stream1_segments.csv": "../data/processed/financial_stream1_segments.csv",
+    "financial_stream2_cross_dept.csv": "../data/processed/financial_stream2_cross_dept.csv",
+    "financial_stream3_within_dept.csv": "../data/processed/financial_stream3_within_dept.csv",
+    "financial_grand_total.csv": "../data/processed/financial_grand_total.csv",
+    "catalog_enriched.csv": "../data/processed/catalog_enriched.csv",
+    "metadata_final.json": "../data/processed/metadata_final.json"
+  }
+}
